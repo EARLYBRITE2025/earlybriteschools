@@ -20,8 +20,8 @@ return()=>{
   },[isOpen])
   return (
     <header>
-        <nav className='flex items-center justify-between h-20    w-full'>
-           <div className='pl-[24px]'>
+        <nav className='sticky top-0 md:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]' >
+           <div className=''>
              <Image 
             src="/images/early-logo.svg"
             alt='hero image'
@@ -31,36 +31,53 @@ return()=>{
            </div>
            {/*this is for the center nav items*/}
 
-            <div className='hidden md:flex '>
-               <div className='flex items-center '>
+            <div className='hidden md:flex  gap-10 lg:gap-10 md:gap-5 '>
+
+               <button className='flex items-center gap-3 bg-[#202D60]
+               rounded-full text-white py-[12px] px-[24px]
+               md:px-[20px] md:py-[10px] 
+               hover:bg-[#4A5DFF]
+               transition-all duration-300
+'>
                  <h3 className=''>
-                    Schools
+                  For Schools
                     
                 </h3>
                 <Image
                  src="/images/star.svg"
             alt='hero image'
-            width={50}
-            height={50}
+            width={20}
+            height={20}
                 />
-               </div>
-               <div>
+               </button>
+               <div className='flex items-center gap-5 lg:gap-15'>
                 <span>Home</span>
                 <span>About Us</span>
                 <Dropdownmenu/>
                </div>
             </div>
             {/*this is for the mobile hamburger*/}
-            <div className="sm:hidden pr-[24px]  " >
+            <div className="md:hidden " >
            
-          <button className="flex flex-col justify-center items-center w-8 h-8 space-y-1 relative  z-[9999] sm:hidden" onClick={clicker} >
+          <button className="flex flex-col justify-center items-center w-8 h-8 space-y-1 relative  z-[9999] md:hidden" onClick={clicker} >
             <span className={`block w-5 h-0.5 bg-black  z-100 transition-transform ${isOpen ? 'rotate-45 translate-y-1.5' : ''}`} ></span>
   <span className={`block w-5 h-0.5 bg-black  transition-opacity ${isOpen ? 'opacity-0' : ''}`}></span>
   <span className={`block w-5 h-0.5 bg-black  transition-transform ${isOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
      </button>
         </div>
-
-
+        <div className='hidden md:flex bg-[#F9BB1E]
+          rounded-full text-black py-[12px] px-[24px]
+          md:px-[20px] md:py-[10px] hover:bg-yellow-300 transition-all duration-300 
+'>
+          <span className='flex  gap-2 font-bold'>
+            Contact Us <Image 
+              src="/images/arrow-right-01.svg"
+              alt='down svg'
+              width={20}
+              height={20}
+              />
+          </span>
+        </div>
         </nav>
     </header>
   )
