@@ -3,8 +3,8 @@ import Image from 'next/image'
 import { learningHighlights } from '../layouts/constants/constants'
 const About = () => {
   return (
-    <div className='bg-[#FFFFFF] about-style flex-col lg:gap-30 lg:flex-row lg:justify-between 
-     items-start pt-10 md:px-20 md:justify-start flex justify-center w-full px-5 h-[1219px] space-y-10'>
+    <div className='bg-[#FFFFFF] about-style flex-col md:h-[732px] pb-20 lg:gap-30 lg:flex-row lg:justify-between 
+     items-start pt-10 md:px-20 md:justify-start flex justify-center w-full px-5 pt-20 h-[1219px] space-y-10'>
       <div className='space-y-5 w-full '>
 
         <h1 className='second-headers md:w-[624px] md:text-[48px]'>

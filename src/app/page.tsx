@@ -4,6 +4,7 @@ import Hero from '@/componentspages/home/hero'
 import Features from '@/componentspages/home/features'
 import Programmes from '@/componentspages/home/programmes'
 import About from '@/componentspages/home/about'
+import Socialproofpage from '@/componentspages/home/social proof/socialproofpage'
 const page = () => {
   return (
     <>
@@ -12,6 +13,8 @@ const page = () => {
     <Features/>
     <Programmes/>
     <About/>
+    <Socialproofpage/>
+    
     </>
 
   )
