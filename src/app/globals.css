@@ -157,6 +157,11 @@
       @apply text-[36px] w-[251px] text-start font-bold
   }
 }
+.about-style {
+  .second-headers {
+  @apply text-[36px] w-[251px]  font-bold
+  }
+}
 } 
 
 .hero-image-container {

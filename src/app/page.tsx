@@ -3,6 +3,7 @@ import Navbar from '@/componentspages/layouts/Navbar'
 import Hero from '@/componentspages/home/hero'
 import Features from '@/componentspages/home/features'
 import Programmes from '@/componentspages/home/programmes'
+import About from '@/componentspages/home/about'
 const page = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const page = () => {
     <Hero/>
     <Features/>
     <Programmes/>
+    <About/>
     </>
 
   )

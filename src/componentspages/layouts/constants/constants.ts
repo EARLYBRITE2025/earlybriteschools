@@ -46,3 +46,30 @@ export const featureCards: FeatureCard[] = [
     buttonText: "Learn More",
   },
 ];
+
+export const learningHighlights = [
+  {
+    id: 1,
+    icon: "/images/checkmark-circle-01.svg",
+    title: "Real mentors, not just instructors",
+    
+  },
+  {
+    id: 2,
+    icon: "/images/checkmark-circle-01.svg",
+    title: "Globally aligned learning standards",
+   
+  },
+  {
+    id: 3,
+    icon: "/images/checkmark-circle-01.svg",
+    title: "A community of dreamers and doers",
+   
+  },
+  {
+    id: 4,
+    icon: "/images/checkmark-circle-01.svg",
+    title: "Opportunities that go beyond the classroom",
+   
+  },
+];
