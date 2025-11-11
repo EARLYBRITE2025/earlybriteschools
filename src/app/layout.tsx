@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Nunito, Baloo_2 } from 'next/font/google'
+import { Nunito } from 'next/font/google'
 
 // Configure Nunito
 const nunito = Nunito({ 
@@ -9,11 +9,6 @@ const nunito = Nunito({
 })
 
 // Configure Baloo 2
-const baloo2 = Baloo_2({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800'],
-  variable: '--font-baloo',
-})
 
 export default function RootLayout({
   children,
@@ -21,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en"  className={`${nunito.variable} ${baloo2.variable}`}>
-      <body className={nunito.className}
+    <html lang="en"  className={`${nunito.variable}`}>
+      <body className="font-nunito"
       >
         {children}
       </body>

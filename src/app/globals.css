@@ -110,6 +110,8 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -120,13 +122,74 @@
   }
 }
 
+@layer utilities {
+  .gradient {
+@apply bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC] 
+  }
+
+}
 @layer components {
   header {
         nav {
-            @apply  flex items-center justify-between md:gap-3 h-20 px-[24px] md:px-[30px] lg:px-[110px]  w-full text-[16px] 
+            @apply  flex items-center justify-between md:gap-3 h-[111px] px-[24px] md:px-[30px] lg:px-[110px]  w-full text-[16px] 
       }
   }
+.hero-div{
+  
 
-   
+  .classic {
+  @apply  text-[30px] text-start
+}
+  
+}
+.contact {
+  @apply hidden md:flex bg-[#F9BB1E] rounded-full text-black py-[12px] px-[24px]  md:px-[20px] md:py-[10px] hover:bg-yellow-300 transition-all duration-300 
+}
+.button {
+  @apply rounded-full text-black py-[12px] px-[24px]
+        md:px-[20px] md:py-[10px]  transition-all duration-300 w-[170px] 
+}
+.feature-styles {
+  .first-div {
+    @apply bg-[#1A94D2] h-[851px] md:justify-between md:flex-row md:h-[580px] w-[90%] rounded-2xl pl-10  pt-3 text-[#FFFFFF] flex items-start pl-2 flex-col space-y-5
+  }
+  .second-header {
+      @apply text-[36px] w-[251px] text-start font-bold
+  }
+}
 } 
+
+.hero-image-container {
+  position: relative;
+  width: 100%;
+  max-width: 615px;
+  margin: 0 auto;
+  overflow: hidden;
+ 
+}
+
+.abstract-shape {
+  position: absolute;
+  top: 0%; 
+  right: 10%;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.abstract-shape svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.hero-image img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 2;
+  
+}
+
 

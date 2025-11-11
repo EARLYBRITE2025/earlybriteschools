@@ -65,9 +65,7 @@ return()=>{
   <span className={`block w-5 h-0.5 bg-black  transition-transform ${isOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
      </button>
         </div>
-        <div className='hidden md:flex bg-[#F9BB1E]
-          rounded-full text-black py-[12px] px-[24px]
-          md:px-[20px] md:py-[10px] hover:bg-yellow-300 transition-all duration-300 
+        <div className='contact
 '>
           <span className='flex  gap-2 font-bold'>
             Contact Us <Image 
