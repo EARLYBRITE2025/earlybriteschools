@@ -29,7 +29,7 @@ return()=>{
            </div>
            {/*this is for the center nav items*/}
 
-            <div className='hidden md:flex  gap-10 lg:gap-10 md:gap-5 '>
+            <div className='hidden md:flex  gap-10 lg:gap-5 md:gap-5 '>
 
                <button className='flex items-center gap-3 bg-[#202D60]
                rounded-full text-white py-[12px] px-[24px]

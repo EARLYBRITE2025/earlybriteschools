@@ -121,7 +121,24 @@
    
   }
 }
+.button,
+.hero-img,
+#title,
+#classics {
+  opacity: 0;
+  visibility: hidden;
+}
 
+
+.image-container {
+  overflow-x: scroll;  
+  overflow-y: hidden;     
+  scrollbar-width: none;  
+}
+
+.image-container::-webkit-scrollbar {
+  display: none;          /* hides scrollbar on Chrome, Edge, Safari */
+}
 @layer utilities {
   .gradient {
 @apply bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC] 
@@ -130,6 +147,7 @@
 }
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 @layer components {
   header {
