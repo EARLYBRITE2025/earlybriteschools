@@ -5,6 +5,8 @@ import Features from '@/componentspages/home/features'
 import Programmes from '@/componentspages/home/programmes'
 import About from '@/componentspages/home/about'
 import Socialproofpage from '@/componentspages/home/social proof/socialproofpage'
+import Contact from '@/componentspages/home/Contact-us'
+import Footer from '@/componentspages/layouts/footer'
 const page = () => {
   return (
     <>
@@ -14,7 +16,9 @@ const page = () => {
     <Programmes/>
     <About/>
     <Socialproofpage/>
-    
+    <Contact/>
+    <Footer/>
+
     </>
 
   )
