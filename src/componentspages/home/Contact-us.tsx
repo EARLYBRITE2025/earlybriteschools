@@ -2,8 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 const Contact = () => {
   return (
-    <section className='flex items-center justify-center lg:py-[60px] lg:px-[120px] md:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]'>
-      <div className='bg-[#0F151E] h-[820px] lg:p-[40px] p-[40px] flex flex-col md:w-[1201px] md:h-[452px] gap-[40px] md:gap-[100px]  md:p-[60px] rounded-2xl md:flex-row md:justify-between'>
+    <section className='flex items-center justify-center lg:py-[60px] lg:px-[120px] 
+      md:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]
+      md:flex-row
+      '>
+      <div className='bg-[#0F151E] w-full h-[820px] lg:p-[40px] py-[40px] flex flex-col md:w-[1201px] md:h-[452px] gap-[40px] md:gap-[100px]  md:p-[60px] rounded-2xl md:flex-row md:justify-between'>
    <div className=' gap-[40px] pl-[40px] flex flex-col '>
       <h1 className='w-[322px] text-[36px] font-bold text-[#FFFFFF] md:text-[56.62px] md:w-[454px]' >
         Let's build the <strong className='text-[#009147] '>future</strong> together.
@@ -30,7 +33,7 @@ const Contact = () => {
     width={506.39}
     height={846.92}
     alt="background contact image"
-    className=" relative top-[78.34px] md:hidden"
+    className=" relative top-[78.34px] sm:hidden"
   />
 
   {/* Centered overlay image */}
@@ -53,7 +56,7 @@ const Contact = () => {
     width={430.34}
     height={329.71}
     alt="student contact image"
-    className="relative top-[-412.96px] z-[1] md:hidden xl:flex hidden "
+    className="relative top-[-412.96px] z-[1] sm:hidden xl:flex hidden "
   />
   
 </div>
