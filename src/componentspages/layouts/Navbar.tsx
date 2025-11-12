@@ -1,7 +1,10 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import Dropdownmenu from '../shadcnuicomponents/dropdownmenu'
+import { RightarrowSvg} from '../../../public/svg/constants'
+import HoverDropdown from '../shadcnuicomponents/hovercard'
+import { LogoSvg } from '../../../public/svg/constants'
+import Link from 'next/link'
 const Navbar = () => {
 const[isOpen, setIsOpen] =React.useState(false)
 
@@ -19,15 +22,10 @@ return()=>{
 }
   },[isOpen])
   return (
-    <header>
-        <nav className='sticky top-0 md:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]' >
+    <header className='md:sticky md:top-0 z-[50]'>
+        <nav className=' md:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]' >
            <div className=''>
-             <Image 
-            src="/images/early-logo.svg"
-            alt='hero image'
-            width={100}
-            height={100}
-            />
+             <LogoSvg/>
            </div>
            {/*this is for the center nav items*/}
 
@@ -48,12 +46,13 @@ return()=>{
             alt='hero image'
             width={20}
             height={20}
+            className='rotate'
                 />
                </button>
                <div className='flex items-center gap-5 lg:gap-15'>
-                <span>Home</span>
-                <span>About Us</span>
-                <Dropdownmenu/>
+                <Link href="#home" className='hover:text-[#1A94D2] transition-all duration-100'>Home</Link>
+                <Link href="#about" className='hover:text-[#1A94D2] transition-all duration-100'>About Us</Link>
+                <HoverDropdown/>
                </div>
             </div>
             {/*this is for the mobile hamburger*/}
@@ -67,14 +66,12 @@ return()=>{
         </div>
         <div className='contact
 '>
+          <Link href="#contact">
           <span className='flex  gap-2 font-bold'>
-            Contact Us <Image 
-              src="/images/arrow-right-01.svg"
-              alt='down svg'
-              width={20}
-              height={20}
-              />
+            Contact Us 
+            <RightarrowSvg/>
           </span>
+          </Link>
         </div>
         </nav>
     </header>

@@ -1,6 +1,7 @@
 import React from 'react'
 import {  Baloo_2 } from 'next/font/google'
-import Image from 'next/image'
+import { RightarrowSvg } from '../../../public/svg/constants'
+
 
 const baloo2 = Baloo_2({
   subsets: ['latin'],
@@ -12,7 +13,7 @@ const Hero = () => {
 
   return (
    <>
-   <section className='flex flex-col md:flex-row w-full md:bg-gradient-to-r from-[#E1F5FE] md:h-100 to-[#FFF0CC]'>
+   <section className='flex flex-col md:flex-row w-full md:bg-gradient-to-r from-[#E1F5FE] md:h-100 to-[#FFF0CC]'id='home'>
      <div className={` hero-div flex flex-col space-y-5  justify-center items-center
     
      w-full md:items-start md:px-[30px] lg:px-[110px] ${baloo2.variable} `}>
@@ -32,13 +33,7 @@ const Hero = () => {
      
     </div>
      <div className='flex items-center mt-5 md:mt:0 h-100 md:hidden justify-center max-w-full  '>
-             <Image 
-        src="/images/right-hero.png"
-            alt='hero right image'
-            width={312}
-            className='rounded-xl h-full pl-10 w-full  '
-            height={403}
-        />
+         <RightarrowSvg/>
        
       </div>
    </section>

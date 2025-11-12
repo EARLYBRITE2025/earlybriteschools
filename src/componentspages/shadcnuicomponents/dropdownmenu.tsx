@@ -13,7 +13,7 @@ const Dropdownmenu = () => {
   return (
     <div>
       <DropdownMenu open={open} onOpenChange={setOpen}>
-  <DropdownMenuTrigger className='flex items-center gap-2 hover:text-blue-300 transition' 
+  <DropdownMenuTrigger className='flex items-center gap-2 hover:text-[#1A94D2]  transition' 
     onMouseEnter={() => setOpen(true)}
  onMouseLeave={() => setOpen(false)}>Programs
   <Image 
@@ -31,15 +31,15 @@ const Dropdownmenu = () => {
       className="bg-white border border-gray-200 shadow-md rounded-md"
     >
     <DropdownMenuItem 
-    className="hover:text-blue-700 cursor-pointer"
+    className="hover:text-[#1A94D2] transition-all duration-100' cursor-pointer"
     >The Elite Mentorship Programme[TEMP]
     </DropdownMenuItem>
 
-    <DropdownMenuItem className="hover:text-blue-500 cursor-pointer">
+    <DropdownMenuItem className="hover:text-[#1A94D2]  cursor-pointer">
         Global Innovation Trek [GIT]</DropdownMenuItem>
-    <DropdownMenuItem className="hover:text-blue-500 cursor-pointer">
+    <DropdownMenuItem className="hover:text-[#1A94D2]  cursor-pointer">
         Immaginarium</DropdownMenuItem>
-    <DropdownMenuItem className="hover:text-blue-500 cursor-pointer">
+    <DropdownMenuItem className="hover:text-[#1A94D2]  cursor-pointer">
         Summer School</DropdownMenuItem>
   </DropdownMenuContent>
 </DropdownMenu>

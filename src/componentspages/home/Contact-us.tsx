@@ -5,7 +5,7 @@ const Contact = () => {
     <section className='flex items-center justify-center lg:py-[60px] lg:px-[120px] 
       md:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]
       md:flex-row
-      '>
+      'id='contact'>
       <div className='bg-[#0F151E] w-full h-[820px] lg:p-[40px] py-[40px] flex flex-col md:w-[1201px] md:h-[452px] gap-[40px] md:gap-[100px]  md:p-[60px] rounded-2xl md:flex-row md:justify-between'>
    <div className=' gap-[40px] pl-[40px] flex flex-col '>
       <h1 className='w-[322px] text-[36px] font-bold text-[#FFFFFF] md:text-[56.62px] md:w-[454px]' >
