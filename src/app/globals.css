@@ -123,7 +123,6 @@
 }
 .button,
 .hero-img,
-#title,
 #classics {
   opacity: 0;
   visibility: hidden;
@@ -172,7 +171,9 @@ html {
 }
 .feature-styles {
   .first-div {
-    @apply bg-[#1A94D2] h-[851px] md:justify-between md:flex-row md:h-[580px] w-[90%] rounded-2xl pl-10  pt-3 text-[#FFFFFF] flex items-start pl-2 flex-col space-y-5
+    @apply bg-[#1A94D2]
+      md:justify-between md:flex-row md:h-0 w-[90%] rounded-2xl   
+     pt-3 text-[#FFFFFF] flex items-start  flex-col space-y-5
   }
   .second-header {
       @apply text-[36px] w-[251px] text-start font-bold
@@ -185,14 +186,7 @@ html {
 }
 } 
 
-.hero-image-container {
-  position: relative;
-  width: 100%;
-  max-width: 615px;
-  margin: 0 auto;
-  overflow: hidden;
- 
-}
+
 
 .abstract-shape {
   position: absolute;
@@ -203,20 +197,8 @@ html {
   z-index: 1;
 }
 
-.abstract-shape svg {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
 
-.hero-image img {
-  position: relative;
-  width: 100%;
-  height: auto;
-  display: block;
-  z-index: 2;
-  
-}
+
 
 
 .rotate {

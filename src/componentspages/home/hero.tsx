@@ -22,11 +22,11 @@ const Hero = () => {
     const paragraphSplit = new SplitText("#classics", { type: "lines" });
 
     // Step 1: Set initial hidden state
-    gsap.set(heroSplit.chars, { yPercent: 100, opacity: 0 });
+    gsap.set(heroSplit.chars, { yPercent: 100, opacity: 0 });// not in use yet
     gsap.set(paragraphSplit.lines, { yPercent: 100, opacity: 0 });
 
     // Step 2: Make parent visible so animation shows
-    gsap.set([".title", ".classic"], { opacity: 1, visibility: "visible" });
+    gsap.set([".title", "#classics"], { opacity: 1, visibility: "visible" });
 
     // Step 3: Animate
     gsap.to(heroSplit.chars, {
@@ -34,7 +34,7 @@ const Hero = () => {
       opacity: 1,
       duration: 1.6,
       ease: "expo.out",
-      stagger: 0.05,
+      stagger: 0.009,
     });
 
     gsap.to(paragraphSplit.lines, {
@@ -69,11 +69,11 @@ const Hero = () => {
       }
     );
     // for buttons
-    gsap.set(".button", { opacity: 0,  visibility: "hidden" });
+    gsap.set(".button ", { opacity: 0,  visibility: "hidden" });
 
     // Step 2: animate left → right
-    gsap.to(".button", {
-     
+    gsap.to(".button ", {
+      
       opacity: 1,
       visibility: "visible",
       duration: 1,
@@ -90,10 +90,10 @@ const Hero = () => {
     
      w-full md:items-start md:px-[30px] lg:px-[110px] ${baloo2.variable} `}>
       
-        <h1 className='classic  font-baloo xl:text-[60px] w-[354px]  pl-1 font-bold text-black xl:w-[536px] ' id='classics' >
+        <h1 className='classic  font-baloo xl:text-[60px] w-[354px]  pl-1 font-bold text-black xl:w-[530px] ' id='classics' >
         Building <span className='text-[#009147] md:text-black'>strong minds</span> and <span className='text-[#009147] md:text-black'>bright futures</span> for African children.
       </h1>
-      <p className='px-3 pl-1 text-start max-w-90  ' > 
+      <p className='px-3 pl-1 text-start max-w-90  ' id='classics' > 
         Earlybrite helps young people discover who they are, 
         explore what they love, and prepare for the future with confidence.
       </p>

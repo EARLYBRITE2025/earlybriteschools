@@ -3,7 +3,7 @@ import { featureCards } from '../layouts/constants/constants'
 const Programmes = () => {
   return (
    <>
-    <section className='flex flex-col  gap-5 justify-center pt-20 pb-20 items-center space-y-3 w-full
+    <section className='flex flex-col mt-10 gap-5 justify-center pt-20 pb-20 items-center space-y-3 w-full
      gradient md:hidden  md:px-10  '>
         <h1 className='text-[27.44px] font-bold '>
             Programs Overview
