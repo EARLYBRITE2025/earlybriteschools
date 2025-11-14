@@ -13,8 +13,8 @@ module.exports = {
         accent: '#FFE66D',
       },
       fontFamily: {
-        nunito: ['var(--font-nunito)', 'sans-serif'], 
-        baloo: ['var(--font-baloo)', 'cursive'], 
+        nunito: ['var(--font-nunito)', 'sans-serif'],
+        baloo2: ['var(--font-baloo2)', 'cursive'], // 👈 match variable name
       },
     },
   },

@@ -5,14 +5,9 @@ import { useLayoutEffect } from "react";
 import {gsap} from 'gsap'
 import { SplitText } from "gsap/SplitText"
 import { useGSAP } from "@gsap/react";
-import { RightarrowSvg } from '../../../public/svg/constants'
+import { WhiteRightarrowSvg } from '../../../public/svg/constants'
 import Image from 'next/image'
 
-const baloo2 = Baloo_2({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800'],
-  variable: '--font-baloo',
-})
 
 gsap.registerPlugin(SplitText);
 const Hero = () => {
@@ -88,9 +83,9 @@ const Hero = () => {
     <div className='flex flex-col md:flex-row w-full md:pb-10 xl:pb-0 xl:h-[633px] xl:w-[1200px] xl:h-[633px]'>
        <div className={` hero-div flex flex-col space-y-5  justify-center items-center
     
-     w-full md:items-start md:px-[30px] lg:px-[110px] ${baloo2.variable} `}>
+     w-full md:items-start md:px-[30px] lg:px-[110px]  `}>
       
-        <h1 className='classic  font-baloo xl:text-[60px] w-[354px]  pl-1 font-bold text-black xl:w-[530px] ' id='classics' >
+             <h1 className='classic   xl:text-[60px] w-[354px]  pl-1 font-bold text-black xl:w-[530px] ' id='classics' >
         Building <span className='text-[#009147] md:text-black'>strong minds</span> and <span className='text-[#009147] md:text-black'>bright futures</span> for African children.
       </h1>
       <p className='px-3 pl-1 text-start max-w-90  ' id='classics' > 
@@ -99,7 +94,7 @@ const Hero = () => {
       </p>
       <div className='flex items-center space-x-3 w-full justify-center whitespace-nowrap md:justify-start' >
         <button className='bg-[#F9BB1E]  button '  >Explore Program  </button>
-      <button className='bg-[#1A94D2] button text-white '><span className='flex gap-4 items-center group justify-center text-white'>Talk to Us  <RightarrowSvg /> </span></button>
+      <button className='bg-[#1A94D2] button text-white '><span className='flex gap-4 items-center group justify-center text-white'>Talk to Us  <WhiteRightarrowSvg /> </span></button>
       </div>
       
      

@@ -11,8 +11,8 @@ const Features = () => {
  const imgRef = useRef(null);
 
 useGSAP(() => {
-    if (window.innerWidth < 1268) return;
-  const titleSplit = new SplitText("#about h2", { type: "words" });
+    if (window.innerWidth < 720) return;
+  const titleSplit = new SplitText("#about h2 ", { type: "words" });
   const paragraphSplit = new SplitText("#classique", { type: "lines" });
 
   const scrollTimeline = gsap.timeline({
@@ -93,12 +93,12 @@ const el = imgRef.current;
   return (
   <section className='flex flex-col items-center w-full justify-center h-auto md:bg-[#BAE6FC]   'id='about'>
       <div className='flex  pt-10 items-center flex-col md:w-[90%] xl:w-[1450px] space-y-5
-       justify-center   md:justify-start w-[360px] relative
-       feature-styles z-[1]  ' id='art'>
+       justify-center   md:justify-start w-[360px] xl:relative 
+       feature-styles xl:z-[1]  ' id='art'>
       <div className='bg-[#1A94D2] first-div xl:h-full flex items-center ' >
        <div className=' p-[40px] space-y-5 md:space-y-0  xl:gap-[40px] 
         xl:h-[330px] flex flex-col justify-center'>  
-        <h2 className=' second-header xl:text-[48px] xl:w-[483px]  '>
+        <h2 className=' second-header font-[family-name:var(--font-baloo2)] xl:text-[48px] xl:w-[483px]  '>
             We make  learning come alive.
         </h2>
         <p className='w-[280px] xl:w-[483px] text-[#FFFFFF] text-[18px]  ' id='classique'>
@@ -149,14 +149,14 @@ const el = imgRef.current;
     {/*this is the second card*/}
     <div>
 <div className='flex pt-3 pb-10 items-center flex-col xl:w-[1450px] space-y-5 md:space-y-0 md:w-[90%]  w-[375px]
-       justify-center md:justify-start z-[10] relative
+       justify-center md:justify-start xl:z-[10] xl:relative
        feature-styles  xl:h-[672px]  ' id='will-fade'>
 
       <div className='bg-[#009147]   first-div xl:h-full flex items-center ' >
        <div className=' p-[40px] space-y-5 md:space-y-0  xl:gap-[40px] 
         xl:h-[330px] flex flex-col justify-center '>  
 
-        <h2 className='second-header xl:text-[48px] xl:w-[483px]  '>
+        <h2 className='second-header xl:text-[48px] xl:w-[483px] font-[family-name:var(--font-baloo2)] '>
             Shaping  Africa's future, one learner at a time.
         </h2>
         <p className='w-[251px] text-[#FFFFFF] w-[280px] xl:w-[483px] text-[#FFFFFF] text-[18px]   '>
