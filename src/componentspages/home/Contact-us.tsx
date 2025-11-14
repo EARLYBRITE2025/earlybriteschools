@@ -37,17 +37,7 @@ const Contact = () => {
           },
           "-=0.6"
         )
-        .from(
-          ".contact-buttons",
-          {
-            opacity: 0,
-            scale: 0.92,
-            duration: 0.6,
-            ease: "back.out(1.6)",
-            stagger: 0.15,
-          },
-          "-=0.3"
-        );
+       
 
       // IMAGE ANIMATION
       const imgTl = gsap.timeline({

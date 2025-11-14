@@ -52,17 +52,7 @@ const Footer = () => {
       );
 
       // Icon bounce (very small & professional)
-      tl.from(
-        ".footer-icon",
-        {
-          scale: 0.8,
-          opacity: 0,
-          duration: 0.4,
-          stagger: 0.15,
-          ease: "back.out(2)",
-        },
-        "-=0.6"
-      );
+    
     }, footerRef);
 
     return () => ctx.revert();
@@ -72,7 +62,7 @@ const Footer = () => {
     <footer
       ref={footerRef}
       className="footer-wrapper bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC] 
-      py-[40px] px-[24px] flex items-center justify-center w-full flex-col mt-10"
+      py-[40px] px-[24px] flex items-center justify-center w-full flex-col mt-10 xl:mt-0"
     >
       <div
         className="footer-box h-[1094px] xl:w-[1200px] xl:h-[304px] w-[358px] 

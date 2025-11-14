@@ -58,25 +58,10 @@ const Socialproofpage = () => {
           },
           "-=0.3"
         )
-        .from(
-          ".youtube-icon",
-          {
-            opacity: 0,
-            scale: 0.5,
-            duration: 0.8,
-            ease: "back.out(1.8)",
-          },
-          "-=0.6"
-        );
+      
 
       // Pulse effect for YouTube icon
-      gsap.to(".youtube-icon", {
-        scale: 1.1,
-        repeat: -1,
-        yoyo: true,
-        duration: 1.6,
-        ease: "power1.inOut",
-      });
+     
     });
 
     return () => ctx.revert();

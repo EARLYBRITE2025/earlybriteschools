@@ -13,24 +13,18 @@ gsap.registerPlugin(SplitText);
 const Hero = () => {
 
  useLayoutEffect(() => {
-    const heroSplit = new SplitText(".title", { type: "chars,words" });
+   
     const paragraphSplit = new SplitText("#classics", { type: "lines" });
 
     // Step 1: Set initial hidden state
-    gsap.set(heroSplit.chars, { yPercent: 100, opacity: 0 });// not in use yet
+  
     gsap.set(paragraphSplit.lines, { yPercent: 100, opacity: 0 });
 
     // Step 2: Make parent visible so animation shows
     gsap.set([".title", "#classics"], { opacity: 1, visibility: "visible" });
 
     // Step 3: Animate
-    gsap.to(heroSplit.chars, {
-      yPercent: 0,
-      opacity: 1,
-      duration: 1.6,
-      ease: "expo.out",
-      stagger: 0.009,
-    });
+   
 
     gsap.to(paragraphSplit.lines, {
       yPercent: 0,
