@@ -9,18 +9,18 @@ const About = () => {
      flex justify-center w-full px-5 pt-20 h-[1200px] 
      space-y-10' id='about'>
 
-   <div className='xl:flex xl:items-center justify-center xl:gap-[120px]'>
+   <div className='xl:flex xl:items-center justify-center xl:gap-[50px] '>
        <div className='space-y-5 xl:w-[639px] w-[322px] '>
-        <h1 className='second-headers md:w-[624px] pl-5 md:text-[48px]'>
+        <h1 className='second-headers md:w-[624px] pl-5 xl:pl-0 md:text-[48px]'>
             What makes Earlybrite different?
         </h1>
-        <p className='text-[#666666] xl:text-[18px] w-[322px] pl-5 font-medium  md:w-[624px] '>
+        <p className='text-[#666666] xl:text-[18px] w-[322px] pl-5 xl:pl-0 font-medium  md:w-[624px] '>
             We blend mentorship, technology, and creativity to deliver learning that matters.
              Our approach connects students to real opportunities, global standards, and practical 
              experience that lasts a lifetime.
         </p>
         {learningHighlights.map((item) => (
-        <div key={item.id} className="flex items-center pl-5 xl:items-start justify-center  gap-4">
+        <div key={item.id} className="flex items-center pl-5 xl:pl-0 xl:items-start justify-center  gap-4">
           <img
             src={item.icon}
             alt={item.title}
@@ -69,7 +69,7 @@ const About = () => {
   />
 
   {/* Small image - Left */}
-  <div className="absolute md:left-[-60px] md:top-[8%] left-[10px] top-[30%]">
+  <div className="absolute md:left-[-4%] md:top-[8%] left-[10px] top-[30%]">
     <Image
       src="/images/Pictures.png"
       width={93}
@@ -87,7 +87,7 @@ const About = () => {
   </div>
 
   {/* Small image - Right */}
-  <div className="absolute md:right-[-50px] md:top-[65%]  z-50">
+  <div className="absolute md:right-[0%] md:top-[65%]  z-50">
   
     <Image
       src="/images/aboutimage-3.png"

@@ -5,7 +5,7 @@ import { RightarrowSvg} from '../../../public/svg/constants'
 import HoverDropdown from '../shadcnuicomponents/hovercard'
 import { LogoSvg } from '../../../public/svg/constants'
 import Link from 'next/link'
-const Navbar = () => {
+const GitNavbar = () => {
 const[isOpen, setIsOpen] =React.useState(false)
 
   function clicker(){
@@ -22,7 +22,7 @@ return()=>{
 }
   },[isOpen])
   return (
-   <header className="xl:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]">
+   <header className="bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]">
   <div className="xl:flex xl:items-center xl:justify-center">
     {/* Inner fixed-width container */}
     <nav className="w-full xl:w-[1202px] flex items-center justify-between px-[24px] xl:px-0 ">
@@ -66,7 +66,7 @@ return()=>{
       {/* Contact */}
       <div className="contact">
         <Link href="#contact">
-          <span className="flex gap-2 ">
+          <span className="flex gap-2 font-bold">
             Contact Us <RightarrowSvg />
           </span>
         </Link>
@@ -78,4 +78,5 @@ return()=>{
   )
 }
 
-export default Navbar
+export default GitNavbar
+

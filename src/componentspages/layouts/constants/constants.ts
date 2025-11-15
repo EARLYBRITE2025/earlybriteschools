@@ -73,3 +73,35 @@ export const learningHighlights = [
    
   },
 ];
+
+
+
+
+interface FeatureItem {
+  icon:string ;
+  title: string;
+  paragraph: string;
+}
+
+export const features: FeatureItem[] = [
+  {
+    icon:"/images/check.svg",
+    title: "Safe and Structured",
+    paragraph: "Every part of the journey (travel, accommodation, learning, and leisure) is fully supervised by trained mentors and program coordinators.",
+  },
+  {
+    icon:"/images/scale.svg" ,
+    title: "Global Exposure with Purpose",
+    paragraph: "Students explore innovation hubs, startups, and cultural landmarks that expand their worldview.",
+  },
+  {
+    icon:"/images/network.svg" ,
+    title: "Hands-On Learning",
+    paragraph: "Workshops and mini-projects turn every city visit into a real lesson in creativity, problem-solving, and teamwork.",
+  },
+  {
+    icon:"/images/check.svg",
+    title: "Lifelong Mentorship",
+    paragraph: "Participants receive ongoing guidance through our Elite Mentorship Program (TEMP) even after returning home.",
+  },
+];

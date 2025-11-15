@@ -15,14 +15,10 @@ const Hero = () => {
  useLayoutEffect(() => {
    
     const paragraphSplit = new SplitText("#classics", { type: "lines" });
-
     // Step 1: Set initial hidden state
-  
     gsap.set(paragraphSplit.lines, { yPercent: 100, opacity: 0 });
-
     // Step 2: Make parent visible so animation shows
     gsap.set([".title", "#classics"], { opacity: 1, visibility: "visible" });
-
     // Step 3: Animate
    
 
@@ -73,8 +69,8 @@ const Hero = () => {
 
   return (
    <>
-   <section className=' w-full md:bg-gradient-to-r from-[#E1F5FE] flex items-start justify-center to-[#FFF0CC]  'id='home'>
-    <div className='flex flex-col items-center justify-center md:flex-row w-full md:pb-10 xl:pb-0  xl:w-[1202px]  xl:h-[633px]'>
+   <section className='hero  md:bg-gradient-to-r from-[#E1F5FE]'id='home'>
+    <div className='hero-first-div '>
        <div className={` hero-div flex flex-col space-y-5  justify-center items-center
     
      w-full md:items-start  `}>

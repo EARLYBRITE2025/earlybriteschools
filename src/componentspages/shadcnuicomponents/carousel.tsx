@@ -1,6 +1,7 @@
 import React from "react"
 import { featureCards } from "../layouts/constants/constants"
 import { WhiteRightarrowSvg } from "../../../public/svg/constants"
+import Link from "next/link"
 import {
   Carousel,
   CarouselContent,
@@ -31,7 +32,7 @@ const Programmes = () => {
                 <h3 className="text-[24px] font-bold mb-2 font-[family-name:var(--font-baloo2)] xl:text-[48px]">{card.title}</h3>
                 <p className="text-[#B1B1B1]">{card.age}</p>
                 <p className="text-gray-600 mb-4">{card.description}</p>
-                <button className="button bg-[#1A94D2]">{card.buttonText}</button>
+                <Link href="/git" className="button bg-[#1A94D2]">{card.buttonText}</Link>
               </div>
             </div>
           ))}
@@ -57,7 +58,7 @@ const Programmes = () => {
               <h3 className="text-[24px] font-bold mb-2">{card.title}</h3>
               <p className="text-[#B1B1B1]">{card.age}</p>
               <p className="text-gray-600 mb-4">{card.description}</p>
-              <button className="button bg-[#1A94D2]">{card.buttonText}</button>
+              <Link href="/git" className="button bg-[#1A94D2]">{card.buttonText}</Link>
             </div>
           </div>
         ))}
@@ -96,12 +97,12 @@ const Programmes = () => {
                   <p className="text-[#B1B1B1]">{card.age}</p>
                   <p className="text-gray-600 mb-4">{card.description}</p>
                 </div>
-                <button className="button bg-[#1A94D2] text-white mt-auto">
+                 <Link href="/git" className="button bg-[#1A94D2] text-white mt-auto">
                   <span className="flex items-center gap-2">
                     {card.buttonText}
                     <WhiteRightarrowSvg />
                   </span>
-                </button>
+                </Link>
               </div>
             </Card>
           </CarouselItem>
