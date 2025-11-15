@@ -91,11 +91,11 @@ const el = imgRef.current;
     
  
   return (
-  <section className='flex flex-col items-center w-full justify-center h-auto md:bg-[#BAE6FC]   'id='about'>
+  <section className='flex flex-col items-center w-full justify-center  md:bg-[#BAE6FC]   'id='about'>
       <div className='flex  pt-10 items-center flex-col md:w-[90%] xl:w-[1450px] space-y-5
        justify-center   md:justify-start w-[360px] xl:relative 
        feature-styles xl:z-[1]  ' id='art'>
-      <div className='bg-[#1A94D2] first-div xl:h-full flex items-center ' >
+      <div className='bg-[#1A94D2] first-div xl:h-full flex items-center xl:w-[1200px]  ' >
        <div className=' p-[40px] space-y-5 md:space-y-0  xl:gap-[40px] 
         xl:h-[330px] flex flex-col justify-center'>  
         <h2 className=' second-header font-[family-name:var(--font-baloo2)] xl:text-[48px] xl:w-[483px]  '>
@@ -152,7 +152,7 @@ const el = imgRef.current;
        justify-center md:justify-start xl:z-[10] xl:relative
        feature-styles  xl:h-[672px]  ' id='will-fade'>
 
-      <div className='bg-[#009147]   first-div xl:h-full flex items-center ' >
+      <div className='bg-[#009147]   first-div xl:h-full flex items-center xl:w-[1200px]  ' >
        <div className=' p-[40px] space-y-5 md:space-y-0  xl:gap-[40px] 
         xl:h-[330px] flex flex-col justify-center '>  
 

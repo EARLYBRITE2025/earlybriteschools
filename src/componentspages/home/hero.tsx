@@ -73,13 +73,13 @@ const Hero = () => {
 
   return (
    <>
-   <section className=' w-full md:bg-gradient-to-r from-[#E1F5FE]  to-[#FFF0CC]  'id='home'>
-    <div className='flex flex-col md:flex-row w-full md:pb-10 xl:pb-0 xl:h-[633px] xl:w-[1200px] xl:h-[633px]'>
+   <section className=' w-full md:bg-gradient-to-r from-[#E1F5FE] flex items-start justify-center to-[#FFF0CC]  'id='home'>
+    <div className='flex flex-col items-center justify-center md:flex-row w-full md:pb-10 xl:pb-0  xl:w-[1202px]  xl:h-[633px]'>
        <div className={` hero-div flex flex-col space-y-5  justify-center items-center
     
-     w-full md:items-start md:px-[30px] lg:px-[110px]  `}>
+     w-full md:items-start  `}>
       
-             <h1 className='classic   xl:text-[60px] w-[354px]  pl-1 font-bold text-black xl:w-[530px] ' id='classics' >
+             <h1 className='classic text-[36px]   xl:text-[60px] w-[354px]  font-[family-name:var(--font-baloo2)] font-bold text-black xl:w-[530px] ' id='classics' >
         Building <span className='text-[#009147] md:text-black'>strong minds</span> and <span className='text-[#009147] md:text-black'>bright futures</span> for African children.
       </h1>
       <p className='px-3 pl-1 text-start max-w-90  ' id='classics' > 

@@ -64,42 +64,59 @@ const Programmes = () => {
       </section>
 
       {/* xl view: carousel */}
-  <section className="hidden xl:flex flex-col gap-5 justify-center pt-20 pb-20 items-center w-full bg-[#F2F2F2] px-10">
+<section className="hidden xl:flex flex-col gap-5 justify-center pt-20 pb-20 items-center bg-[#F2F2F2] px-10">
   <h1 className="text-[27.44px] font-bold">Programs Overview</h1>
 
-  <Carousel opts={{ align: "center" }} className="w-full max-w-7xl">
-    <CarouselContent>
-      {featureCards.map((card) => (
-        <CarouselItem key={card.id} className="xl:basis-1/3 px-4">
-<Card className="bg-white rounded-2xl h-[603px] hover:shadow-lg transition w-full overflow-hidden p-0">
-  {/* Image flush at the very top */}
-  <div className="relative w-full">
-    <img
-      src={card.image}
-      alt={card.title}
-      className="w-full h-[275px] object-cover block rounded-none"
-    />
+  {/* Wrapper stays 1200px */}
+  <div className="relative w-[1200px] overflow-visible">
+
+    <Carousel opts={{ align: "start" }} className="w-full relative">
+      <CarouselContent
+        className="flex -ml-4"
+      >
+        {featureCards.map((card) => (
+          <CarouselItem
+            key={card.id}
+            className="basis-[32%] px-4"
+          >
+            <Card className="bg-white rounded-2xl h-[603px] hover:shadow-lg transition w-full overflow-hidden p-0">
+              
+              {/* Top image flush */}
+              <div className="relative w-full">
+                <img
+                  src={card.image}
+                  alt={card.title}
+                  className="w-full h-[275px] object-cover block rounded-none"
+                />
+              </div>
+
+              <div className="p-4 flex-1 flex flex-col justify-between">
+                <div>
+                  <h3 className="text-[24px] font-bold mb-2">{card.title}</h3>
+                  <p className="text-[#B1B1B1]">{card.age}</p>
+                  <p className="text-gray-600 mb-4">{card.description}</p>
+                </div>
+                <button className="button bg-[#1A94D2] text-white mt-auto">
+                  <span className="flex items-center gap-2">
+                    {card.buttonText}
+                    <WhiteRightarrowSvg />
+                  </span>
+                </button>
+              </div>
+            </Card>
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+
+      {/* Arrows placed outside and visible */}
+      <CarouselPrevious className="absolute -left-10 top-1/2 -translate-y-1/2" />
+      <CarouselNext className="absolute -right-10 top-1/2 -translate-y-1/2" />
+
+    </Carousel>
   </div>
-
-  {/* Content below */}
-  <div className="p-4 flex-1 flex flex-col justify-between">
-    <div>
-      <h3 className="text-[24px] font-bold mb-2">{card.title}</h3>
-      <p className="text-[#B1B1B1]">{card.age}</p>
-      <p className="text-gray-600 mb-4">{card.description}</p>
-    </div>
-    <button className="button bg-[#1A94D2] text-white mt-auto"><span className="flex items-center gap-2">{card.buttonText}<WhiteRightarrowSvg/></span></button>
-  </div>
-</Card>
-
-
-        </CarouselItem>
-      ))}
-    </CarouselContent>
-    <CarouselPrevious />
-    <CarouselNext />
-  </Carousel>
 </section>
+
+
 
 
     </>
