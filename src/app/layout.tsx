@@ -21,11 +21,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${nunito.variable} ${baloo2.variable}`}>
-     <body className={nunito.className}>
-  {children}
-</body>
+  <html lang="en" className={`${nunito.variable} ${baloo2.variable}`}>
+  <body className={nunito.className}>
+    {children}
+  </body>
+</html>
 
-    </html>
   );
 }

@@ -82,7 +82,7 @@ const Hero = () => {
              <h1 className='classic text-[36px]   xl:text-[60px] w-[354px]  font-[family-name:var(--font-baloo2)] font-bold text-black xl:w-[530px] ' id='classics' >
         Building <span className='text-[#009147] md:text-black'>strong minds</span> and <span className='text-[#009147] md:text-black'>bright futures</span> for African children.
       </h1>
-      <p className='px-3 pl-1 text-start max-w-90  ' id='classics' > 
+      <p className=' text-start max-w-90  ' id='classics' > 
         Earlybrite helps young people discover who they are, 
         explore what they love, and prepare for the future with confidence.
       </p>
