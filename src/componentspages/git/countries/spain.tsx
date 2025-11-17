@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-    import { Check } from '../../../public/svg/constants'
-    import { WhiteRightarrowSvg } from '../../../public/svg/constants'
+    import { Check } from '../../../../public/svg/constants'
+    import { WhiteRightarrowSvg } from '../../../../public/svg/constants'
 const Spain = () => {
   return (
     <>

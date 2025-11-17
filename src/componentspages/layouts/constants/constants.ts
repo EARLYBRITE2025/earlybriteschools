@@ -133,3 +133,32 @@ export const activities: ActivityType[] = [
   },
 ];
 
+export const programDetails = [
+  {
+    title: "Age Range",
+    value: "12 years and above",
+  },
+  {
+    title: "Destinations",
+    value: "Portugal · Spain · France",
+  },
+  {
+    title: "Dates",
+    value: "July - August 2027 (Summer)",
+  },
+  {
+    title: "Eligibility",
+    value: "Motivated students with curiosity, creativity, and a passion for growth",
+  },
+  {
+    title: "Duration",
+    value: "20 days in Europe + 30 months of guided mentorship",
+  },
+  {
+    title: "Investment",
+    value: [
+      "$8,500 (All-inclusive)",
+      "$6,000 (Excluding TEMP mentorship)"
+    ],
+  },
+];
