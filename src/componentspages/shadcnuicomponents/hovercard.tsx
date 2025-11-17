@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import Link from 'next/link'
 import { DownarrowSvg } from '../../../public/svg/constants'
 import {
   HoverCard,
@@ -18,22 +19,22 @@ const HoverDropdown = () => {
           <DownarrowSvg />
         </span>
       </HoverCardTrigger>
-      <HoverCardContent 
+      <HoverCardContent
         align="start"
         className="bg-white border border-gray-200 shadow-md rounded-md p-2"
       >
         <div className="flex flex-col gap-2">
-          <span className="hover:text-[#1A94D2] cursor-pointer">
+          <Link href="/gap" className="hover:text-[#1A94D2] cursor-pointer transition-colors">
             The Elite Mentorship Programme [TEMP]
-          </span>
-          <span className="hover:text-[#1A94D2] cursor-pointer">
+          </Link>
+          <Link href="/git" className="hover:text-[#1A94D2] cursor-pointer transition-colors">
             Global Innovation Trek [GIT]
+          </Link>
+          <span className="hover:text-[#1A94D2] cursor-pointer text-gray-400">
+            Immaginarium (Coming Soon)
           </span>
-          <span className="hover:text-[#1A94D2] cursor-pointer">
-            Immaginarium
-          </span>
-          <span className="hover:text-[#1A94D2] cursor-pointer">
-            Summer School
+          <span className="hover:text-[#1A94D2] cursor-pointer text-gray-400">
+            Summer School (Coming Soon)
           </span>
         </div>
       </HoverCardContent>

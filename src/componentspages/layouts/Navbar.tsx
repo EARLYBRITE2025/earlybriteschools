@@ -73,6 +73,34 @@ return()=>{
       </div>
     </nav>
   </div>
+
+  {/* Mobile menu */}
+  {isOpen && (
+    <div className="md:hidden fixed top-0 left-0 w-full h-screen bg-white z-[9998] pt-20 px-6">
+      <div className="flex flex-col gap-6">
+        <button className="flex items-center justify-center gap-3 bg-[#202D60] rounded-full text-white py-[12px] px-[24px] hover:bg-[#4A5DFF] transition-all duration-300">
+          <h3>For Schools</h3>
+          <Image
+            src="/images/star.svg"
+            alt="hero image"
+            width={20}
+            height={20}
+            className="rotate"
+          />
+        </button>
+        <Link href="#home" className="text-lg hover:text-[#1A94D2] transition-all duration-100" onClick={clicker}>Home</Link>
+        <Link href="#about" className="text-lg hover:text-[#1A94D2] transition-all duration-100" onClick={clicker}>About Us</Link>
+        <div onClick={clicker}>
+          <HoverDropdown />
+        </div>
+        <Link href="#contact" className="text-lg hover:text-[#1A94D2] transition-all duration-100" onClick={clicker}>
+          <span className="flex gap-2">
+            Contact Us <RightarrowSvg />
+          </span>
+        </Link>
+      </div>
+    </div>
+  )}
 </header>
 
   )
