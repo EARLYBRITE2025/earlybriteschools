@@ -114,9 +114,7 @@
 }
 
 
-* {
-  outline: 1px red solid
-}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
