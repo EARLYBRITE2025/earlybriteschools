@@ -7,6 +7,10 @@ export interface FeatureCard {
   buttonText: string;
   age?:string
 }
+export interface ActivityType {
+  title: string;
+  description: string;
+}
 
 
 
@@ -105,3 +109,27 @@ export const features: FeatureItem[] = [
     paragraph: "Participants receive ongoing guidance through our Elite Mentorship Program (TEMP) even after returning home.",
   },
 ];
+
+export const activities: ActivityType[] = [
+  {
+    title: "City Tours",
+    description:
+      "Guided visits to historic landmarks and hidden gems in each destination.",
+  },
+  {
+    title: "Wellness Sessions",
+    description:
+      "Daily mindfulness and reflection time to help students stay grounded and refreshed.",
+  },
+  {
+    title: "Sports and Fitness",
+    description:
+      "Optional morning jogs, friendly football matches, and light workouts to stay active.",
+  },
+  {
+    title: "Cultural Experiences",
+    description:
+      "Dance classes, local cuisine workshops, and interactive performances.",
+  },
+];
+
