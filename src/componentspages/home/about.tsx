@@ -51,7 +51,7 @@ const About = () => {
         
       </section>
       </div>
-<section className="relative px-[40px] flex flex-col items-center justify-center w-full md:hidden">
+<section className="relative px-[40px] flex flex-col items-center justify-center w-full md:hidden xl:flex">
   {/* Main Image */}
   <Image
     src="/images/Pictures(1).png"
