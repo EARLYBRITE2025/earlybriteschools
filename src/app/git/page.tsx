@@ -11,9 +11,13 @@ import SideAttraction from '@/componentspages/git/side-attractions'
 import BeyondTip from '@/componentspages/git/beyont-tip'
 import GitSocialproofpage from '@/componentspages/git/social-proof'
 import ProgramDetails from '@/componentspages/git/program-details'
+import ChildGain from '@/componentspages/git/child-gaim'
+import Faq from '@/componentspages/git/faq'
+import ContactUs from '@/componentspages/git/contact-us'
+import Footer from '@/componentspages/layouts/footer'
 const Gitpage = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <GitNavbar/>
       <GitHero/>
       <Vision/>
@@ -26,6 +30,10 @@ const Gitpage = () => {
       <BeyondTip/>
       <GitSocialproofpage/>
       <ProgramDetails/>
+      <ChildGain/>
+      <Faq/>
+      <ContactUs/>
+      <Footer/>
     </div>
   )
 }

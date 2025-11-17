@@ -11,7 +11,7 @@ const About = () => {
 
    <div className='xl:flex xl:items-center justify-center xl:gap-[50px] '>
        <div className='space-y-5 xl:w-[639px] w-[322px] '>
-        <h1 className='second-headers md:w-[624px] pl-5 xl:pl-0 md:text-[48px]'>
+        <h1 className='second-headers md:w-[624px] font-[family-name:var(--font-baloo2)] pl-5 xl:pl-0 md:text-[48px]'>
             What makes Earlybrite different?
         </h1>
         <p className='text-[#666666] xl:text-[18px] w-[322px] pl-5 xl:pl-0 font-medium  md:w-[624px] '>
@@ -35,11 +35,11 @@ const About = () => {
       <section className='flex flex-col items-center md:items-start justify-center pb-15  space-y-8 w-full'>
         <section className='space-y-8 md:space-y-0 md:flex-row md:space-x-8 md:flex md:items-center md:justify-center'> 
             <div className='flex flex-col items-start justify-center gap-1 '>
-            <span className='text-[#101010] text-center font-bold text-[36px] w-[148px]'>10,000+</span>
+            <span className='text-[#101010] font-[family-name:var(--font-baloo2)] text-center font-bold text-[36px] w-[148px]'>10,000+</span>
             <span className='text-[#666666] font-semibold text-center w-[148px]'>Children Trained</span>
         </div>
         <div className='flex flex-col items-start justify-center gap-1 '>
-           <span className='text-[#101010] text-center  font-bold text-[36px] w-[148px]'> 97%</span>
+           <span className='text-[#101010] font-[family-name:var(--font-baloo2)] text-center  font-bold text-[36px] w-[148px]'> 97%</span>
             <span className='text-[#666666] font-semibold text-center w-[148px]'>Satisfaction</span>
         </div>
         </section>
@@ -51,7 +51,7 @@ const About = () => {
         
       </section>
       </div>
-<section className="relative px-[40px] flex flex-col items-center justify-center w-full">
+<section className="relative px-[40px] flex flex-col items-center justify-center w-full md:hidden">
   {/* Main Image */}
   <Image
     src="/images/Pictures(1).png"

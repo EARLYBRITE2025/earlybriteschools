@@ -22,7 +22,7 @@ return()=>{
 }
   },[isOpen])
   return (
-   <header className="xl:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]">
+   <header className="xl:bg-gradient-to-r from-[#E1F5FE] h-[84px] to-[#FFF0CC]">
   <div className="xl:flex xl:items-center xl:justify-center">
     {/* Inner fixed-width container */}
     <nav className="w-full xl:w-[1202px] flex items-center justify-between px-[24px] xl:px-0 ">

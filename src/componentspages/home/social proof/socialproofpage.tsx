@@ -71,18 +71,18 @@ const Socialproofpage = () => {
     <main className="bg-[#00914721] w-full py-10 flex items-center justify-center">
       <section className="social-section bg-[#F9BB1E] h-[688px] md:h-[918px] md:w-[1200px] flex-col rounded-2xl flex items-center w-[322px]">
         <div className="text-[#000000] space-y-5 flex items-center justify-center pt-10 flex-col">
-          {/* --- Heading --- */}
+          {/*  Heading  */}
           <h1 className="social-heading w-[282px] font-[family-name:var(--font-baloo2)]  md:w-[504.9px] text-[33.42px] xl:text-[44.56px] font-bold text-center text-[#000000]">
             What Our Students & Parents Say
           </h1>
 
-          {/* --- Subtext --- */}
+          {/*  Subtext  */}
           <p className="social-subtext xl:text-[18px] text-[14.85px] font-semibold xl:font-normal w-[282px] xl:w-[504.9px] text-center">
             See how Earlybrite has helped young people build skills, confidence,
             and a sense of purpose.
           </p>
 
-          {/* --- Tabs --- */}
+          {/*  Tabs  */}
           <div className="social-tabs">
             <div className="bg-white p-[8px] items-center rounded-full gap-[14px] flex w-[192px] shadow-md">
               <div
@@ -95,8 +95,8 @@ const Socialproofpage = () => {
             </div>
           </div>
 
-          {/* --- Video Frame with YouTube Icon --- */}
-          <div className="relative inline-block w-full social-video-frame">
+          {/*  Video Frame with YouTube Icon  */}
+          <div className="relative inline-block w-full  social-video-frame">
             {/* Background image */}
             <Image
               src="/images/socialcenter-1.png"
@@ -110,7 +110,7 @@ const Socialproofpage = () => {
               width={1110}
               height={491}
               alt="socialcenter.image"
-              className="rounded-2xl hidden md:flex object-cover"
+              className="rounded-2xl hidden md:flex  object-cover"
             />
 
             {/* Centered YouTube icon */}

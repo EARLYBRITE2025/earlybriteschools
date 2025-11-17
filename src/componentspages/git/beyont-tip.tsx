@@ -14,9 +14,9 @@ const BeyondTip = () => {
   </div>
     </div>
 
-    <div className='w-[322px] bg-[#FFE5A2] rounded-2xl flex flex-col py-[57px] items-center  justify-start gap-[40px] h-[600px]' >
-        <h1 className='text-[#000000] pl-5 w-[220px] text-[36px] font-bold font-[family-name:var(--font-baloo2)] '>What this includes</h1>
-        <div className='w-[220px] flex flex-col  items-start  justify-start '>
+    <div className='w-[322px] bg-[#FFE5A2] rounded-2xl flex flex-col py-[57px] items-center  justify-start gap-[40px] h-[600px] md:hidden xl:flex' >
+        <h1 className='text-[#000000] pl-5 w-[220px] text-[36px] font-bold font-[family-name:var(--font-baloo2)] md:hidden xl:flex'>What this includes</h1>
+        <div className='w-[220px] flex flex-col  items-start  justify-start md:hidden xl:flex'>
             <ul className='flex flex-col font-bold text-[#000000] gap-[18px]  text-[20px] items-center justify-center '>
                 <li className='flex    '>
                 <span><Check/></span>   Digital Skills & AI Fluency Training
@@ -57,7 +57,7 @@ const BeyondTip = () => {
   </div>
     </div>
 
-    <div className='w-[322px] bg-[#FFE5A2]  rounded-2xl  w-[675px] flex flex-col py-[57px] px-[51px] items-start  justify-center gap-[40px] h-[394px]' >
+    <div className='w-[322px] bg-[#FFE5A2]  rounded-2xl  w-[675px] flex flex-col py-[57px] px-[51px] items-start  justify-center gap-[40px] h-[394px] md:hidden xl:flex ' >
         <h1 className='text-[#000000] pl-5 w-[331px] text-[40px] font-bold font-[family-name:var(--font-baloo2)] '>What this includes</h1>
         <div className='w-[573px] flex flex-col   items-start  justify-start '>
             <ul className='flex flex-col items-start font-bold text-[#000000] gap-[18px]  text-[20px] items-center justify-center '>
@@ -86,7 +86,7 @@ const BeyondTip = () => {
     <div className='hidden'>
         <Image
         src="/images/side-attraction.png"
-        width={1460}
+        width={1440}
         height={709}
         alt=''
         className=''

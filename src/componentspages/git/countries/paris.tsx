@@ -31,13 +31,12 @@ You will
                 </div>
                   <div className='md:hidden '>
                 <Image
-                src="/images/Pictures(2).png"
+                src="/images/paris-mobile.png"
                 alt=''
                 height={428.130156}
                 width={428.1361389160156}
+                className='rounded-xl'
                 />
-                
-               
             </div>
             </div>
     
@@ -56,71 +55,61 @@ You will
            </section>
            {/*lg screens*/}
        </main>
-       <main className="xl:bg-[#F2F2F2] hidden md:flex items-center justify-center  pb-10 ">
-     
-       <section className="bg-[#ffffff] flex flex-col md:flex-row items-center 
-                           xl:w-[1200px] px-[45px] pt-[65px]  pb-[95px] gap-[45px] xl:gap-[45px] hidden md:flex
-                           xl:rounded-xl xl:h-[750px]">
-     
-         {/* IMAGE - always first on md & xl */}
-         <div className="w-full h-full md:w-1/2   flex justify-center">
-           <Image
-             src="/images/paris-git.png"
-             alt=""
-             height={600}
-             width={684}
-             className="object-cover w-full h-full rounded-xl"
-           />
-         </div>
-     
-         {/* TEXT - always second on md & xl */}
-         <div className="flex flex-col gap-[40px] text-black 
-                         w-[322px] h-[626px] md:w-[400px] xl:w-[583px]">
-     
-          <div className='flex flex-col justify-center gap-[18px] h-[288px] items-start'>
-             <h1 className="text-[40px] w-[455px] font-[family-name:var(--font-baloo2)] font-bold">
-             <span className="text-[#009147] font-bold ">Paris:</span> Innovation, Branding, and Leadership
-           </h1>
-     
-          <div className='h-[176px] gap-[18px] flex flex-col'>
-             <p className="text-[18px] w-[465px] font-bold">
-              Your final stop is Paris, a city that celebrates creativity, culture, and big ideas
-           </p>
-     
-           <p className="text-[18px] leading-relaxed w-[465px]">
-            Here, you'll learn how innovation meets imagination and how the power of creativity can shape businesses, brands, and futures.
-You will
-           </p>
-          </div>
-     
-          </div>
-           <div className="flex flex-col gap-[18px] w-[465px] h-[234px]  items-start  justify-start text-[18px] text-[#666666] text-[18px]">
-             <span className="flex items-start justify-start gap-[10px]">
-               <Check />Join a Branding and Marketing Workshop led by industry experts, where you'll learn how global brands like those in fashion and luxury 
-               use storytelling and design to make an impact.
-             </span>
-     
-             <span className="flex items-start justify-start gap-[10px]">
-               <Check />Work with your group to create and present an innovative product or service, applying everything you've learned throughout the trek
-             </span>
-     
-             <span className="flex items-start justify-start ">
-               <Check />Visit a Technology and Science Museum to explore France's legacy of invention and discovery.
-             </span>
-           </div>
-     
-           <div className="flex mt-3 items-start">
-             <button className="bg-[#1A94D2] reuseable-button w-[212px] text-white">
-               <span className="flex gap-4 items-center group justify-center text-white">
-                 Talk to Us <WhiteRightarrowSvg />
-               </span>
-             </button>
-           </div>
-     
-         </div>
-     
-       </section>
-     </main>
+      <main className="xl:bg-[#F2F2F2] hidden md:flex items-center justify-center pb-10">
+  <section className="bg-white flex flex-col md:flex-row items-start xl:w-[1200px] px-[45px] pt-[65px] pb-[95px] gap-[45px] xl:rounded-xl xl:h-[750px]">
+    {/* IMAGE */}
+    <div className="w-full md:w-[50%] flex justify-center xl:justify-start">
+      <Image
+        src="/images/paris-git.png"
+        width={615}
+        height={600}
+        alt="Visit Paris"
+        className="rounded-3xl w-full max-w-[615px] h-auto object-cover"
+      />
+    </div>
+
+    {/* TEXT */}
+    <div className="w-full md:w-[50%] xl:w-[583px] flex flex-col gap-[32px] text-black">
+      {/* Heading + intro */}
+      <div className="flex flex-col gap-[16px] items-start">
+        <h1 className="text-[40px] font-[family-name:var(--font-baloo2)] font-bold leading-tight text-left">
+          <span className="text-[#009147] font-bold">Paris:</span> Innovation, Branding, and Leadership
+        </h1>
+
+        <div className="flex flex-col gap-[12px] text-[18px]">
+          <p className="font-bold text-left">
+            Your final stop is Paris, a city that celebrates creativity, culture, and big ideas
+          </p>
+          <p className="leading-relaxed text-left">
+            Here, you'll learn how innovation meets imagination and how the power of creativity can shape businesses, brands, and futures. You will
+          </p>
+        </div>
+      </div>
+
+      {/* Bulleted checks */}
+      <div className="flex flex-col gap-[14px] text-[18px] text-[#666666]">
+        
+          <ul className='flex flex-col gap-[16px]'>
+            <li className='flex gap-[22px]'>Join a Branding and Marketing Workshop led by industry experts, where you'll learn how global brands like those in fashion and luxury use storytelling and design to make an impact. </li>
+             <li className='flex gap-[22px]'>Work with your group to create and present an innovative product or service, applying everything you've learned throughout the trek</li>
+              <li className='flex gap-[22px]'>Visit a Technology and Science Museum to explore France's legacy of invention and discovery.</li>
+          </ul>
+           
+        
+      </div>
+
+      {/* CTA */}
+      <div className="flex">
+        <button className="bg-[#1A94D2] reuseable-button w-[212px] text-white">
+          <span className="flex gap-4 items-center justify-center text-white">
+            Talk to Us <WhiteRightarrowSvg />
+          </span>
+        </button>
+      </div>
+    </div>
+  </section>
+</main>
+
         
     </>
   )

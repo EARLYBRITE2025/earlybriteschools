@@ -71,9 +71,8 @@ const Hero = () => {
    <>
    <section className='hero  md:bg-gradient-to-r from-[#E1F5FE]'id='home'>
     <div className='hero-first-div '>
-       <div className={` hero-div flex flex-col space-y-5  justify-center items-center
-    
-     w-full md:items-start  `}>
+       <div className=" hero-div flex flex-col space-y-5  justify-center items-center
+     w-full md:items-start md:px-5 ">
       
              <h1 className='classic text-[36px]   xl:text-[60px] w-[354px]  font-[family-name:var(--font-baloo2)] font-bold text-black xl:w-[530px] ' id='classics' >
         Building <span className='text-[#009147] md:text-black'>strong minds</span> and <span className='text-[#009147] md:text-black'>bright futures</span> for African children.
