@@ -7,6 +7,10 @@ export interface FeatureCard {
   buttonText: string;
   age?:string
 }
+export interface ActivityType {
+  title: string;
+  description: string;
+}
 
 
 
@@ -103,5 +107,58 @@ export const features: FeatureItem[] = [
     icon:"/images/check.svg",
     title: "Lifelong Mentorship",
     paragraph: "Participants receive ongoing guidance through our Elite Mentorship Program (TEMP) even after returning home.",
+  },
+];
+
+export const activities: ActivityType[] = [
+  {
+    title: "City Tours",
+    description:
+      "Guided visits to historic landmarks and hidden gems in each destination.",
+  },
+  {
+    title: "Wellness Sessions",
+    description:
+      "Daily mindfulness and reflection time to help students stay grounded and refreshed.",
+  },
+  {
+    title: "Sports and Fitness",
+    description:
+      "Optional morning jogs, friendly football matches, and light workouts to stay active.",
+  },
+  {
+    title: "Cultural Experiences",
+    description:
+      "Dance classes, local cuisine workshops, and interactive performances.",
+  },
+];
+
+export const programDetails = [
+  {
+    title: "Age Range",
+    value: "12 years and above",
+  },
+  {
+    title: "Destinations",
+    value: "Portugal · Spain · France",
+  },
+  {
+    title: "Dates",
+    value: "July - August 2027 (Summer)",
+  },
+  {
+    title: "Eligibility",
+    value: "Motivated students with curiosity, creativity, and a passion for growth",
+  },
+  {
+    title: "Duration",
+    value: "20 days in Europe + 30 months of guided mentorship",
+  },
+  {
+    title: "Investment",
+    value: [
+      "$8,500 (All-inclusive)",
+      "$6,000 (Excluding TEMP mentorship)"
+    ],
   },
 ];

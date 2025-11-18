@@ -40,7 +40,7 @@ const Programmes = () => {
       </section>
 
       {/* md and lg view: responsive grid */}
-      <section className="hidden md:grid xl:hidden grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10 pt-20 pb-20 px-6 md:px-10 bg-[#F2F2F2]">
+      <section className="hidden md:grid xl:hidden grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10 pt-20 pb-20 px-5 md:px-10 bg-[#F2F2F2]">
         <h1 className="col-span-full text-[32px] md:text-[36px] lg:text-[40px] font-bold font-[family-name:var(--font-baloo2)] text-center mb-5">
           Programs Overview
         </h1>
