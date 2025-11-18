@@ -26,7 +26,7 @@ const Spain = () => {
         <div className='flex flex-col text-start text-black gap-[18px] w-[322px] '>
             <span className='flex gap-[22px]'><Check/>Take part in a Design Thinking workshop that teaches you how to solve problems with creativity and collaboration.</span>
             <span className='flex item-center gap-[22px] '><Check/>Visit a sports tech center and see how technology shapes modern football, from player performance to fan experience.</span>
-            <span className='flex justify-center gap-[22px]'><Check/>Discover Spain's role in global innovation, from renewable energy to fashion technology.</span>
+            <span className='flex justify-center gap-[22px]'><Check/>Discover Spain&apos;s role in global innovation, from renewable energy to fashion technology.</span>
         </div>
         
              <div className='flex items-center w-[322px]  xl:w-[583px]  space-x-3 xl:items-start justify-start whitespace-nowrap md:items-center' >
@@ -106,7 +106,7 @@ const Spain = () => {
         </span>
 
         <span className="flex items-start justify-start ">
-           Discover Spain's role in global innovation, from renewable energy 
+           Discover Spain&apos;s role in global innovation, from renewable energy
           to fashion technology.
         </span>
       </div>

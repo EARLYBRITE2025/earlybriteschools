@@ -1,4 +1,5 @@
 import React from "react"
+import Image from "next/image"
 import { featureCards } from "../layouts/constants/constants"
 import { WhiteRightarrowSvg } from "../../../public/svg/constants"
 import Link from "next/link"
@@ -9,7 +10,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-import { Card, CardContent } from "@/components/ui/card"
+import { Card } from "@/components/ui/card"
 
 const Programmes = () => {
   return (
@@ -23,9 +24,11 @@ const Programmes = () => {
               key={card.id}
               className="bg-white rounded-2xl shadow-md hover:shadow-lg transition w-full"
             >
-              <img
+              <Image
                 src={card.image}
                 alt={card.title}
+                width={400}
+                height={250}
                 className="w-full h-[200px] sm:h-[250px] object-cover rounded-t-2xl"
               />
               <div className="p-4 space-y-2">
@@ -49,9 +52,11 @@ const Programmes = () => {
             key={card.id}
             className="bg-white rounded-2xl shadow-md hover:shadow-lg transition w-full flex flex-col"
           >
-            <img
+            <Image
               src={card.image}
               alt={card.title}
+              width={400}
+              height={275}
               className="w-full h-[220px] md:h-[250px] lg:h-[275px] object-cover rounded-t-2xl"
             />
             <div className="p-4 flex-1 flex flex-col">
@@ -84,9 +89,11 @@ const Programmes = () => {
               
               {/* Top image flush */}
               <div className="relative w-full">
-                <img
+                <Image
                   src={card.image}
                   alt={card.title}
+                  width={400}
+                  height={275}
                   className="w-full h-[275px] object-cover block rounded-none"
                 />
               </div>

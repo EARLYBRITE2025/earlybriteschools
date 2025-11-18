@@ -1,6 +1,6 @@
 import React from 'react'
-import { features } from '../layouts/constants/constants'
 import Image from 'next/image'
+import { features } from '../layouts/constants/constants'
 const About = () => {
   return (
     <>
@@ -14,9 +14,11 @@ const About = () => {
       key={index}
       className="w-[290px] h-[229px] pt-[24px] px-[24px] pb-[45px] bg-white rounded-xl shadow flex flex-col items-start justify-start"
     >
-      <img
+      <Image
         src={item.icon}
         alt={item.title}
+        width={48}
+        height={48}
         className="w-[48.5px] h-[48.5px] object-cover rounded-lg"
       />
       <h3 className="text-[24px] font-bold mt-4">{item.title}</h3>

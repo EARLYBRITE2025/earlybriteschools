@@ -15,8 +15,8 @@ const SideAttraction = () => {
             </h1>
 
             <p className="text-[#666666] text-[16px] md:text-[18px] leading-relaxed">
-              The Global Innovation Trek isn't only about learning in workshops
-              or classrooms. It's a well-rounded experience that builds
+              The Global Innovation Trek isn&apos;t only about learning in workshops
+              or classrooms. It&apos;s a well-rounded experience that builds
               character, curiosity, and cultural appreciation through guided
               activities designed for safety and joy.
             </p>

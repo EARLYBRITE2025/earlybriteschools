@@ -54,7 +54,7 @@ const Footer = () => {
             At Earlybrite, we help young learners build confidence, creativity,
             and the skills to thrive in a changing world. Our programs combine
             curiosity-driven learning with practical knowledge that prepares
-            every child for what's ahead.
+            every child for what&apos;s ahead.
           </p>
 
           <span className="hidden md:block lg:hidden text-sm opacity-80 font-semibold">

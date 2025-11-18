@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { Check } from '../../../../public/svg/constants'
 import { WhiteRightarrowSvg } from '../../../../public/svg/constants'
 const Portugal = () => {
   return (
@@ -17,7 +16,7 @@ const Portugal = () => {
             Lisbon  Entrepreneurship and Financial Literacy
         </p>
     <p className='w-[322px] text-start text-[18px] text-black xl:w-[583px]'>
-  Your journey begins in Lisbon, one of Europe's most vibrant startup hubs. Here, 
+  Your journey begins in Lisbon, one of Europe&apos;s most vibrant startup hubs. Here, 
   you will experience what it feels like to turn ideas into real ventures
     </p>
     <div className='flex flex-col text-start text-black gap-[18px] w-[322px] '>

@@ -18,9 +18,11 @@ const About = () => {
         </p>
         {learningHighlights.map((item) => (
         <div key={item.id} className="flex items-start gap-4 w-full">
-          <img
+          <Image
             src={item.icon}
             alt={item.title}
+            width={24}
+            height={24}
             className="w-[20px] h-[20px] md:w-[24px] md:h-[24px] object-contain flex-shrink-0 mt-1"
           />
           <div className='w-full'>

@@ -1,10 +1,8 @@
 'use client'
 import React from 'react'
-import {  Baloo_2 } from 'next/font/google'
 import { useLayoutEffect } from "react";
 import {gsap} from 'gsap'
 import { SplitText } from "gsap/SplitText"
-import { useGSAP } from "@gsap/react";
 import { WhiteRightarrowSvg } from '../../../public/svg/constants'
 import Image from 'next/image'
 

@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { Check } from '../../../../public/svg/constants'
 import { WhiteRightarrowSvg } from '../../../../public/svg/constants'
 const Paris = () => {
   return (
@@ -17,13 +16,13 @@ const Paris = () => {
             </p>
         <p className='w-[322px] text-start text-[18px] text-black xl:w-[583px]'>
      
-Here, you'll learn how innovation meets imagination and how the power of creativity can shape businesses, brands, and futures.
+Here, you&apos;ll learn how innovation meets imagination and how the power of creativity can shape businesses, brands, and futures.
 You will
         </p>
         <div className='flex flex-col text-start text-black gap-[18px] w-[322px] '>
-            <span className='flex gap-[22px]'>Join a Branding and Marketing Workshop led by industry experts, where you'll learn how global brands like those in fashion and luxury use storytelling and design to make an impact.</span>
-            <span className='flex item-center gap-[22px] '>Work with your group to create and present an innovative product or service, applying everything you've learned throughout the trek</span>
-            <span className='flex justify-center gap-[22px]'>Visit a Technology and Science Museum to explore France's legacy of invention and discovery.</span>
+            <span className='flex gap-[22px]'>Join a Branding and Marketing Workshop led by industry experts, where you&apos;ll learn how global brands like those in fashion and luxury use storytelling and design to make an impact.</span>
+            <span className='flex item-center gap-[22px] '>Work with your group to create and present an innovative product or service, applying everything you&apos;ve learned throughout the trek</span>
+            <span className='flex justify-center gap-[22px]'>Visit a Technology and Science Museum to explore France&apos;s legacy of invention and discovery.</span>
         </div>
         
              <div className='flex items-center w-[322px]  xl:w-[583px]  space-x-3 xl:items-start justify-start whitespace-nowrap md:items-center' >
@@ -81,7 +80,7 @@ You will
             Your final stop is Paris, a city that celebrates creativity, culture, and big ideas
           </p>
           <p className="leading-relaxed text-left">
-            Here, you'll learn how innovation meets imagination and how the power of creativity can shape businesses, brands, and futures. You will
+            Here, you&apos;ll learn how innovation meets imagination and how the power of creativity can shape businesses, brands, and futures. You will
           </p>
         </div>
       </div>
@@ -90,9 +89,9 @@ You will
       <div className="flex flex-col gap-[14px] text-[18px] text-[#666666]">
         
           <ul className='flex flex-col gap-[16px]'>
-            <li className='flex gap-[22px]'>Join a Branding and Marketing Workshop led by industry experts, where you'll learn how global brands like those in fashion and luxury use storytelling and design to make an impact. </li>
-             <li className='flex gap-[22px]'>Work with your group to create and present an innovative product or service, applying everything you've learned throughout the trek</li>
-              <li className='flex gap-[22px]'>Visit a Technology and Science Museum to explore France's legacy of invention and discovery.</li>
+            <li className='flex gap-[22px]'>Join a Branding and Marketing Workshop led by industry experts, where you&apos;ll learn how global brands like those in fashion and luxury use storytelling and design to make an impact. </li>
+             <li className='flex gap-[22px]'>Work with your group to create and present an innovative product or service, applying everything you&apos;ve learned throughout the trek</li>
+              <li className='flex gap-[22px]'>Visit a Technology and Science Museum to explore France&apos;s legacy of invention and discovery.</li>
           </ul>
            
         

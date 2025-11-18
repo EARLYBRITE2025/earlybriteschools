@@ -100,12 +100,12 @@ const Contact = () => {
         {/* LEFT TEXT SIDE */}
         <div className="gap-[24px] sm:gap-[32px] md:gap-[40px] flex flex-col w-full md:w-1/2">
           <h1 className="contact-heading w-full max-w-[322px] sm:max-w-[380px] md:max-w-[420px] lg:max-w-[454px] text-[32px] sm:text-[38px] md:text-[44px] lg:text-[52px] xl:text-[56.62px] font-[family-name:var(--font-baloo2)] font-bold text-[#FFFFFF]">
-            Let's build the <strong className="text-[#009147]">future</strong>{" "}
+            Let&apos;s build the <strong className="text-[#009147]">future</strong>{" "}
             together.
           </h1>
 
           <p className="contact-text w-full max-w-[322px] sm:max-w-[380px] md:max-w-[420px] lg:max-w-[454px] text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] xl:text-[18.87px] text-[#FFFFFF]">
-            Whether you're a parent, student, or educator, there's a place for
+            Whether you&apos;re a parent, student, or educator, there&apos;s a place for
             you at Earlybrite.
           </p>
 
