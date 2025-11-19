@@ -21,7 +21,7 @@ const Programmes = () => {
           {featureCards.map((card) => (
             <div
               key={card.id}
-              className="bg-white rounded-2xl h-[603px] shadow-md w-[353px] hover:shadow-lg transition"
+              className="bg-white rounded-2xl h-[603px] w-[353px] hover:shadow-lg transition"
             >
               <img
                 src={card.image}
@@ -32,7 +32,7 @@ const Programmes = () => {
                 <h3 className="text-[24px] font-bold mb-2 font-[family-name:var(--font-baloo2)] xl:text-[48px]">{card.title}</h3>
                 <p className="text-[#B1B1B1]">{card.age}</p>
                 <p className="text-gray-600 mb-4">{card.description}</p>
-                <Link href="/git" className="button bg-[#1A94D2]">{card.buttonText}</Link>
+                <Link href={card.herf} className="button bg-[#1A94D2]">{card.buttonText}</Link>
               </div>
             </div>
           ))}
@@ -58,7 +58,7 @@ const Programmes = () => {
               <h3 className="text-[24px] font-bold mb-2">{card.title}</h3>
               <p className="text-[#B1B1B1]">{card.age}</p>
               <p className="text-gray-600 mb-4">{card.description}</p>
-              <Link href="/git" className="button bg-[#1A94D2]">{card.buttonText}</Link>
+              <Link href={card.herf}  className="button bg-[#1A94D2]">{card.buttonText}</Link>
             </div>
           </div>
         ))}
@@ -97,7 +97,7 @@ const Programmes = () => {
                   <p className="text-[#B1B1B1]">{card.age}</p>
                   <p className="text-gray-600 mb-4">{card.description}</p>
                 </div>
-                 <Link href="/git" className="button bg-[#1A94D2] text-white mt-auto">
+                 <Link href={card.herf}className="button bg-[#1A94D2] text-white mt-auto">
                   <span className="flex items-center gap-2">
                     {card.buttonText}
                     <WhiteRightarrowSvg />
