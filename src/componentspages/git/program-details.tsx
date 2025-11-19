@@ -2,7 +2,7 @@ import React from 'react'
 import { programDetails } from '../layouts/constants/constants'
 const ProgramDetails = () => {
   return (
-    <section className='bg-white flex flex-col items-center p-[40px] justify-center'>
+    <section className='bg-white flex flex-col items-center p-5 md:p-[40px] justify-center'>
         <h1 className='text-black text-[36px] font-[family-name:var(--font-baloo2)] font-bold'>Program Details</h1>
         <div className=' xl:grid xl:grid-cols-3 xl:grid-rows-2 gap-4'>
             {programDetails.map((item, index) => (

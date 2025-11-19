@@ -4,7 +4,7 @@ import gsap from "gsap"
 import { RightarrowSvg } from '../../../public/svg/constants'
 import { SplitText } from "gsap/SplitText"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger)
 const Features = () => {
@@ -157,11 +157,11 @@ const el = imgRef.current;
         xl:h-[330px] flex flex-col justify-center '>  
 
         <h2 className='second-header xl:text-[48px] xl:w-[483px] font-[family-name:var(--font-baloo2)] '>
-            Shaping  Africa's future, one learner at a time.
+            Shaping  Africa&apos;s future, one learner at a time.
         </h2>
         <p className='w-[251px] text-[#FFFFFF] w-[280px] xl:w-[483px] text-[#FFFFFF] text-[18px]   '>
-            Our vision is to become the most trusted and innovative learning destination for young people worldwide. 
-            We want every learner, wherever they are, to access quality education that's
+            Our vision is to become the most trusted and innovative learning destination for young people worldwide.
+            We want every learner, wherever they are, to access quality education that&apos;s
              practical, global, and fun.
         </p>
         <button className='button bg-[#F9BB1E]'>

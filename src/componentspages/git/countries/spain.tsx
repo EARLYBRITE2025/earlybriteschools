@@ -9,7 +9,7 @@ const Spain = () => {
        
         
        <main className='xl:bg-[#F2F2F2] xl:flex xl:items-center xl:justify-center xl:px-[120px] xl:py-[60px] '>
-            <section className='bg-[#FFE5A2] flex items-center xl:w-[1200px] p-[45px] xl:gap-[45px] xl:rounded-xl gap-[120px] md:hidden xl:h-[690px]'>
+            <section className='bg-[#FFE5A2] flex items-center xl:w-[1200px] p-5 xl:p-[45px] xl:gap-[45px] xl:rounded-xl gap-[120px] md:hidden xl:h-[690px]'>
              <div className=' flex items-start  h-auto w-[402]   justify-start  flex-col gap-[30px]
               xl:w-[1440px]  xl:w-[583px] xl:h-[577px]
              '>
@@ -26,7 +26,7 @@ const Spain = () => {
         <div className='flex flex-col text-start text-black gap-[18px] w-[322px] '>
             <span className='flex gap-[22px]'><Check/>Take part in a Design Thinking workshop that teaches you how to solve problems with creativity and collaboration.</span>
             <span className='flex item-center gap-[22px] '><Check/>Visit a sports tech center and see how technology shapes modern football, from player performance to fan experience.</span>
-            <span className='flex justify-center gap-[22px]'><Check/>Discover Spain's role in global innovation, from renewable energy to fashion technology.</span>
+            <span className='flex justify-center gap-[22px]'><Check/>Discover Spain&apos;s role in global innovation, from renewable energy to fashion technology.</span>
         </div>
         
              <div className='flex items-center w-[322px]  xl:w-[583px]  space-x-3 xl:items-start justify-start whitespace-nowrap md:items-center' >
@@ -61,8 +61,8 @@ const Spain = () => {
         
    <main className="xl:bg-[#F2F2F2] hidden md:flex items-center justify-center xl:px-[120px] ">
 
-  <section className="bg-[#FFE5A2] flex flex-col md:flex-row items-center 
-                      xl:w-[1200px] p-[45px] gap-[45px] xl:gap-[45px] hidden md:flex
+  <section className="bg-[#FFE5A2] flex flex-col md:flex-row items-center
+                      xl:w-[1200px] p-5 md:p-[45px] gap-[45px] xl:gap-[45px] hidden md:flex
                       xl:rounded-xl xl:h-[690px]">
 
     {/* IMAGE - always first on md & xl */}
@@ -106,7 +106,7 @@ const Spain = () => {
         </span>
 
         <span className="flex items-start justify-start ">
-           Discover Spain's role in global innovation, from renewable energy 
+           Discover Spain&apos;s role in global innovation, from renewable energy
           to fashion technology.
         </span>
       </div>

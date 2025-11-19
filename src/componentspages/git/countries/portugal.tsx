@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image'
-import { Check } from '../../../../public/svg/constants'
 import { WhiteRightarrowSvg } from '../../../../public/svg/constants'
 const Portugal = () => {
   return (
@@ -8,7 +7,7 @@ const Portugal = () => {
    
     
    <main className='xl:bg-[#F2F2F2] xl:flex xl:items-start xl:justify-center xl:px-[120px] xl:pt-[30px] '>
-        <section className='bg-[#FFFFFF] flex items-center  xl:w-[1200px] p-[45px] xl:gap-[45px] xl:rounded-xl gap-[120px] xl:h-[690px]'>
+        <section className='bg-[#FFFFFF] flex items-center  xl:w-[1200px] p-5 xl:p-[45px] xl:gap-[45px] xl:rounded-xl gap-[120px] xl:h-[690px]'>
          <div className=' flex items-start  h-auto w-[402]   justify-start  flex-col gap-[30px]
           xl:w-[1440px]  xl:w-[583px] xl:h-[577px]
          '>
@@ -17,7 +16,7 @@ const Portugal = () => {
             Lisbon  Entrepreneurship and Financial Literacy
         </p>
     <p className='w-[322px] text-start text-[18px] text-black xl:w-[583px]'>
-  Your journey begins in Lisbon, one of Europe's most vibrant startup hubs. Here, 
+  Your journey begins in Lisbon, one of Europe&apos;s most vibrant startup hubs. Here, 
   you will experience what it feels like to turn ideas into real ventures
     </p>
     <div className='flex flex-col text-start text-black gap-[18px] w-[322px] '>

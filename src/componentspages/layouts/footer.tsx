@@ -36,12 +36,12 @@ const Footer = () => {
     <footer
       ref={footerRef}
       className="footer-wrapper bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]
-      py-10 px-6 flex items-center justify-center w-full flex-col "
+      py-10 px-5 md:px-6 flex items-center justify-center w-full flex-col "
     >
       <div
         className="
-        footer-box bg-[#FFFFFF80] rounded-2xl 
-        py-10 px-8 w-full max-w-[1200px]
+        footer-box bg-[#FFFFFF80] rounded-2xl
+        py-10 px-5 md:px-8 w-full max-w-[1200px]
         flex flex-col lg:flex-row 
         gap-14 lg:gap-20
         "
@@ -54,7 +54,7 @@ const Footer = () => {
             At Earlybrite, we help young learners build confidence, creativity,
             and the skills to thrive in a changing world. Our programs combine
             curiosity-driven learning with practical knowledge that prepares
-            every child for what's ahead.
+            every child for what&apos;s ahead.
           </p>
 
           <span className="hidden md:block lg:hidden text-sm opacity-80 font-semibold">

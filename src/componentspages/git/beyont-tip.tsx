@@ -4,10 +4,10 @@ import { Check } from '../../../public/svg/constants'
 const BeyondTip = () => {
   return (
    <>
-   <section className='bg-[#1A94D2] items-center flex justify-center flex-col p-[40px] gap-[40px] md:hidden' >
+   <section className='bg-[#1A94D2] items-center flex justify-center flex-col p-5 md:p-[40px] gap-[40px] md:hidden' >
     <div className='flex flex-col text-[#FFFFFF] w-[322px] gap-[16px]'>
         <h1 className='text-[36px] font-bold font-[family-name:var(--font-baloo2)] '>Beyond the Trip</h1>
-        <p className='text-[18px]'>Every GIT participant continues their development through Earlybrite's Elite Mentorship Program (TEMP),
+        <p className='text-[18px]'>Every GIT participant continues their development through Earlybrite&apos;s Elite Mentorship Program (TEMP),
              a structured 30-month roadmap that ensures their global learning becomes lifelong growth.</p>
              <div className='flex items-center w-[322px]  xl:w-[583px]  space-x-3 xl:items-start justify-start whitespace-nowrap md:items-center' >
  <button className='bg-[#F9BB1E] reuseable-button'>Apply For GIT</button>
@@ -46,11 +46,11 @@ const BeyondTip = () => {
 
    </section>
 
-    <section className='bg-[#1A94D2] items-center flex h-[943px] justify-center flex-col p-[40px] gap-[40px] hidden md:flex' >
+    <section className='bg-[#1A94D2] items-center flex h-[943px] justify-center flex-col p-5 md:p-[40px] gap-[40px] hidden md:flex' >
   <div className='flex justify-between w-[1200px]'>
       <div className='flex flex-col text-[#FFFFFF] w-[322px] gap-[16px]'>
         <h1 className='text-[40px] font-bold font-[family-name:var(--font-baloo2)] '>Beyond the Trip</h1>
-        <p className='text-[18px] w-[454px]'>Every GIT participant continues their development through Earlybrite's Elite Mentorship Program (TEMP),
+        <p className='text-[18px] w-[454px]'>Every GIT participant continues their development through Earlybrite&apos;s Elite Mentorship Program (TEMP),
              a structured 30-month roadmap that ensures their global learning becomes lifelong growth.</p>
              <div className='flex items-center w-[322px]  xl:w-[583px]  space-x-3 xl:items-start justify-start whitespace-nowrap md:items-center' >
  <button className='bg-[#202D60] w-[212px] text-white reuseable-button'>Speak With An Advisor</button>
