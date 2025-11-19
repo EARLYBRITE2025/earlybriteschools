@@ -1,12 +1,42 @@
-import React from "react";
-import Navbar from "@/componentspages/layouts/Navbar";
-import GitHero from "@/componentspages/gap/hero";
-function GP() {
+import React from 'react'
+import GapNavbar from '@/componentspages/gap/nav'
+import GitHero from '@/componentspages/gap/hero'
+import AboutUs from '@/componentspages/gap/about-us'
+import ProgrammeOverview from '@/componentspages/gap/programme-overview'
+import Sponsors from '@/componentspages/gap/spomsors'
+import Target from '@/componentspages/gap/target'
+import Trusted from '@/componentspages/gap/trusted'
+import ProgramStructure from '@/componentspages/gap/program-structure'
+import WorldClass from '@/componentspages/gap/world-class'
+import Apply from '@/componentspages/gap/apply'
+import Conclusion from '@/componentspages/gap/conclusion'
+import About from '@/componentspages/git/about'
+import ProgramDetails from '@/componentspages/git/program-details'
+import Faqs from '@/componentspages/gap/faqs'
+import Footer from '@/componentspages/layouts/footer'
+
+function GAP() {
   return (
     <div>
-      <GitHero />
+      <GapNavbar/>
+      <GitHero/>
+      <AboutUs/>
+      <Sponsors/>
+      <ProgrammeOverview/>
+      <Target/>
+      <Trusted/>
+      <ProgramStructure/>
+      <WorldClass/>
+      <Apply/>
+      <Conclusion/>
+      <About/>
+      <ProgramDetails/>
+      <Faqs/>
+      <Footer/>
+      
+      
     </div>
-  );
+  )
 }
 
-export default GP;
+export default GAP
