@@ -1,3 +1,5 @@
+import Footer from "@/componentspages/layouts/footer";
+import Navbar from "@/componentspages/layouts/Navbar";
 import "./globals.css";
 import { Nunito, Baloo_2 } from "next/font/google";
 
@@ -21,11 +23,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-  <html lang="en" className={`${nunito.variable} ${baloo2.variable}`}>
-  <body className={nunito.className}>
-    {children}
-  </body>
-</html>
-
+    <html lang="en" className={`${nunito.variable} ${baloo2.variable}`}>
+      <body className={nunito.className}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
+    </html>
   );
 }

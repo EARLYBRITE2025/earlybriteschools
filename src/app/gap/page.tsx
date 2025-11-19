@@ -1,14 +1,12 @@
-import React from 'react'
-import Navbar from '@/componentspages/layouts/Navbar'
-import GitHero from '@/componentspages/gap/hero'
+import React from "react";
+import Navbar from "@/componentspages/layouts/Navbar";
+import GitHero from "@/componentspages/gap/hero";
 function GP() {
   return (
     <div>
-      <Navbar/>
-      <GitHero/>
-      
+      <GitHero />
     </div>
-  )
+  );
 }
 
-export default GP
+export default GP;
