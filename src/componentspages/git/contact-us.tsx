@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { WhiteRightarrowSvg, RightarrowSvg } from '../../../public/svg/constants'
 const ContactUs = () => {
   return (
-  <div className='xl:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC] xl:flex xl:items-center xl:justify-center xl:p-[45px]'>
+  <div className='xl:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC] xl:flex xl:items-center xl:justify-center xl:p-[45px]' id='contact'>
      <section className=' bg-[#009147] rounded-xl p-[40px] flex xl:w-[1201px] xl:h-[642px] flex-col  md:gap-[220px] md:flex-row md:justify-between items-center justify-center '>
      <div className='w-[322px] flex flex-col gap-[40px]  '>
         <h1 className='text-[36px] text-white font-bold font-[family-name:var(--font-baloo2)] xl:text-[56.62px] xl:w-[508px]'>Ready to Give Your Child <span className='text-[#F9BB1E]'> Global Advantage?</span></h1>

@@ -5,9 +5,10 @@ import { RightarrowSvg} from '../../../public/svg/constants'
 import HoverDropdown from '../shadcnuicomponents/hovercard'
 import { LogoSvg } from '../../../public/svg/constants'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 const GitNavbar = () => {
 const[isOpen, setIsOpen] =React.useState(false)
-
+const router = useRouter()
   function clicker(){
     setIsOpen(prev=>!prev)
 }
@@ -22,7 +23,7 @@ return()=>{
 }
   },[isOpen])
   return (
-   <header className="bg-gradient-to-r from-[#E1F5FE] h-[84px] to-[#FFF0CC]">
+   <header className="bg-gradient-to-r from-[#E1F5FE] h-[84px] to-[#FFF0CC] sticky top-0 ">
   <div className="xl:flex xl:items-center xl:justify-center">
     {/* Inner fixed-width container */}
     <nav className="w-full xl:w-[1202px] flex items-center justify-between px-5 xl:px-0 ">
@@ -31,10 +32,10 @@ return()=>{
       <div>
         <LogoSvg />
       </div>
-
+ 
       {/* Center nav items */}
       <div className="hidden md:flex gap-10 lg:gap-5 md:gap-5">
-        <button className="flex items-center gap-3 bg-[#202D60] rounded-full text-white py-[12px] px-[24px] md:px-[20px] md:py-[10px] hover:bg-[#4A5DFF] transition-all duration-300">
+        <button onClick={()=> router.push("/for-school")}  className="flex items-center gap-3 bg-[#202D60] rounded-full text-white py-[12px] px-[24px] md:px-[20px] md:py-[10px] hover:bg-[#4A5DFF] transition-all duration-300">
           <h3>For Schools</h3>
           <Image
             src="/images/star.svg"
@@ -78,7 +79,7 @@ return()=>{
   {isOpen && (
     <div className="md:hidden fixed top-0 left-0 w-full h-screen bg-white z-[9998] pt-20 px-5">
       <div className="flex flex-col gap-6">
-        <button className="flex items-center justify-center gap-3 bg-[#202D60] rounded-full text-white py-[12px] px-[24px] hover:bg-[#4A5DFF] transition-all duration-300">
+        <button  onClick={()=> router.push("/for-school")} className="flex items-center justify-center gap-3 bg-[#202D60] rounded-full text-white py-[12px] px-[24px] hover:bg-[#4A5DFF] transition-all duration-300">
           <h3>For Schools</h3>
           <Image
             src="/images/star.svg"

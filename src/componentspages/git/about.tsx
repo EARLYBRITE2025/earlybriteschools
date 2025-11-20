@@ -4,7 +4,7 @@ import { features } from '../layouts/constants/constants'
 const About = () => {
   return (
     <>
-    <section className='bg-[#BAE6FC]  xl:h-[497.30px] p-5 md:p-[40px] xl:justify-center flex items-center flex-col '>
+    <section className='bg-[#BAE6FC]  xl:h-[497.30px] p-5 md:p-[40px] xl:justify-center flex items-center flex-col ' id='about' >
         <div className='flex flex-col items-center  gap-[16px] justify-center w-[322px] xl:w-[1197.93px] '>
             <h1 className='text-[#101010] xl:w-[570px]   text-[48px] text-center font-bold font-[family-name:var(--font-baloo2)]'>Why Parents Choose GIT</h1>
             <p className='text-[#666666] text-[13.8px] xl:w-[542px] text-center'>A program that gives your child the confidence, exposure, and global mindset to thrive anywhere.</p>

@@ -4,7 +4,7 @@ import { RightarrowSvg,WhiteRightarrowSvg } from '../../../public/svg/constants'
 const Conclusion = () => {
   return (
     <>
-    <section className='bg-[#0F151E] ] justify-center flex flex-col items-center justify-center md:hidden '>
+    <section className='bg-[#0F151E] ] justify-center flex flex-col items-center justify-center md:hidden ' id='contact'>
        <div className='p-[40px] flex flex-col items-center justify-center'>
          <div className='w-[322px] text-[#FFFFFF] flex items-center gap-[16px] flex-col justify-center  font-bold'>
             <h1 className='text-[36px] '>Give your child an edge before university</h1>

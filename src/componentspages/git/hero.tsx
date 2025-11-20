@@ -4,7 +4,7 @@ import { WhiteRightarrowSvg } from '../../../public/svg/constants'
 const GitHero = () => {
   return (
     <>
-    <section className='hero  bg-gradient-to-r from-[#E1F5FE] h-[910px] '>
+    <section className='hero  bg-gradient-to-r from-[#E1F5FE] h-[910px] ' id='home'>
         <div className='hero-first-div md:flex-col md:items-center xl:w-[1440px] xl:mt-[100px]  md:w-[90%] rounded-xl gap-[90px]  '>
            <div className={` hero-div flex flex-col gap-[40px]  justify-center items-center
         w-full xl:items-center `}>

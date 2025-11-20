@@ -5,9 +5,10 @@ import { RightarrowSvg} from '../../../public/svg/constants'
 import HoverDropdown from '../shadcnuicomponents/hovercard'
 import { LogoSvg } from '../../../public/svg/constants'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 const GapNavbar = () => {
 const[isOpen, setIsOpen] =React.useState(false)
-
+const router = useRouter()
   function clicker(){
     setIsOpen(prev=>!prev)
 }
@@ -34,7 +35,7 @@ return()=>{
 
       {/* Center nav items */}
       <div className="hidden md:flex gap-10 lg:gap-5 md:gap-5">
-        <button className="flex items-center gap-3 bg-[#202D60] rounded-full text-white py-[12px] px-[24px] md:px-[20px] md:py-[10px] hover:bg-[#4A5DFF] transition-all duration-300">
+        <button  onClick={()=> router.push("/for-school")}  className="flex items-center gap-3 bg-[#202D60] rounded-full text-white py-[12px] px-[24px] md:px-[20px] md:py-[10px] hover:bg-[#4A5DFF] transition-all duration-300">
           <h3>For Schools</h3>
           <Image
             src="/images/star.svg"

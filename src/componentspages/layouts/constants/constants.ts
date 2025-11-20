@@ -364,4 +364,84 @@ export const GapSponsors = [
   },
  ,
 ];
+export const forSchool = [
+  {
+    title: "1",
+    paragraph: "Enrich your curriculum with globally benchmarked learning experiences.",
+    color:"#BAE6FC"
+  },
+  {
+    title: "2",
+    paragraph: "Boost student engagement through hands-on, practical learning.",
+    color:"#FFE5A2"
+  },
+  {
+    title: "3",
+    paragraph: "Builds leadership, communication, and emotional intelligence for lifelong growth.",
+    color:"#00914780"
+  },
+  {
+    title: "4",
+    paragraph: "Increase your school's visibility and value through partnerships and showcases.",
+    color:"#ED6E2380"
+  },
+];
+export const partnershipsforSchool = [
+  {
+    title: "1",
+    description:"Consultation:",
+    paragraph: "We meet with your team to understand your goals.",
+    color:"#009147",
+    textColor:"#ffffff",
+     subText:"#ffffff",
+      id: 1,
+    style: {
+      display: "flex",
+      justifyContent: "flex-start", // Left
+      width: "100%",
+    },
 
+  },
+  {
+    title: "2",
+    description:"Customization:",
+    paragraph: "Together, we tailor programs that fit your curriculum and schedule.",
+    color:"#F9BB1E",
+    textColor:"#101010",
+    subText:"#666666",
+     id: 2,
+    style: {
+      display: "flex",
+      justifyContent: "flex-end", // Right
+      width: "100%",
+    },
+  },
+  {
+    title: "3",
+    description:"Implementation:",
+    paragraph: "Our certified facilitators train your teachers or deliver sessions directly.",
+    color:"#ED6E23EE",
+     textColor:"#101010",
+      subText:"#101010",
+       id: 3,
+    style: {
+      display: "flex",
+      justifyContent: "flex-start", // Left
+      width: "100%",
+    },
+  },
+  {
+    title: "4",
+    description:"Showcase:",
+    paragraph: "Students demonstrate learning through exhibitions, projects, and certifications.",
+    color:"#1A94D2",
+     textColor:"#101010",
+      subText:"#101010",
+       id: 4,
+    style: {
+      display: "flex",
+      justifyContent: "flex-end", // Right
+      width: "100%",
+    },
+  },
+]
