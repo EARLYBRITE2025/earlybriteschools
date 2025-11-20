@@ -1,35 +1,40 @@
 import React from 'react'
-
-import { Gapfeatures } from '../layouts/constants/constants'
 import Image from 'next/image'
+import { Gapfeatures } from '../layouts/constants/constants'
+
 const Trusted = () => {
   return (
+    <section className='w-full py-16 bg-[#BAE6FC] flex justify-center'>
+      <div className='w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0'>
+        <div className='text-center mb-10'>
+        <h1 className='text-[#101010] text-[30px] xl:text-[48px] font-bold font-[family-name:var(--font-baloo2)] max-w-[570px] mx-auto'>
+          Why Parents Trust the GAP Program
+        </h1>
+        <p className='text-[#666666] text-[14px] xl:text-[16px] max-w-[542px] mx-auto mt-4'>
+          A program that helps your child maximize their waiting period
+        </p>
+      </div>
 
-
-    <>
-    <section className='bg-[#BAE6FC]  p-[40px] xl:justify-center flex items-center flex-col  p-[40px] '>
-        <div className='flex flex-col items-center  gap-[16px] justify-center w-[322px] xl:w-[1197.93px] '>
-            <h1 className='text-[#101010] xl:w-[570px]   text-[48px] text-center font-bold font-[family-name:var(--font-baloo2)]'>Why Parents Trust the GAP Program</h1>
-            <p className='text-[#666666] text-[13.8px] xl:w-[542px] text-center'>A program that helps your child maximize their waiting period</p>
-            <div className="flex flex-col items-center justify-center  xl:flex-row xl:w-[1197.9px] gap-6 py-[40px] w-full max-w-[1200px] mx-auto">
-  {Gapfeatures.map((item, index) => (
-    <div
-      key={index}
-      className="w-[323.14px]  pt-[16px] px-[24px] pb-[45px] bg-white rounded-xl flex flex-col items-start justify-start"
-    >
-      <img
-        src={item.icon}
-        alt={item.title}
-        className="w-[48.5px] h-[48.5px] object-cover rounded-[24px]"
-      />
-      <h3 className="text-[24px] font-bold mt-4">{item.title}</h3>
-      <p className="text-[#666666] text-[16px] w-[274.54px]">{item.paragraph}</p>
-    </div>
-  ))}
-</div>
- </div>
+      <div className='flex flex-col xl:flex-row gap-6 justify-center'>
+        {Gapfeatures.map((item, index) => (
+          <div
+            key={index}
+            className='bg-white rounded-xl p-6 flex-1'
+          >
+            <Image
+              src={item.icon}
+              alt={item.title}
+              width={48}
+              height={48}
+              className="w-12 h-12 object-cover rounded-[24px]"
+            />
+            <h3 className="text-[24px] font-bold mt-4">{item.title}</h3>
+            <p className="text-[#666666] text-[16px] mt-2">{item.paragraph}</p>
+          </div>
+        ))}
+        </div>
+      </div>
     </section>
-    </>
   )
 }
 

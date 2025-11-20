@@ -92,11 +92,11 @@ const Contact = () => {
 
   return (
     <section
-      className="flex items-center justify-center py-10 px-5 md:py-[60px] md:px-10 lg:px-[120px]
-       md:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]"
+      className="w-full flex justify-center py-10 md:py-[60px] md:bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]"
       id="contact"
     >
-      <div className="bg-[#0F151E] w-full max-w-[1201px] min-h-[700px] md:min-h-[450px] lg:min-h-[452px] p-[24px] sm:p-[32px] md:p-[40px] lg:p-[60px] flex flex-col gap-[40px] md:gap-[60px] lg:gap-[100px] rounded-2xl md:flex-row md:justify-between md:items-center">
+      <div className="w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0">
+        <div className="bg-[#0F151E] w-full min-h-[700px] md:min-h-[450px] lg:min-h-[452px] p-[24px] sm:p-[32px] md:p-[40px] lg:p-[60px] flex flex-col gap-[40px] md:gap-[60px] lg:gap-[100px] rounded-2xl md:flex-row md:justify-between md:items-center">
         {/* LEFT TEXT SIDE */}
         <div className="gap-[24px] sm:gap-[32px] md:gap-[40px] flex flex-col w-full md:w-1/2">
           <h1 className="contact-heading w-full max-w-[322px] sm:max-w-[380px] md:max-w-[420px] lg:max-w-[454px] text-[32px] sm:text-[38px] md:text-[44px] lg:text-[52px] xl:text-[56.62px] font-[family-name:var(--font-baloo2)] font-bold text-[#FFFFFF]">
@@ -167,6 +167,7 @@ const Contact = () => {
             alt="layer shape"
             className="contact-layer absolute bottom-0 z-[1] hidden md:flex w-auto h-[200px] lg:h-[250px] object-contain"
           />
+        </div>
         </div>
       </div>
     </section>

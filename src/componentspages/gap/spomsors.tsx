@@ -1,29 +1,36 @@
-import React from 'react'
-import { GapSponsors } from '../layouts/constants/constants'
+"use client";
+
+import Image from "next/image";
+
+const brands = [
+  "/images/brand1.png",
+  "/images/brand2.png",
+  "/images/brand3.png",
+  "/images/brand4.png",
+];
+
 const Sponsors = () => {
   return (
-    <>
-    <section className='bg-[#00914780]   h-[207px] flex items-center justify-center hidden '>
-        <h1 className='text-[#101010CC]'>Brands who trust us</h1>
-        {GapSponsors.map((item, index) => (
-            <div
-              key={index}
-              className="flex items-center  justify-center"
-            >
-              <img
-                src={item?.logo}
-                alt={item?.value}
-                className="w-[48.46px] h-[48.46px] rounded-full bg-white p-[10px] object-cover "
-              />
-              <h3  className="text-[22.28px]  font-bold mt-4">{item?.value}</h3>
-              
-        
-            </div>
-             ))}
-
+    <section className="w-full py-16 flex justify-center" style={{ backgroundColor: 'rgba(0, 145, 71, 0.5)' }}>
+      <div className='w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0'>
+        <h3 className="text-[#666666] text-center text-[16px] xl:text-[20px] font-semibold font-[family-name:var(--font-nunito)] mb-8">
+        Brands who trust us
+      </h3>
+      <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16">
+        {brands.map((brand, index) => (
+          <Image
+            key={index}
+            src={brand}
+            width={150}
+            height={50}
+            alt={`Brand ${index + 1}`}
+            className="h-8 md:h-10 w-auto object-contain"
+          />
+        ))}
+        </div>
+      </div>
     </section>
-    </>
-  )
-}
+  );
+};
 
-export default Sponsors
+export default Sponsors;
