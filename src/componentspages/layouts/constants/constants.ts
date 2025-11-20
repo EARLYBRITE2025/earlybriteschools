@@ -43,7 +43,7 @@ export const featureCards: FeatureCard[] = [
     description:
       " A play-based learning adventure that nurtures curiosity, creativity, and confidence through hands-on discovery.",
     buttonText:"Learn More" ,
-    herf:""
+    herf:"/immaginarium"
   },
   {
     id: 4,
@@ -92,7 +92,7 @@ interface FeatureItem {
   paragraph: string;
   color?:string
   subParagraph? :string
-  list?: any
+  list?: string[]
   textcolor? : string
 }
 

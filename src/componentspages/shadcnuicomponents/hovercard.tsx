@@ -46,10 +46,16 @@ const HoverDropdown = () => {
         <div className="absolute top-full left-0 mt-2 bg-white border border-gray-200 shadow-md rounded-md p-2 z-50 min-w-[200px]">
           <div className="flex flex-col gap-2">
             <Link
-              href="/gap"
+              href="/temp"
               className="hover:text-[#1A94D2] cursor-pointer transition-colors"
             >
               The Elite Mentorship Programme [TEMP]
+            </Link>
+            <Link
+              href="/gap"
+              className="hover:text-[#1A94D2] cursor-pointer transition-colors"
+            >
+              Gap Year Program
             </Link>
             <Link
               href="/git"
@@ -57,12 +63,24 @@ const HoverDropdown = () => {
             >
               Global Innovation Trek [GIT]
             </Link>
-            <span className="hover:text-[#1A94D2] cursor-pointer text-gray-400">
-              Immaginarium (Coming Soon)
-            </span>
-            <span className="hover:text-[#1A94D2] cursor-pointer text-gray-400">
-              Summer School (Coming Soon)
-            </span>
+            <Link
+              href="/immaginarium"
+              className="hover:text-[#1A94D2] cursor-pointer transition-colors"
+            >
+              Immaginarium
+            </Link>
+            <Link
+              href="/talent-foundry"
+              className="hover:text-[#1A94D2] cursor-pointer transition-colors"
+            >
+              Talent Foundry
+            </Link>
+            <Link
+              href="/summer"
+              className="hover:text-[#1A94D2] cursor-pointer transition-colors"
+            >
+              Summer School
+            </Link>
           </div>
         </div>
       )}

@@ -11,8 +11,8 @@ const brands = [
 
 const Brands = () => {
   return (
-    <section className="w-full bg-white  py-16">
-      <div className="max-w-[1200px] mx-auto px-5">
+    <section className="w-full bg-white py-16 flex justify-center">
+      <div className="w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0">
         <h3 className="text-[#666666] text-center text-[20px] font-semibold font-[family-name:var(--font-nunito)] leading-[100%] mb-8">
           Brands who trust us
         </h3>

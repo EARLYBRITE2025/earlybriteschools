@@ -62,10 +62,10 @@ const Hero = () => {
   return (
     <>
       <section
-        className="hero md:bg-linear-to-r  from-[#E1F5FE] to-[#FFF0CC] bg-white"
+        className="hero md:bg-linear-to-r  from-[#E1F5FE] to-[#FFF0CC] bg-white w-full flex justify-center"
         id="home"
       >
-        <div className="hero-first-div px-5 ">
+        <div className="hero-first-div w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0">
           <div className="hero-div flex flex-col space-y-5 justify-center items-center w-full md:items-start">
             <h1
               className="classic text-[32px] sm:text-[36px] md:text-[48px] xl:text-[60px] w-full max-w-[354px] md:max-w-[450px] xl:max-w-[530px] font-[family-name:var(--font-baloo2)] font-bold text-black"

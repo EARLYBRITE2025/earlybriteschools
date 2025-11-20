@@ -1,6 +1,4 @@
 import React from "react";
-import Footer from "@/componentspages/layouts/footer";
-import Navbar from "@/componentspages/layouts/Navbar";
 import Hero from "@/componentspages/home/hero";
 import Brands from "@/componentspages/home/brands";
 import Features from "@/componentspages/home/features";
@@ -16,7 +14,7 @@ const Homepage = () => {
       <Features />
       <Programmes />
       <About />
-      <Socialproofpage />
+      <Socialproofpage bg="bg-[#F9BB1E]" />
       <Contact />
     </div>
   );

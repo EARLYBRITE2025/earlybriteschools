@@ -14,8 +14,8 @@ const Navbar = () => {
 
   return (
     <header className="md:bg-linear-to-r  md:from-[#E1F5FE] sticky  w-full top-0 bg-white md:to-[#FFF0CC]">
-      <div className="xl:flex xl:items-center xl:justify-center">
-        <nav className="w-full flex items-center justify-between px-5 xl:px-16 ">
+      <div className="w-full flex items-center justify-center">
+        <nav className="w-full 3xl:max-w-[1400px] flex items-center justify-between px-7 xl:px-28 3xl:px-0">
           <div>
             <LogoSvg />
           </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
             </button>
             <div className="flex items-center gap-5 lg:gap-15">
               <Link
-                href="#home"
+                href="/"
                 className="hover:text-[#1A94D2] transition-all duration-100"
               >
                 Home

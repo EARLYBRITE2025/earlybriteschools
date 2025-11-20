@@ -89,13 +89,13 @@ const Features = () => {
       className="flex flex-col items-center w-full justify-center md:bg-[#BAE6FC]"
       id="about"
     >
+      {/* First card - Blue */}
       <div
-        className="flex pt-10 items-center flex-col w-[95%] md:w-[90%] xl:w-[1450px] space-y-5
-       justify-center md:justify-start xl:relative
-       feature-styles xl:z-[1]"
+        className="w-full flex justify-center pt-10 xl:relative xl:z-[1]"
         id="art"
       >
-        <div className="bg-[#1A94D2] first-div xl:h-full flex flex-col xl:flex-row items-center w-full xl:w-[1200px] rounded-2xl overflow-hidden">
+        <div className="w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0 feature-styles">
+          <div className="bg-[#1A94D2] first-div xl:h-full flex flex-col xl:flex-row items-center w-full rounded-2xl overflow-hidden">
           <div
             className="p-5 md:p-[30px] space-y-4 md:space-y-3 xl:gap-[40px]
         xl:h-[330px] flex flex-col justify-center"
@@ -152,17 +152,16 @@ const Features = () => {
               height={540}
             />
           </div>
+          </div>
         </div>
       </div>
-      {/*this is the second card*/}
-      <div>
-        <div
-          className="flex pt-3 items-center flex-col w-[360px] md:w-[90%] xl:w-[1450px] space-y-5
-       justify-center md:justify-start xl:z-[10] xl:relative
-       feature-styles"
-          id="will-fade"
-        >
-          <div className="bg-[#009147] first-div xl:h-full flex flex-col xl:flex-row items-center w-full xl:w-[1200px] rounded-2xl overflow-hidden">
+      {/*this is the second card - Green */}
+      <div
+        className="w-full flex justify-center xl:relative xl:z-[10]"
+        id="will-fade"
+      >
+        <div className="w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0 feature-styles">
+          <div className="bg-[#009147] first-div xl:h-full flex flex-col xl:flex-row items-center w-full rounded-2xl overflow-hidden">
             <div
               className="p-[20px] md:p-[30px] xl:p-[40px] space-y-4 md:space-y-3 xl:gap-[40px]
         xl:h-[330px] flex flex-col justify-center"
