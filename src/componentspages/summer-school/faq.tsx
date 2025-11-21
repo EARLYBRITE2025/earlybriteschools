@@ -1,8 +1,11 @@
 import FAQSection from "../shared/faq-section";
-import { gitFAQData } from "@/data/faq-git";
+import { summerSchoolFAQData } from "@/data/faq-summer-school";
 
-const GitFAQ = () => {
-  const categories = [gitFAQData.general, gitFAQData.git];
+const SummerSchoolFAQ = () => {
+  const categories = [
+    summerSchoolFAQData.general,
+    summerSchoolFAQData.summerSchool,
+  ];
 
   return (
     <FAQSection
@@ -16,4 +19,4 @@ const GitFAQ = () => {
   );
 };
 
-export default GitFAQ;
+export default SummerSchoolFAQ;

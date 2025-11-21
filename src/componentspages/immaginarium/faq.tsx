@@ -1,8 +1,11 @@
 import FAQSection from "../shared/faq-section";
-import { gitFAQData } from "@/data/faq-git";
+import { immaginiariumFAQData } from "@/data/faq-immaginarium";
 
-const GitFAQ = () => {
-  const categories = [gitFAQData.general, gitFAQData.git];
+const ImmaginiariumFAQ = () => {
+  const categories = [
+    immaginiariumFAQData.general,
+    immaginiariumFAQData.immaginarium,
+  ];
 
   return (
     <FAQSection
@@ -16,4 +19,4 @@ const GitFAQ = () => {
   );
 };
 
-export default GitFAQ;
+export default ImmaginiariumFAQ;

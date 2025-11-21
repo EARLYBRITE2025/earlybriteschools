@@ -10,7 +10,7 @@ import QuarterlyLearningThemes from "@/componentspages/immaginarium/quarterly-le
 import ObservationFeedback from "@/componentspages/immaginarium/observation-feedback";
 import ImmaginariumPromise from "@/componentspages/immaginarium/promise";
 import Socialproofpage from "@/componentspages/home/social proof/socialproofpage";
-import Faq from "@/componentspages/git/faq";
+import ImmaginiariumFAQ from "@/componentspages/immaginarium/faq";
 
 function Immaginarium() {
   return (
@@ -26,7 +26,7 @@ function Immaginarium() {
       <ObservationFeedback />
       <ImmaginariumPromise />
       <Socialproofpage />
-      <Faq />
+      <ImmaginiariumFAQ />
     </div>
   );
 }

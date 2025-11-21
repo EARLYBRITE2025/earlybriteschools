@@ -10,7 +10,7 @@ import SideAttraction from "@/componentspages/git/side-attractions";
 import BeyondTip from "@/componentspages/git/beyont-tip";
 import ProgramDetails from "@/componentspages/git/program-details";
 import ChildGain from "@/componentspages/git/child-gaim";
-import Faq from "@/componentspages/git/faq";
+import GitFAQ from "@/componentspages/git/faq";
 import ContactUs from "@/componentspages/git/contact-us";
 import Socialproofpage from "@/componentspages/home/social proof/socialproofpage";
 const Gitpage = () => {
@@ -32,7 +32,7 @@ const Gitpage = () => {
       <Socialproofpage />
       <ProgramDetails />
       <ChildGain />
-      <Faq />
+      <GitFAQ />
       <ContactUs />
     </div>
   );

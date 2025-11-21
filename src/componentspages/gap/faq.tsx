@@ -1,8 +1,8 @@
 import FAQSection from "../shared/faq-section";
-import { gitFAQData } from "@/data/faq-git";
+import { gapFAQData } from "@/data/faq-gap";
 
-const GitFAQ = () => {
-  const categories = [gitFAQData.general, gitFAQData.git];
+const GapFAQ = () => {
+  const categories = [gapFAQData.general, gapFAQData.gap];
 
   return (
     <FAQSection
@@ -16,4 +16,4 @@ const GitFAQ = () => {
   );
 };
 
-export default GitFAQ;
+export default GapFAQ;
