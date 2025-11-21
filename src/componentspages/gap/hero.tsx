@@ -4,7 +4,7 @@ import { WhiteRightarrowSvg } from "../../../public/svg/constants";
 
 const GapHero = () => {
   return (
-    <section className="w-full  3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0">
+    <section className="w-full  3xl:max-w-[1400px] px-7 py-10 xl:px-28 3xl:px-0">
       <div className="w-full bg-[#F9BB1E] flex flex-col h-[1050px] sm:h-[750px] overflow-clip lg:h-screen rounded-3xl">
         <div className="flex flex-col h-1/2 w-full items-center justify-center ">
           <h1 className="text-[36px] xl:text-[60px] px-4 sm:px-10 lg:px-40 text-center font-[family-name:var(--font-baloo2)] font-bold text-black ">
