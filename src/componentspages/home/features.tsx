@@ -88,12 +88,12 @@ const Features = () => {
 
   return (
     <section
-      className="flex flex-col items-center w-full justify-center md:bg-[#BAE6FC]"
+      className="flex flex-col items-center w-full gap-[40px] justify-center md:bg-[#BAE6FC]"
       id="about"
     >
       {/* First card - Blue */}
       <div
-        className="w-full flex justify-center pt-10 xl:relative xl:z-[1]"
+        className="w-full  flex justify-center pt-10  xl:relative xl:z-[1]"
         id="art"
       >
         <div className="w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0 feature-styles">

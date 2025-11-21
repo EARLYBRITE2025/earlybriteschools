@@ -206,7 +206,7 @@ html {
   .hero {
     @apply w-full bg-white flex items-start justify-center to-[#FFF0CC];
     .hero-first-div {
-      @apply flex flex-col items-center justify-center lg:flex-row w-full lg:pb-10 xl:pb-0  xl:w-[1202px]  xl:h-[633px];
+      @apply flex flex-col items-start justify-center lg:flex-row w-full lg:pb-10 xl:pb-0  xl:w-[1202px]  xl:h-[633px];
     }
   }
 }

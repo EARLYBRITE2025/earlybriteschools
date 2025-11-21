@@ -54,7 +54,7 @@ const HoverDropdown = ({ onLinkClick }: HoverDropdownProps) => {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full left-0 mt-2 bg-white border border-gray-200 shadow-md rounded-md p-2 z-50 min-w-[200px]">
+        <div className="absolute top-full left-0 mt-2 bg-white border w-[316px] border-gray-200 shadow-md rounded-[12px] p-2 z-50 min-w-[200px]">
           <div className="flex flex-col gap-2">
             <Link
               href="/temp"
@@ -63,13 +63,7 @@ const HoverDropdown = ({ onLinkClick }: HoverDropdownProps) => {
             >
               The Elite Mentorship Programme [TEMP]
             </Link>
-            <Link
-              href="/gap"
-              onClick={handleLinkClick}
-              className="text-black hover:text-[#1A94D2] cursor-pointer transition-colors"
-            >
-              Gap Year Program
-            </Link>
+           
             <Link
               href="/git"
               onClick={handleLinkClick}
@@ -84,13 +78,7 @@ const HoverDropdown = ({ onLinkClick }: HoverDropdownProps) => {
             >
               Immaginarium
             </Link>
-            <Link
-              href="/talent-foundry"
-              onClick={handleLinkClick}
-              className="text-black hover:text-[#1A94D2] cursor-pointer transition-colors"
-            >
-              Talent Foundry
-            </Link>
+          
             <Link
               href="/summer"
               onClick={handleLinkClick}

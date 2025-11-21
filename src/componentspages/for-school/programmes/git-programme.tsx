@@ -32,21 +32,21 @@ className='rounded-xl hidden md:flex'
             Schools can partner with Earlybrite to offer students a 20-day international learning trek across Portugal, 
             Spain, and France. Students experience innovation hubs,
              cultural immersion, and mentorship that shapes global thinking</p>
-       <ul className='flex flex-col  w-[302px]  xl:w-[433px] text-[#666666] gap-[18px] text-[18px] xl:items-start xl:justify-center '>
-                      <li className='flex   items-start justify-center xl:w-[387px]  '>
-                   Give your students real-world international exposure.
+       <ul className='flex flex-col  w-[352px]  xl:w-[433px] px-[10px]  text-[#666666] gap-[18px] items-start justify-start text-[18px] xl:items-center xl:justify-center '>
+                      <li className='flex   items-start justify-start w-[302px]  xl:w-[433px]'>
+                 <Check/> <p className='text-[18px] w-[256px] xl:w-[387px]'> Give your students real-world international exposure.</p>
                       </li>
-                      <li className='flex items-start justify-center xl:w-[387px]'>
-                    Strengthen your school's global reputation through exchange opportunities.
+                      <li className='flex   items-start justify-start w-[302px] xl:w-[433px]'>
+                  <Check/>  <p className='text-[18px] w-[256px] xl:w-[387px]'> Strengthen your school's global reputation through exchange opportunities.</p>
                       </li>
-                      <li className='flex  items-start justify-center xl:w-[387px]'>
-                    Connect your curriculum to real global industries.
+                      <li className='flex   items-start justify-start w-[302px] xl:w-[433px]'>
+                   <Check/> <p  className='text-[18px] w-[256px] xl:w-[387px]'> Connect your curriculum to real global industries.</p>
                       </li>
-                      <li className='flex  items-start justify-center xl:w-[387px]'>
-                      Build pride and visibility by having your students represent your school abroad.
+                      <li className='flex   items-start justify-start w-[302px] xl:w-[433px]'>
+                   <Check/> <p  className='text-[18px] w-[256px] xl:w-[387px]'> Build pride and visibility by having your students represent your school abroad.</p>
                       </li>
                   </ul>
-             <div className='flex items-center space-x-3 w-full md:justify-center justify-start whitespace-nowrap md:justify-start' >
+             <div className='flex items-center mt-[16px] w-full md:justify-center justify-start whitespace-nowrap md:justify-start' >
                       <button onClick={()=> router.push("/git")}  className='bg-[#1A94D2] w-[212px]  reuseable-button px-5 '  ><span className='flex px-3 items-center group justify-center text-white '>Talk to US <WhiteRightarrowSvg/></span></button>        
              </div>
        </div>
