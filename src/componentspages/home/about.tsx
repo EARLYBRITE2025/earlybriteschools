@@ -24,10 +24,10 @@ const About = () => {
                   alt={item.title}
                   width={24}
                   height={24}
-                  className="w-[20px] h-[20px] md:w-[24px] md:h-[24px] object-contain flex-shrink-0 mt-1"
+                  className="w-5 h-5 md:w-6 md:h-6 object-contain shrink-0 mt-1"
                 />
                 <div className="w-full">
-                  <h3 className="text-[#666666] font-semibold text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]">
+                  <h3 className="text-[#666666] font-semibold text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-[family-name:var(--font-baloo2)]">
                     {item.title}
                   </h3>
                 </div>
@@ -64,7 +64,7 @@ const About = () => {
           <section className="relative px-5 md:px-10 flex flex-col items-center justify-center w-full md:w-auto lg:shrink-0 mt-10 lg:mt-0">
             {/* Main Image */}
             <Image
-              src="/images/Pictures(1).png"
+              src="/images/mainabout.png"
               width={274}
               height={342}
               alt="about image"
@@ -75,35 +75,35 @@ const About = () => {
               width={441}
               height={552}
               alt="about image"
-              className="hidden md:flex rounded-xl w-full max-w-[350px] lg:max-w-[400px] xl:w-[400px] h-auto object-cover"
+              className="hidden md:flex rounded-xl w-full max-w-[350px] md:max-w-[400px] xl:w-[400px] h-auto object-cover"
             />
 
             {/* Small image - Left */}
-            <div className="absolute left-[5px] top-[30%] md:left-[-2%] md:top-[8%] lg:left-[-3%]">
+            <div className="absolute left-[5px] top-[35%]  md:top-[8%] lg:left-[-3%]">
               <Image
-                src="/images/Pictures.png"
+                src="/images/about-side.png"
                 width={93}
                 height={114}
                 alt="left small image"
-                className="md:hidden w-[120px] h-auto"
+                className="lg:hidden w-[120px] md:w-[200px]  h-auto"
               />
               <Image
-                src="/images/Pictures.png"
+                src="/images/about-side.png"
                 width={139.5}
                 height={171}
                 alt="left small image"
-                className="hidden md:flex w-[100px] lg:w-[120px] xl:w-[139.5px] h-auto"
+                className="hidden lg:flex w-[100px] lg:w-[120px] xl:w-[139.5px] h-auto"
               />
             </div>
 
             {/* Small image - Right */}
-            <div className="absolute right-[5px] bottom-[10%] md:right-[0%] md:top-[65%] z-50">
+            <div className="absolute right-[5px] bottom-[10%] md:right-[0%] md:top-[50%] lg:top-[65%] z-50">
               <Image
                 src="/images/aboutimage-3.png"
                 width={139.5}
                 height={171}
                 alt="right small image"
-                className="hidden md:flex rounded-2xl w-[100px] lg:w-[120px] xl:w-[139.5px] h-auto"
+                className="hidden md:flex rounded-2xl w-[100px] md:w-[180px] lg:w-[120px] xl:w-[139.5px] h-auto"
               />
             </div>
           </section>

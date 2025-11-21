@@ -20,12 +20,11 @@ const Gitpage = () => {
       <Vision />
       <About />
       <Programme />
-      <div className="lg:bg-[#F2F2F2] px-5 lg:px-16  ">
-        {" "}
+      <div className="lg:bg-[#F2F2F2] px-5 pt-16 lg:px-16  ">
         <Portugal />
       </div>
       <Spain />{" "}
-      <div className="lg:bg-[#F2F2F2] px-5 lg:px-16  ">
+      <div className="lg:bg-[#F2F2F2] px-5 pb-16 lg:px-16  ">
         <Paris />{" "}
       </div>
       <SideAttraction />

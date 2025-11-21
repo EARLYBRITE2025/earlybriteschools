@@ -3,9 +3,20 @@ import React from "react";
 import Link from "next/link";
 import { DownarrowSvg } from "../../../public/svg/constants";
 
-const HoverDropdown = () => {
+interface HoverDropdownProps {
+  onLinkClick?: () => void;
+}
+
+const HoverDropdown = ({ onLinkClick }: HoverDropdownProps) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const dropdownRef = React.useRef<HTMLDivElement>(null);
+
+  const handleLinkClick = () => {
+    setIsOpen(false);
+    if (onLinkClick) {
+      onLinkClick();
+    }
+  };
 
   React.useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -47,37 +58,43 @@ const HoverDropdown = () => {
           <div className="flex flex-col gap-2">
             <Link
               href="/temp"
-              className="hover:text-[#1A94D2] cursor-pointer transition-colors"
+              onClick={handleLinkClick}
+              className="text-black hover:text-[#1A94D2] cursor-pointer transition-colors"
             >
               The Elite Mentorship Programme [TEMP]
             </Link>
             <Link
               href="/gap"
-              className="hover:text-[#1A94D2] cursor-pointer transition-colors"
+              onClick={handleLinkClick}
+              className="text-black hover:text-[#1A94D2] cursor-pointer transition-colors"
             >
               Gap Year Program
             </Link>
             <Link
               href="/git"
-              className="hover:text-[#1A94D2] cursor-pointer transition-colors"
+              onClick={handleLinkClick}
+              className="text-black hover:text-[#1A94D2] cursor-pointer transition-colors"
             >
               Global Innovation Trek [GIT]
             </Link>
             <Link
               href="/immaginarium"
-              className="hover:text-[#1A94D2] cursor-pointer transition-colors"
+              onClick={handleLinkClick}
+              className="text-black hover:text-[#1A94D2] cursor-pointer transition-colors"
             >
               Immaginarium
             </Link>
             <Link
               href="/talent-foundry"
-              className="hover:text-[#1A94D2] cursor-pointer transition-colors"
+              onClick={handleLinkClick}
+              className="text-black hover:text-[#1A94D2] cursor-pointer transition-colors"
             >
               Talent Foundry
             </Link>
             <Link
               href="/summer"
-              className="hover:text-[#1A94D2] cursor-pointer transition-colors"
+              onClick={handleLinkClick}
+              className="text-black hover:text-[#1A94D2] cursor-pointer transition-colors"
             >
               Summer School
             </Link>

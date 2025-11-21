@@ -20,7 +20,7 @@ const Target = () => {
             className='p-8 flex flex-col items-start space-y-4 flex-1 rounded-[24px]'
           >
             <Image src={activity.icon} alt={activity.title} width={80} height={80} className='p-5 bg-white rounded-full' />
-            <h3 className="font-bold text-[#101010] text-[24px]">{activity.title}</h3>
+            <h3 className="font-bold text-[#101010] text-[24px] font-[family-name:var(--font-baloo2)]">{activity.title}</h3>
             <p className="text-black/70 leading-relaxed">{activity.paragraph}</p>
           </div>
         ))}
