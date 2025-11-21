@@ -6,10 +6,10 @@ const SchoolHero = () => {
     <>
     <section className='bg-[#FFE5A2] flex items-center justify-center flex-col gap-[40px] p-[24px] lg:hidden'>
         <div className='w-[354px] flex flex-col gap-[16px] items-center md:text-center justify-center '>
-            <h1 className='w-[354px]   font-[family-name:var(--font-baloo2)]  text-[36px] font-bold md:text-center'>Prepare your <span className='text-[#009147]'> students for the future</span></h1>
-            <p className='text-[#666666] md:text-center '>Empowering schools to deliver hands-on, globally aligned learning that builds skills, confidence, and real-world readiness.</p>
-        <div className='flex items-center space-x-3 w-full justify-start whitespace-nowrap md:items-center' >
-                   <button className='bg-[#F9BB1E] reuseable-button px-5 '  ><span className='flex px-3  items-center group justify-between text-black '>Talk to US <RightarrowSvg/></span></button>        
+            <h1 className='w-[354px] pl-2 font-[family-name:var(--font-baloo2)]  text-[36px] font-bold md:text-center'>Prepare your <span className='text-[#009147]'> students for the future</span></h1>
+            <p className='text-[#666666] md:text-center pl-2 '>Empowering schools to deliver hands-on, globally aligned learning that builds skills, confidence, and real-world readiness.</p>
+        <div className='flex items-center pl-2 space-x-3 w-full justify-start whitespace-nowrap md:items-center' >
+                   <button className='bg-[#F9BB1E] reuseable-button px-5 '><span className='flex px-3  items-center group justify-between text-black '>Talk to US <RightarrowSvg/></span></button>        
                  </div>
       
       </div>

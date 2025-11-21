@@ -8,7 +8,7 @@ const Transfer = () => {
         
         text-white py-[40px] px-[24px] rounded-[24px] flex flex-col xl:gap-[64px] gap-[24px]'>
           <div className='gap-[40px] flex flex-col '>
-              <h1 className='w-[350px]  font-[family-name:var(--font-baloo2)]   text-[29px] font-bold'>Transform Learning Beyond the Classroom</h1>
+              <h1 className='w-[320px]  font-[family-name:var(--font-baloo2)]  text-[24px] font-bold'>Transform Learning Beyond the Classroom</h1>
             <p className='xl:w-[545px] text-[#F2F2F2]'> Education is changing fast. Schools that stay ahead are those that give their students more than grades, they give them experience, confidence, and vision.</p>
              <p className='xl:w-[545px] text-[#F2F2F2] '>Earlybrite helps schools do just that. We bring world-class programs, expert mentors, and engaging experiences that make learning come alive. </p>
              <p className='xl:w-[545px] text-[#F2F2F2]'>Partnering with us helps your students become future-ready while strengthening your school's reputation for excellence.</p>

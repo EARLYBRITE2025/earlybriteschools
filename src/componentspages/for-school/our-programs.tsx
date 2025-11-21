@@ -14,8 +14,8 @@ const OurProgramme = () => {
     <section className='bg-white rounded-xl xl:w-[1200px] xl:p-[45px] w-[350px] p-[24px] '>
     <div className='flex flex-col xl:flex-row items-center xl:justify-between  gap-[16px] justify-start'>
        <div className='flex flex-col items-center justfiy-center  gap-[16px]'>
-         <h1 className='text-[24px] font-bold xl:w-[px] text-[#000000] font-[family-name:var(--font-baloo2)] font-bold'>The Elite Mentorship Program (TEMP)</h1>
-        <p className='text-[#666666] xl:w-[433px] mb-3 '>TEMP is a transformative youth mentorship and development program that helps schools guide students toward discovering their potential and building 21st-century skills.</p>
+         <h1 className='text-[24px] pl-2 font-bold xl:w-[px] text-[#000000] font-[family-name:var(--font-baloo2)] font-bold'>The Elite Mentorship Program (TEMP)</h1>
+        <p className='text-[#666666] pl-1 xl:w-[433px] mb-3 '>TEMP is a transformative youth mentorship and development program that helps schools guide students toward discovering their potential and building 21st-century skills.</p>
        <ul className=' flex flex-col  w-[352px]  xl:w-[433px] px-[10px] text-[#666666] gap-[18px] items-start justify-start text-[18px] xl:items-start xl:justify-center'>
                       <li className='flex   items-start justify-start w-[302px]  xl:w-[433px]'>
                    <Check/>   <p className='text-[18px] w-[256px] xl:w-[387px]'>Enrich your student development strategy with global mentorship experiences.</p>
