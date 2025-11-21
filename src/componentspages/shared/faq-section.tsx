@@ -75,10 +75,6 @@ const FAQSection: React.FC<FAQSectionProps> = ({
         <div className="space-y-12">
           {categories.map((category, catIndex) => (
             <div key={catIndex}>
-              <h3 className="text-[24px] xl:text-[28px] font-[family-name:var(--font-baloo2)] font-bold text-black mb-6">
-                {category.title}
-              </h3>
-
               <Accordion
                 type="single"
                 collapsible

@@ -2,10 +2,7 @@ import FAQSection from "../shared/faq-section";
 import { immaginiariumFAQData } from "@/data/faq-immaginarium";
 
 const ImmaginiariumFAQ = () => {
-  const categories = [
-    immaginiariumFAQData.general,
-    immaginiariumFAQData.immaginarium,
-  ];
+  const categories = [immaginiariumFAQData.immaginarium];
 
   return (
     <FAQSection

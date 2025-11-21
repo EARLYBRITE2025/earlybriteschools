@@ -3,10 +3,7 @@ import FAQSection from "../shared/faq-section";
 import { talentFoundryFAQData } from "@/data/faq-talent-foundry";
 
 const TalentFoundryFAQ = () => {
-  const categories = [
-    talentFoundryFAQData.general,
-    talentFoundryFAQData.talentFoundry,
-  ];
+  const categories = [talentFoundryFAQData.talentFoundry];
 
   return (
     <FAQSection

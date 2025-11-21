@@ -2,7 +2,7 @@ import FAQSection from "../shared/faq-section";
 import { homeFAQData } from "@/data/faq-home";
 
 const HomeFAQ = () => {
-  const categories = [homeFAQData.general, homeFAQData.programsAndPlacements];
+  const categories = [homeFAQData.general];
 
   return (
     <FAQSection

@@ -149,7 +149,7 @@ const Contact = () => {
 
             {/* Student image (desktop) */}
             <Image
-              src="/images/student-contact.png"
+              src="/home-page/student-contact.png"
               width={304.22}
               height={804.22}
               alt="student contact image"
@@ -158,7 +158,7 @@ const Contact = () => {
 
             {/* Student image (mobile) */}
             <Image
-              src="/images/student-contact.png"
+              src="/home-page/student-contact.png"
               width={804.22}
               height={804.22}
               alt="student contact image"

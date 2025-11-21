@@ -2,7 +2,7 @@ import FAQSection from "../shared/faq-section";
 import { tempFAQData } from "@/data/faq-temp";
 
 const TempFAQ = () => {
-  const categories = [tempFAQData.general, tempFAQData.temp];
+  const categories = [tempFAQData.temp];
 
   return (
     <FAQSection

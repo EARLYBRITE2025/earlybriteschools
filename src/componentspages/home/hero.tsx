@@ -94,7 +94,7 @@ const Hero = () => {
   return (
     <>
       <section
-        className="hero md:bg-linear-to-r  from-[#E1F5FE] to-[#FFF0CC] bg-white w-full flex justify-center"
+        className="hero pb-10 lg:pb-0 bg-linear-to-r  from-[#E1F5FE] to-[#FFF0CC] w-full flex justify-center"
         id="home"
       >
         <div className="hero-first-div w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0">
@@ -155,7 +155,7 @@ const Hero = () => {
               {/* Second image */}
               <div className="w-full h-full shrink-0 rounded-2xl snap-start">
                 <Image
-                  src="/images/left-hero.png"
+                  src="/home-page/left-hero.png"
                   width={603}
                   height={603}
                   alt="left.hero"

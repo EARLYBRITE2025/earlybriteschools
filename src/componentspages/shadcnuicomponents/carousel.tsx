@@ -16,7 +16,7 @@ const Programmes = () => {
   return (
     <>
       {/* Mobile view */}
-      <section className="flex flex-col mt-10 gap-5 justify-center pt-20 pb-20 items-center w-full gradient md:hidden px-7">
+      <section className="flex bg-[#F2F2F2] flex-col mt-10 gap-5 justify-center pt-20 pb-20 items-center w-full gradient md:hidden px-7">
         <h1 className="text-[24px] sm:text-[27.44px] font-bold font-[family-name:var(--font-baloo2)] text-center">
           Programs Overview
         </h1>

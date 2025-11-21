@@ -2,10 +2,7 @@ import FAQSection from "../shared/faq-section";
 import { summerSchoolFAQData } from "@/data/faq-summer-school";
 
 const SummerSchoolFAQ = () => {
-  const categories = [
-    summerSchoolFAQData.general,
-    summerSchoolFAQData.summerSchool,
-  ];
+  const categories = [summerSchoolFAQData.summerSchool];
 
   return (
     <FAQSection

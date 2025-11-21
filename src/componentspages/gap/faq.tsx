@@ -2,7 +2,7 @@ import FAQSection from "../shared/faq-section";
 import { gapFAQData } from "@/data/faq-gap";
 
 const GapFAQ = () => {
-  const categories = [gapFAQData.general, gapFAQData.gap];
+  const categories = [gapFAQData.gap];
 
   return (
     <FAQSection

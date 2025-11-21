@@ -2,7 +2,7 @@ import FAQSection from "../shared/faq-section";
 import { gitFAQData } from "@/data/faq-git";
 
 const GitFAQ = () => {
-  const categories = [gitFAQData.general, gitFAQData.git];
+  const categories = [gitFAQData.git];
 
   return (
     <FAQSection

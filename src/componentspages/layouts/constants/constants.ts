@@ -44,7 +44,7 @@ export const featureCards: FeatureCard[] = [
   },
   {
     id: 4,
-    image: "/images/IMG_3913 (1) 1.png",
+    image: "/home-page/IMG_3913 (1) 1.png",
     title: "Summer School",
     description:
       "A short-term, high-impact learning experience for curious learners.Students explore technology, business, sports, and innovation while learning from mentors and building teamwork skills.",
