@@ -27,7 +27,7 @@ const ProgramStructure = () => {
               height={48}
               className="w-12 h-12 rounded-full bg-white p-2 object-cover"
             />
-            <h3 style={{ color: item.textcolor }} className="text-[22px] font-bold mt-4">{item.title}</h3>
+            <h3 style={{ color: item.textcolor }} className="text-[24px] font-bold mt-4 font-[family-name:var(--font-baloo2)]">{item.title}</h3>
             <p style={{ color: item.textcolor }} className="text-[15px] mt-2">{item.paragraph}</p>
             <p style={{ color: item.textcolor }} className="text-[15px]">{item.subParagraph}</p>
             {item.list && (
@@ -54,7 +54,7 @@ const ProgramStructure = () => {
               height={48}
               className="w-12 h-12 rounded-full bg-white p-2 object-cover"
             />
-            <h3 style={{ color: item.textcolor }} className="text-[22px] font-bold mt-4">{item.title}</h3>
+            <h3 style={{ color: item.textcolor }} className="text-[24px] font-bold mt-4 font-[family-name:var(--font-baloo2)]">{item.title}</h3>
             <p style={{ color: item.textcolor }} className="text-[15px] mt-2">{item.paragraph}</p>
             <p style={{ color: item.textcolor }} className="text-[15px]">{item.subParagraph}</p>
             {item.list && (

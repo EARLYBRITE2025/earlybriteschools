@@ -7,7 +7,7 @@ import ProgramTracks from "@/componentspages/temp/program-tracks";
 import HowTempWorks from "@/componentspages/temp/how-temp-works";
 import EvaluationCertification from "@/componentspages/temp/evaluation-certification";
 import Socialproofpage from "@/componentspages/home/social proof/socialproofpage";
-import Faq from "@/componentspages/git/faq";
+import TempFAQ from "@/componentspages/temp/faq";
 
 function TEMP() {
   return (
@@ -20,7 +20,7 @@ function TEMP() {
       <HowTempWorks />
       <EvaluationCertification />
       <Socialproofpage />
-      <Faq />
+      <TempFAQ />
     </div>
   );
 }

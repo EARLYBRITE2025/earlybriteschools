@@ -12,6 +12,7 @@ const Features = () => {
 
   useGSAP(() => {
     if (window.innerWidth < 1280) return; // Only run animations on desktop (xl breakpoint)
+
     const titleSplit = new SplitText("#about h2 ", { type: "words" });
     const paragraphSplit = new SplitText("#classique", { type: "lines" });
 
@@ -42,8 +43,8 @@ const Features = () => {
         },
         "-=0.5" // overlap slightly with the title animation
       );
-    const el = imgRef.current;
 
+    const el = imgRef.current;
     gsap.fromTo(
       el,
       { opacity: 0, y: 100, scale: 0.9 }, // start: hidden, lower, smaller
@@ -61,6 +62,7 @@ const Features = () => {
         },
       }
     );
+
     // this is for the lower green section with a pin effect
     const start = "top top";
     const maskedTimeline = gsap.timeline({
@@ -95,76 +97,76 @@ const Features = () => {
         id="art"
       >
         <div className="w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0 feature-styles">
-          <div className="bg-[#1A94D2] first-div xl:h-full flex flex-col xl:flex-row items-center w-full rounded-2xl overflow-hidden">
-          <div
-            className="p-5 md:p-[30px] space-y-4 md:space-y-3 xl:gap-[40px]
-        xl:h-[330px] flex flex-col justify-center"
-          >
-            <h2 className="second-header font-(family-name:--font-baloo2) text-[24px] md:text-[32px] xl:text-[48px] md:w-[350px] xl:w-[483px]">
-              We make learning come alive.
-            </h2>
-            <p
-              className="w-full md:w-[350px] xl:w-[483px] text-[#FFFFFF] text-[14px] md:text-[16px] xl:text-[18px]"
-              id="classique"
+          <div className="bg-[#1A94D2] first-div xl:h-full flex flex-col xl:flex-row items-start xl:items-center w-full rounded-2xl overflow-hidden">
+            <div
+              className="p-5 lg:p-[30px] space-y-4 lg:space-y-3 xl:gap-10
+        xl:h-[330px] flex flex-col justify-center items-start"
             >
-              Earlybrite is a hybrid education platform helping children and
-              young adults, aged 5 to 22, build creativity, leadership, and
-              real-world skills. We combine mentorship, technology, and
-              experience-based learning to help them thrive in an ever-changing
-              world.
-            </p>
-            <button className="button bg-white">
-              <span className="flex gap-4 items-center group justify-center">
-                Talk to Us <RightarrowSvg />
-              </span>
-            </button>
-          </div>
-          <div
-            className="w-full relative hero-image flex
-        justify-center
+              <h2 className="second-header font-[family-name:var(--font-baloo2)] text-[24px] lg:text-[32px] xl:text-[48px] md:w-[350px] xl:w-[483px]">
+                We make learning come alive.
+              </h2>
+              <p
+                className="w-full md:w-[350px] xl:w-[483px] text-[#FFFFFF] text-[14px] md:text-[16px] xl:text-[18px]"
+                id="classique"
+              >
+                Earlybrite is a hybrid education platform helping children and
+                young adults, aged 5 to 22, build creativity, leadership, and
+                real-world skills. We combine mentorship, technology, and
+                experience-based learning to help them thrive in an
+                ever-changing world.
+              </p>
+              <button className="button bg-[#F9BB1E]">
+                <span className="flex gap-4 items-center text-black group justify-center">
+                  Talk to Us <RightarrowSvg />
+                </span>
+              </button>
+            </div>
+            <div
+              className="w-full relative hero-image flex
+        justify-start xl:justify-center
         items-center"
-            id="top-grid"
-          >
-            <div className="relative abstract-shape md:hidden">
+              id="top-grid"
+            >
+              <div className="relative abstract-shape lg:hidden w-full">
+                <Image
+                  src="/images/layerfutures.png"
+                  alt="hero right"
+                  width={603.83}
+                  height={462.643335}
+                  ref={imgRef}
+                  className="relative top-[-100px] left-8 lg:left-0 w-full"
+                />
+              </div>
               <Image
-                src="/images/layerfutures.png"
-                alt="hero right"
-                width={603.83}
-                height={462.643335}
+                src="/images/feature-child.png"
+                alt="hero right image"
+                width={615}
+                className="rounded-xl md:hidden z-[5]"
+                height={403}
+              />
+              {/*larger screen */}
+              <Image
+                src="/images/lrgefuturespic.png"
+                alt="hero right image"
+                width={824}
                 ref={imgRef}
-                className="relative top-[-100px] left-8"
+                className="rounded-xl hidden md:block z-[5] w-full max-w-[500px] xl:max-w-[824px] h-auto"
+                height={540}
               />
             </div>
-            <Image
-              src="/images/feature-child.png"
-              alt="hero right image"
-              width={615}
-              className="rounded-xl md:hidden z-[5]"
-              height={403}
-            />
-            {/*larger screen */}
-            <Image
-              src="/images/lrgefuturespic.png"
-              alt="hero right image"
-              width={824}
-              ref={imgRef}
-              className="rounded-xl hidden md:block z-[5] w-full max-w-[500px] xl:max-w-[824px] h-auto"
-              height={540}
-            />
-          </div>
           </div>
         </div>
       </div>
       {/*this is the second card - Green */}
       <div
-        className="w-full flex justify-center xl:relative xl:z-[10]"
+        className="w-full flex justify-center mt-5 pb-5 xl:mt-0 xl:pb-0 xl:relative xl:z-[10]"
         id="will-fade"
       >
         <div className="w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0 feature-styles">
-          <div className="bg-[#009147] first-div xl:h-full flex flex-col xl:flex-row items-center w-full rounded-2xl overflow-hidden">
+          <div className="bg-[#009147] first-div xl:h-full flex flex-col xl:flex-row items-start xl:items-center w-full rounded-2xl overflow-hidden">
             <div
               className="p-[20px] md:p-[30px] xl:p-[40px] space-y-4 md:space-y-3 xl:gap-[40px]
-        xl:h-[330px] flex flex-col justify-center"
+        xl:h-[330px] flex flex-col justify-center items-start"
             >
               <h2 className="second-header text-[24px] md:text-[32px] xl:text-[48px] md:w-[350px] xl:w-[483px] font-[family-name:var(--font-baloo2)]">
                 Shaping Africa&apos;s future, one learner at a time.
@@ -175,23 +177,23 @@ const Features = () => {
                 wherever they are, to access quality education that&apos;s
                 practical, global, and fun.
               </p>
-              <button className="button bg-white">
-                <span className="flex gap-4 items-center group justify-center">
+              <button className="button bg-[#F9BB1E]">
+                <span className="flex gap-4 items-center text-black group justify-center">
                   Talk to Us <RightarrowSvg />
                 </span>
               </button>
             </div>
             <div
               className="w-full relative hero-image flex
-        justify-center
+        justify-start xl:justify-center
         items-center"
             >
-              <div className="relative abstract-shape md:hidden">
+              <div className="relative abstract-shape lg:hidden w-full">
                 <Image
                   src="/images/larercard.png"
                   alt="hero right image"
                   width={603.8}
-                  className="relative top-[-25px] left-9"
+                  className="relative top-[-25px] left-9 lg:left-0 w-full"
                   height={462.6}
                 />
               </div>

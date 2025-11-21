@@ -8,7 +8,7 @@ import ProgramStructure from "@/componentspages/summer/program-structure";
 import WhatStudentsGain from "@/componentspages/summer/what-students-gain";
 import WhatParentsGain from "@/componentspages/summer/what-parents-gain";
 import Socialproofpage from "@/componentspages/home/social proof/socialproofpage";
-import Faq from "@/componentspages/git/faq";
+import SummerSchoolFAQ from "@/componentspages/summer-school/faq";
 
 function Summer() {
   return (
@@ -22,7 +22,7 @@ function Summer() {
       <WhatStudentsGain />
       <WhatParentsGain />
       <Socialproofpage />
-      <Faq />
+      <SummerSchoolFAQ />
     </div>
   );
 }

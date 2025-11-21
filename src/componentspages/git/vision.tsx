@@ -7,7 +7,7 @@ const Vision = () => {
         p-[24px] md:p-[40px] gap-[16px] md:gap-[24px] xl:gap-[32px]">
 
       {/* TITLE */}
-      <h1 className="text-[28px] md:text-[36px] xl:text-[42px] font-bold text-center">
+      <h1 className="text-[28px] md:text-[36px] xl:text-[42px] font-bold font-[family-name:var(--font-baloo2)] text-center">
         The Vision
       </h1>
 

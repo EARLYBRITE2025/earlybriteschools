@@ -4,7 +4,7 @@ import WhyTalentFoundry from "@/componentspages/talent-foundry/why-talent-foundr
 import ProgramsForGrowth from "@/componentspages/talent-foundry/programs-for-growth";
 import HowItWorks from "@/componentspages/talent-foundry/how-it-works";
 import Socialproofpage from "@/componentspages/home/social proof/socialproofpage";
-import Faq from "@/componentspages/git/faq";
+import TalentFoundryFAQ from "@/componentspages/talent-foundry/faq";
 
 function TalentFoundry() {
   return (
@@ -14,7 +14,7 @@ function TalentFoundry() {
       <ProgramsForGrowth />
       <HowItWorks />
       <Socialproofpage />
-      <Faq />
+      <TalentFoundryFAQ />
     </div>
   );
 }

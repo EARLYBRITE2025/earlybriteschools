@@ -8,7 +8,7 @@ const Paris = () => {
         className=" flex items-start  h-auto flex-[.5] justify-start flex-col gap-5 
          "
       >
-        <h1 className="text-[36px] text-[#666666] font-(family-name:--font-baloo2) text-start font-bold">
+        <h1 className="text-[36px] text-[#666666] font-[family-name:var(--font-baloo2)] text-start font-bold">
           <span className="text-[#009147] font-bold">Paris:</span>
           Innovation, Branding, and Leadership
         </h1>
@@ -72,20 +72,11 @@ const Paris = () => {
             </span>
           </button>
         </div>
-        <div className="md:hidden ">
-          <Image
-            src="/images/paris-mobile.png"
-            alt=""
-            height={428.130156}
-            width={428.1361389160156}
-            className="rounded-xl"
-          />
-        </div>
       </div>
 
       <div className=" h-[480px] w-full flex-[.5]  ">
         <Image
-          src="/images/Pictures(3).png"
+          src="/images/pariss.png"
           alt=""
           height={484}
           width={684}

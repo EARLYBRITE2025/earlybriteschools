@@ -9,7 +9,7 @@ const Spain = () => {
           className=" flex items-start  h-auto flex-[.5] justify-start flex-col gap-5 
              "
         >
-          <h1 className="text-[36px] font-(family-name:--font-baloo2)  text-start text-black font-bold">
+          <h1 className="text-[36px] font-[family-name:var(--font-baloo2)] text-start text-black font-bold">
             <span className="text-[#009147] font-bold">Spain:</span>The Fusion
             of Technology
           </h1>
@@ -73,7 +73,7 @@ const Spain = () => {
         </div>
         <div className=" h-[480px] w-full flex-[.5]  ">
           <Image
-            src="/images/spain-small.png"
+            src="/images/spain.png"
             alt=""
             height={484}
             width={684}

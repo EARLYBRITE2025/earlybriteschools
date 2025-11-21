@@ -1,30 +1,27 @@
-
 export interface FeatureCard {
   id: number;
   image: string;
   title: string;
   description: string;
   buttonText: string;
-  age?:string;
-  herf:string
+  age?: string;
+  herf: string;
 }
 export interface ActivityType {
   title: string;
   description: string;
 }
 
-
-
 export const featureCards: FeatureCard[] = [
   {
     id: 1,
-    image: "/images/Frame 18.png", 
+    image: "/images/Frame 18.png",
     title: "The Elite Mentorship Program [TEMP]",
-    age:"For ages 11-24",
+    age: "For ages 11-24",
     description:
       "A mentorship program that helps young people build digital skills, creativity, and leadership through hands-on projects and guidance from global mentors",
     buttonText: "Learn More",
-    herf:"/gap"
+    herf: "/temp",
   },
   {
     id: 2,
@@ -33,26 +30,26 @@ export const featureCards: FeatureCard[] = [
     description:
       "A 20-day summer journey across Europe for curious learners who want to see the world differently. Participants learn, explore, and collaborate with innovators and changemakers, turning travel into a living classroom.",
     buttonText: "Learn More",
-    herf:"/git"
+    herf: "/git",
   },
   {
     id: 3,
     image: "/images/Image_fx - 2025-11-10T124246.747 4.png",
     title: "Immaginarium",
-    age:"For Age 2-10",
+    age: "For Age 2-10",
     description:
       " A play-based learning adventure that nurtures curiosity, creativity, and confidence through hands-on discovery.",
-    buttonText:"Learn More" ,
-    herf:"/immaginarium"
+    buttonText: "Learn More",
+    herf: "/immaginarium",
   },
   {
     id: 4,
-    image: "/images/IMG_3913 (1) 1.png",
+    image: "/home-page/IMG_3913 (1) 1.png",
     title: "Summer School",
     description:
       "A short-term, high-impact learning experience for curious learners.Students explore technology, business, sports, and innovation while learning from mentors and building teamwork skills.",
     buttonText: "Learn More",
-    herf:""
+    herf: "/summer",
   },
 ];
 
@@ -61,61 +58,58 @@ export const learningHighlights = [
     id: 1,
     icon: "/images/checkmark-circle-01.svg",
     title: "Real mentors, not just instructors",
-    
   },
   {
     id: 2,
     icon: "/images/checkmark-circle-01.svg",
     title: "Globally aligned learning standards",
-   
   },
   {
     id: 3,
     icon: "/images/checkmark-circle-01.svg",
     title: "A community of dreamers and doers",
-   
   },
   {
     id: 4,
     icon: "/images/checkmark-circle-01.svg",
     title: "Opportunities that go beyond the classroom",
-   
   },
 ];
 
-
-
-
 interface FeatureItem {
-  icon:string ;
+  icon: string;
   title: string;
   paragraph: string;
-  color?:string
-  subParagraph? :string
-  list?: string[]
-  textcolor? : string
+  color?: string;
+  subParagraph?: string;
+  list?: string[];
+  textcolor?: string;
 }
 
 export const features: FeatureItem[] = [
   {
-    icon:"/images/check.svg",
+    icon: "/images/safe.png",
     title: "Safe and Structured",
-    paragraph: "Every part of the journey (travel, accommodation, learning, and leisure) is fully supervised by trained mentors and program coordinators.",
+    paragraph:
+      "Every part of the journey (travel, accommodation, learning, and leisure) is fully supervised by trained mentors and program coordinators.",
   },
   {
-    icon:"/images/scale.svg" ,
+    icon: "/images/global.png",
     title: "Global Exposure with Purpose",
-    paragraph: "Students explore innovation hubs, startups, and cultural landmarks that expand their worldview.",
+    paragraph:
+      "Students explore innovation hubs, startups, and cultural landmarks that expand their worldview.",
   },
   {
-    icon:"/images/network.svg" ,
+    icon: "/images/handson.png",
     title: "Hands-On Learning",
-    paragraph: "Workshops and mini-projects turn every city visit into a real lesson in creativity, problem-solving, and teamwork.",
+    paragraph:
+      "Workshops and mini-projects turn every city visit into a real lesson in creativity, problem-solving, and teamwork.",
   },
   {
-    icon:"/images/check.svg",
+    icon: "/images/safe.png",
     title: "Lifelong Mentorship",
-    paragraph: "Participants receive ongoing guidance through our Elite Mentorship Program (TEMP) even after returning home.",
+    paragraph:
+      "Participants receive ongoing guidance through our Elite Mentorship Program (TEMP) even after returning home.",
   },
 ];
 
@@ -157,7 +151,8 @@ export const programDetails = [
   },
   {
     title: "Eligibility",
-    value: "Motivated students with curiosity, creativity, and a passion for growth",
+    value:
+      "Motivated students with curiosity, creativity, and a passion for growth",
   },
   {
     title: "Duration",
@@ -165,185 +160,201 @@ export const programDetails = [
   },
   {
     title: "Investment",
-    value: [
-      "$8,500 (All-inclusive)",
-      "$6,000 (Excluding TEMP mentorship)"
-    ],
+    value: ["$8,500 (All-inclusive)", "$6,000 (Excluding TEMP mentorship)"],
   },
 ];
 
 export const Targets: FeatureItem[] = [
   {
-    icon:"/gap-page/mortarboard-01.svg",
+    icon: "/gap-page/mortarboard-01.svg",
     title: "Students (Ages 16-20)",
-    color:"#BAE6FC",
-    paragraph: "For recent school graduates awaiting admission or visa approval, or those exploring their career paths.",
+    color: "#BAE6FC",
+    paragraph:
+      "For recent school graduates awaiting admission or visa approval, or those exploring their career paths.",
   },
   {
-    icon:"/gap-page/raphael_parent.svg" ,
+    icon: "/gap-page/raphael_parent.svg",
     title: "Parents",
-    color:"#00914780",
-    paragraph: "For parents seeking a safe, structured, and purposeful program that keeps their young adults learning, growing, and accountable.",
+    color: "#00914780",
+    paragraph:
+      "For parents seeking a safe, structured, and purposeful program that keeps their young adults learning, growing, and accountable.",
   },
   {
-    icon:"/gap-page/streamline-plump-color_global-learning.svg",
-    color:"#FFE5A2",
+    icon: "/gap-page/streamline-plump-color_global-learning.svg",
+    color: "#FFE5A2",
     title: "Global Learners",
-    paragraph: "For students looking to combine mentorship, internship, and international readiness during their gap year.",
+    paragraph:
+      "For students looking to combine mentorship, internship, and international readiness during their gap year.",
   },
 ];
 export const Gapfeatures: FeatureItem[] = [
   {
-    icon:"/images/check.svg",
-    title: "Safe and Structured",
-    paragraph: "Every learner follows a clear, mentored pathway with measurable goals and outcomes.",
+    icon: "/images/check.svg",
+    title: "Structured and Guided",
+    paragraph:
+      "Every learner follows a clear, mentored pathway with measurable goals and outcomes.",
   },
   {
-    icon:"/images/scale.svg" ,
+    icon: "/images/scale.svg",
     title: "Globally Benchmarked",
-    paragraph: "Aligned with leading global education frameworks from UNESCO, OECD, and Harvard Life Skills.",
+    paragraph:
+      "Aligned with leading global education frameworks from UNESCO, OECD, and Harvard Life Skills.",
   },
   {
-    icon:"/images/network.svg" ,
+    icon: "/images/network.svg",
     title: "Mentorship and Community",
-    paragraph: "Participants receive one-on-one guidance from trained mentors and join a supportive peer network.",
+    paragraph:
+      "Participants receive one-on-one guidance from trained mentors and join a supportive peer network.",
   },
   {
-    icon:"/images/check.svg",
+    icon: "/images/check.svg",
     title: "Career and Life Clarity",
-    paragraph: "By the end of the program, your child gains focus, independence, and readiness for university life.",
+    paragraph:
+      "By the end of the program, your child gains focus, independence, and readiness for university life.",
   },
 ];
 
 export const GapProgramme: FeatureItem[] = [
   {
-    icon:"/gap-page/game-icons_ages.svg",
+    icon: "/gap-page/game-icons_ages.svg",
     title: "Age Range",
     paragraph: "12-20 years",
-    color:"#009147",
-    textcolor:"#FFFFFF"
+    color: "#009147",
+    textcolor: "#FFFFFF",
   },
   {
-    icon:"/gap-page/material-symbols-light_calendar-month-sharp.svg" ,
+    icon: "/gap-page/material-symbols-light_calendar-month-sharp.svg",
     title: "Month 1:",
     paragraph: "Orientation & Core Life Skills Bootcamp",
-    subParagraph:"Learners start with a guided foundation program focused on emotional intelligence, communication, and time management.",
-  color:"#F9BB1E",
-   textcolor:"#000000"
-
+    subParagraph:
+      "Learners start with a guided foundation program focused on emotional intelligence, communication, and time management.",
+    color: "#F9BB1E",
+    textcolor: "#000000",
   },
   {
-    icon:"/gap-page/material-symbols-light_calendar-month-sharp.svg" ,
+    icon: "/gap-page/material-symbols-light_calendar-month-sharp.svg",
     title: "Month 6:",
     paragraph: "Capstone Project & Certification",
-      subParagraph:"Each learner completes a personal or community project that showcases their growth and creativity.",
-  color:"#F9BB1E",
-   textcolor:"#000000"
-
-    },
+    subParagraph:
+      "Each learner completes a personal or community project that showcases their growth and creativity.",
+    color: "#F9BB1E",
+    textcolor: "#000000",
+  },
   {
-    icon:"/gap-page/nrk_duration.svg",
+    icon: "/gap-page/nrk_duration.svg",
     title: "Duration",
     paragraph: "6-12 months (flexible start dates)",
-  color:"#009147",
-  textcolor:"#FFFFFF"
+    color: "#009147",
+    textcolor: "#FFFFFF",
   },
-   {
-    icon:"/gap-page/material-symbols-light_calendar-month-sharp.svg" ,
+  {
+    icon: "/gap-page/material-symbols-light_calendar-month-sharp.svg",
     title: "Months 2-5:",
     paragraph: "Internship Placement + Mentorship Sessions",
-      subParagraph:"Students gain real-world exposure through internships, professional projects, and guided reflection sessions.",
-    color:"#F9BB1E",
-    textcolor:"#000000"
-    },
-    {
-    icon:"/gap-page/ri_focus-line.svg" ,
+    subParagraph:
+      "Students gain real-world exposure through internships, professional projects, and guided reflection sessions.",
+    color: "#F9BB1E",
+    textcolor: "#000000",
+  },
+  {
+    icon: "/gap-page/ri_focus-line.svg",
     title: "Focus Tracks:",
     paragraph: "Orientation & Core Life Skills Bootcamp",
-     list:["Business &Entrepreneurship", "STEM & Technology", "Creative & Media", "Community Service & NGO"],
-   color:"#F9BB1E"
-    },
+    list: [
+      "Business &Entrepreneurship",
+      "STEM & Technology",
+      "Creative & Media",
+      "Community Service & NGO",
+    ],
+    color: "#F9BB1E",
+  },
 ];
 
 export const LargeGapProgramme: FeatureItem[] = [
   {
-    icon:"/gap-page/game-icons_ages.svg",
+    icon: "/gap-page/game-icons_ages.svg",
     title: "Age Range",
     paragraph: "12-20 years",
-    color:"#009147",
-    textcolor:"#FFFFFF"
+    color: "#009147",
+    textcolor: "#FFFFFF",
   },
-   {
-    icon:"/gap-page/nrk_duration.svg",
+  {
+    icon: "/gap-page/nrk_duration.svg",
     title: "Duration",
     paragraph: "6-12 months (flexible start dates)",
-  color:"#009147",
-  textcolor:"#FFFFFF"
+    color: "#009147",
+    textcolor: "#FFFFFF",
   },
 
   {
-    icon:"/gap-page/material-symbols-light_calendar-month-sharp.svg" ,
+    icon: "/gap-page/material-symbols-light_calendar-month-sharp.svg",
     title: "Month 1:",
     paragraph: "Orientation & Core Life Skills Bootcamp",
-    subParagraph:"Learners start with a guided foundation program focused on emotional intelligence, communication, and time management.",
-  color:"#F9BB1E",
-   textcolor:"#000000"
+    subParagraph:
+      "Learners start with a guided foundation program focused on emotional intelligence, communication, and time management.",
+    color: "#F9BB1E",
+    textcolor: "#000000",
   },
-   {
-    icon:"/gap-page/material-symbols-light_calendar-month-sharp.svg" ,
+  {
+    icon: "/gap-page/material-symbols-light_calendar-month-sharp.svg",
     title: "Months 2-5:",
     paragraph: "Internship Placement + Mentorship Sessions",
-      subParagraph:"Students gain real-world exposure through internships, professional projects, and guided reflection sessions.",
-    color:"#F9BB1E",
-     textcolor:"#000000"
-    },
+    subParagraph:
+      "Students gain real-world exposure through internships, professional projects, and guided reflection sessions.",
+    color: "#F9BB1E",
+    textcolor: "#000000",
+  },
   {
-    icon:"/gap-page/material-symbols-light_calendar-month-sharp.svg" ,
+    icon: "/gap-page/material-symbols-light_calendar-month-sharp.svg",
     title: "Month 6:",
     paragraph: "Capstone Project & Certification",
-      subParagraph:"Each learner completes a personal or community project that showcases their growth and creativity.",
-  color:"#F9BB1E",
-   textcolor:"#000000"
-    },
- 
-    {
-    icon:"/gap-page/ri_focus-line.svg" ,
+    subParagraph:
+      "Each learner completes a personal or community project that showcases their growth and creativity.",
+    color: "#F9BB1E",
+    textcolor: "#000000",
+  },
+
+  {
+    icon: "/gap-page/ri_focus-line.svg",
     title: "Focus Tracks:",
     paragraph: "Orientation & Core Life Skills Bootcamp",
-     list:["Business &Entrepreneurship", "STEM & Technology", "Creative & Media", "Community Service & NGO"],
-   color:"#F9BB1E",
-    textcolor:"#000000"
-    },
+    list: [
+      "Business &Entrepreneurship",
+      "STEM & Technology",
+      "Creative & Media",
+      "Community Service & NGO",
+    ],
+    color: "#F9BB1E",
+    textcolor: "#000000",
+  },
 ];
 
 export const GapFEat = [
   {
     title: "UNESCO Global Citizenship Education",
-    paragraph: "Encourages empathy, ethics, and a deeper understanding of global cultures.",
-    color:"#FFE5A2"
+    paragraph:
+      "Encourages empathy, ethics, and a deeper understanding of global cultures.",
+    color: "#FFE5A2",
   },
   {
     title: "OECD Skills for 2030",
-    paragraph: "Helps students develop adaptability, collaboration, and creativity for the future of work.",
-    color:"#BAE6FC"
+    paragraph:
+      "Helps students develop adaptability, collaboration, and creativity for the future of work.",
+    color: "#BAE6FC",
   },
   {
     title: "Harvard Life Skills Framework",
-    paragraph: "Builds leadership, communication, and emotional intelligence for lifelong growth.",
-    color:"#00914780"
+    paragraph:
+      "Builds leadership, communication, and emotional intelligence for lifelong growth.",
+    color: "#00914780",
   },
   {
     title: "World Economic Forum: Future of Jobs Report",
-    paragraph: "Guides our approach to 21st-century employability and the skills young people need to thrive.",
-    color:"#FFF0CC"
+    paragraph:
+      "Guides our approach to 21st-century employability and the skills young people need to thrive.",
+    color: "#FFF0CC",
   },
 ];
-
-
-
-
-
-
 
 export const GapSponsors = [
   {
@@ -362,7 +373,7 @@ export const GapSponsors = [
     logo: "/gap-page/MATER_ECC_LOGO 1.svg",
     value: "Mater Ecclesiae",
   },
- ,
+  ,
 ];
 export const forSchool = [
   {
