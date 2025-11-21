@@ -10,7 +10,7 @@ import SideAttraction from "@/componentspages/git/side-attractions";
 import BeyondTip from "@/componentspages/git/beyont-tip";
 import ProgramDetails from "@/componentspages/git/program-details";
 import ChildGain from "@/componentspages/git/child-gaim";
-import Faq from "@/componentspages/git/faq";
+import GitFAQ from "@/componentspages/git/faq";
 import ContactUs from "@/componentspages/git/contact-us";
 import Socialproofpage from "@/componentspages/home/social proof/socialproofpage";
 const Gitpage = () => {
@@ -20,12 +20,11 @@ const Gitpage = () => {
       <Vision />
       <About />
       <Programme />
-      <div className="lg:bg-[#F2F2F2] px-5 lg:px-16  ">
-        {" "}
+      <div className="lg:bg-[#F2F2F2] px-5 pt-16 lg:px-16  ">
         <Portugal />
       </div>
       <Spain />{" "}
-      <div className="lg:bg-[#F2F2F2] px-5 lg:px-16  ">
+      <div className="lg:bg-[#F2F2F2] px-5 pb-16 lg:px-16  ">
         <Paris />{" "}
       </div>
       <SideAttraction />
@@ -33,7 +32,7 @@ const Gitpage = () => {
       <Socialproofpage />
       <ProgramDetails />
       <ChildGain />
-      <Faq />
+      <GitFAQ />
       <ContactUs />
     </div>
   );

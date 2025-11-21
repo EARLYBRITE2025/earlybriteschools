@@ -11,7 +11,8 @@ import Apply from "@/componentspages/gap/apply";
 import Conclusion from "@/componentspages/gap/conclusion";
 import About from "@/componentspages/git/about";
 import ProgramDetails from "@/componentspages/git/program-details";
-import Faqs from "@/componentspages/gap/faqs";
+import GapFAQ from "@/componentspages/gap/faq";
+import Footer from "@/componentspages/layouts/footer";
 import Socialproofpage from "@/componentspages/home/social proof/socialproofpage";
 
 function GAP() {
@@ -27,10 +28,10 @@ function GAP() {
       <WorldClass />
       <Apply />
       <Conclusion />
-      <About />
       <Socialproofpage />
       <ProgramDetails />
-      <Faqs />
+
+      <GapFAQ />
     </div>
   );
 }

@@ -16,18 +16,18 @@ const OurProgramme = () => {
        <div className='flex flex-col items-center justfiy-center  gap-[16px]'>
          <h1 className='text-[24px] font-bold xl:w-[px] text-[#000000] font-[family-name:var(--font-baloo2)] font-bold'>The Elite Mentorship Program (TEMP)</h1>
         <p className='text-[#666666] xl:w-[433px] mb-3 '>TEMP is a transformative youth mentorship and development program that helps schools guide students toward discovering their potential and building 21st-century skills.</p>
-       <ul className='flex flex-col  xl:w-[433px] text-[#666666] gap-[18px]  items-center justify-center '>
-                      <li className='flex  gap-[16px]  '>
-                   <Check/>    Enrich your student development strategy with global mentorship experiences.
+       <ul className=' flex flex-col  w-[352px]  xl:w-[433px] px-[10px] text-[#666666] gap-[18px] items-start justify-start text-[18px] xl:items-start xl:justify-center'>
+                      <li className='flex   items-start justify-start w-[302px]  xl:w-[433px]'>
+                   <Check/>   <p className='text-[18px] w-[256px] xl:w-[387px]'>Enrich your student development strategy with global mentorship experiences.</p>
                       </li>
-                      <li className='flex gap-[16px]  '>
-                    <Check/>     Strengthen leadership, creativity, and digital fluency among your students.
+                      <li className='flex   items-start justify-start w-[302px]  xl:w-[433px] '>
+                    <Check/>   <p className='text-[18px] w-[256px] xl:w-[387px]'>  Strengthen leadership, creativity, and digital fluency among your students.</p>
                       </li>
-                      <li className='flex gap-[16px]'>
-                    <Check/>   Build global exposure for your school through participation in international learning networks.
+                      <li className='flex   items-start justify-start w-[302px]  xl:w-[433px]'>
+                    <Check/>  <p className='text-[18px] w-[256px] xl:w-[387px]'> Build global exposure for your school through participation in international learning networks.</p>
                       </li>
-                      <li className='flex gap-[16px]'>
-                      <Check/>  Access a structured program that aligns with OECD and UNESCO standards.
+                      <li className='flex   items-start justify-start w-[302px]  xl:w-[433px]'>
+                      <Check/>  <p className='text-[18px] w-[256px] xl:w-[387px]'>Access a structured program that aligns with OECD and UNESCO standards.</p>
                       </li>
                   </ul>
                   <div className='flex items-center mt-[16px] w-full md:justify-center justify-start whitespace-nowrap md:justify-start' >

@@ -4,7 +4,7 @@ const Programme = () => {
   return (
     <section className="bg-[#0F151E] px-5 lg:px-16 h-full relative grid grid-cols-1 lg:grid-cols-2 items-center justify-center">
       <div className="text-white flex h-auto py-10 justify-start flex-col  md:gap-[30px]">
-        <h1 className="text-[36px] pb-10 text-center lg:text-left font-(family-name:--font-baloo2) font-bold">
+        <h1 className="text-[36px] pb-10 text-center lg:text-left font-[family-name:var(--font-baloo2)] font-bold">
           Program Overview
         </h1>
         <p className="   text-[16px] pb-10">
@@ -43,7 +43,7 @@ const Programme = () => {
           className="absolute object-cover lg:relative"
         />
         <Image
-          src="/images/mobile-programme.png"
+          src="/images/programme-large.png"
           width={514}
           alt="programme.map"
           height={400}

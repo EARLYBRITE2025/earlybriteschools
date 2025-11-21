@@ -6,7 +6,7 @@ const About = () => {
     <>
       <section className="bg-[#BAE6FC] p-5 lg:px-16 xl:justify-center flex items-center flex-col ">
         <div className="flex flex-col items-center  gap-4 justify-center w-full ">
-          <h1 className="text-[#101010] text-[48px] text-center font-bold font-(family-name:--font-baloo2)">
+          <h1 className="text-[#101010] text-[48px] text-center font-bold font-[family-name:var(--font-baloo2)]">
             Why Parents Choose GIT
           </h1>
           <p className="text-[#666666] text-[13.8px] xl:w-[542px] text-center">
@@ -26,7 +26,7 @@ const About = () => {
                   height={48}
                   className="w-[48.5px] h-[48.5px] object-cover rounded-lg"
                 />
-                <h3 className="text-[24px] font-bold mt-4">{item.title}</h3>
+                <h3 className="text-[24px] font-bold mt-4 font-[family-name:var(--font-baloo2)]">{item.title}</h3>
                 <p className="text-[#666666] text-[13.8px] ">
                   {item.paragraph}
                 </p>

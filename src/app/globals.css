@@ -113,15 +113,12 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
-
-
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
-   
   }
 }
 .button,
@@ -131,21 +128,36 @@
   visibility: hidden;
 }
 
-
 .image-container {
-  overflow-x: scroll;  
-  overflow-y: hidden;     
-  scrollbar-width: none;  
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none;
 }
 
 .image-container::-webkit-scrollbar {
-  display: none;          /* hides scrollbar on Chrome, Edge, Safari */
+  display: none; /* hides scrollbar on Chrome, Edge, Safari */
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
 @layer utilities {
   .gradient {
-@apply bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC] 
+    @apply bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC];
   }
-
 }
 html {
   scroll-behavior: smooth;
@@ -153,79 +165,70 @@ html {
 }
 @layer components {
   header {
-        nav {
-            @apply  flex items-center justify-between md:gap-3 h-[111px] px-[24px] md:px-[30px] lg:px-[110px]  w-full text-[16px] 
-      }
+    nav {
+      @apply flex items-center justify-between md:gap-3 h-[111px] px-[24px] md:px-[30px] lg:px-[110px]  w-full text-[16px];
+    }
   }
-.hero-div{
-  
-
-  .classic {
-  @apply  text-[30px] text-start
-}
-  
-}
-.contact {
-  @apply hidden md:flex bg-[#F9BB1E] rounded-full text-black py-[12px] px-[24px]  md:px-[20px] md:py-[10px] hover:bg-yellow-300 transition-all duration-300 
-}
-.button {
-  @apply rounded-full text-black py-[12px] px-[24px]
-        md:px-[20px] md:py-[10px]  transition-all duration-300 w-[170px] 
-}
-.reuseable-button {
-   @apply rounded-full text-black py-[12px] px-[24px]
-        md:px-[20px] md:py-[10px]  transition-all duration-300 w-[170px] 
-}
-.feature-styles {
-  .first-div {
-    @apply bg-[#1A94D2]
-      md:justify-between md:flex-row md:h-0 w-[90%] rounded-2xl   
-     pt-3 text-[#FFFFFF] flex items-start  flex-col space-y-5
+  .hero-div {
+    .classic {
+      @apply text-[30px] text-start;
+    }
   }
-  .second-header {
-      @apply text-[36px] w-[251px] text-start font-bold
+  .contact {
+    @apply hidden lg:flex bg-[#F9BB1E] rounded-full text-black  px-[24px]  md:px-[20px] hover:bg-yellow-300 transition-all duration-300;
   }
-}
-.about-style {
-  .second-headers {
-  @apply text-[36px] w-[251px]  font-bold
+  .button {
+    @apply rounded-full text-black py-[12px] px-[24px]
+        md:px-[20px] md:py-[10px]  transition-all duration-300 w-[170px];
   }
-}
-header {
-@apply md:sticky md:top-0 z-[500] w-full 
-}
-.hero {
-  @apply w-full bg-white flex items-start justify-center to-[#FFF0CC]; 
-  .hero-first-div {
-    @apply flex flex-col items-center justify-center md:flex-row w-full md:pb-10 xl:pb-0  xl:w-[1202px]  xl:h-[633px]
+  .reuseable-button {
+    @apply rounded-full text-black py-[12px] px-[24px]
+        md:px-[20px] md:py-[10px]  transition-all duration-300 w-[170px];
+  }
+  .feature-styles {
+    .first-div {
+      @apply bg-[#1A94D2]
+      xl:justify-between xl:flex-row w-full rounded-2xl
+     pt-3 text-[#FFFFFF] flex items-start  flex-col space-y-5;
+    }
+    .second-header {
+      @apply text-[36px] w-[251px] text-start font-bold;
+    }
+  }
+  .about-style {
+    .second-headers {
+      @apply text-[36px] w-[251px]  font-bold;
+    }
+  }
+  header {
+    @apply md:sticky md:top-0 z-[500] w-full;
+  }
+  .hero {
+    @apply w-full bg-white flex items-start justify-center to-[#FFF0CC];
+    .hero-first-div {
+      @apply flex flex-col items-start justify-center lg:flex-row w-full lg:pb-10 xl:pb-0  xl:w-[1202px]  xl:h-[633px];
+    }
   }
 }
-} 
 /* Style Accordion Chevron */
 [data-state="closed"] > svg,
 [data-state="open"] > svg {
   padding: 6px;
   border-radius: 999px;
-  background: linear-gradient(180deg, #DBFD82 0%, #3EAC91 100%);
+  background: linear-gradient(180deg, #dbfd82 0%, #3eac91 100%);
   color: white !important;
   width: 32px;
   height: 32px;
 }
 
-
-
 .abstract-shape {
   position: absolute;
-  top: 0%; 
+  top: 0%;
   right: 10%;
   width: 100%;
   height: 100%;
   z-index: 1;
 }
-
-
-
-
 
 .rotate {
   animation: spin 7s linear infinite;

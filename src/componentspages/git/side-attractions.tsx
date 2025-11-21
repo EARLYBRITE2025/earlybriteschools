@@ -21,7 +21,6 @@ const SideAttraction = () => {
             </p>
           </div>
 
-          {/* BUTTON */}
           <button className="bg-[#F9BB1E] reuseable-button">
             Apply For GIT
           </button>
@@ -35,7 +34,7 @@ const SideAttraction = () => {
                   key={index}
                   className="bg-[#C9EDFF] p-6 rounded-xl text-start shadow-sm flex-1 flex flex-col justify-center"
                 >
-                  <h3 className="font-bold font-(family-name:--font-baloo2)">
+                  <h3 className="font-bold font-[family-name:var(--font-baloo2)]">
                     {activity.title}
                   </h3>
                   <p className="text-black/70 leading-relaxed mt-2">
@@ -48,17 +47,17 @@ const SideAttraction = () => {
             {/* Center image */}
             <div className="flex justify-center items-center relative">
               <Image
-                src="/images/image.png"
+                src="/images/git-side.png"
                 width={400}
                 height={400}
                 alt=""
                 className="rounded-xl max-h-[400px] object-cover"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-6 rounded-b-xl text-white text-start">
-                <h3 className="font-bold text-lg font-(family-name:--font-baloo2)">
+                <h3 className="font-bold  text-2xl font-[family-name:var(--font-baloo2)]">
                   Friendship & Fun
                 </h3>
-                <p className="text-sm mt-2">
+                <p className="text-lg mt-2">
                   Group challenges, movie nights, and community dinners that
                   build lifelong bonds.
                 </p>
@@ -72,7 +71,9 @@ const SideAttraction = () => {
                   key={index}
                   className="bg-[#C9EDFF] p-6 rounded-xl text-start shadow-sm flex-1 flex flex-col justify-center"
                 >
-                  <h3 className="font-bold">{activity.title}</h3>
+                  <h3 className="font-bold font-[family-name:var(--font-baloo2)]">
+                    {activity.title}
+                  </h3>
                   <p className="text-black/70 leading-relaxed mt-2">
                     {activity.description}
                   </p>
@@ -86,17 +87,17 @@ const SideAttraction = () => {
             {/* Image first on mobile */}
             <div className="flex justify-center relative">
               <Image
-                src="/images/image.png"
+                src="/images/git-side.png"
                 width={513}
                 height={513}
                 alt=""
-                className="rounded-xl w-full max-w-[400px]"
+                className="rounded-xl w-full "
               />
-              <div className="absolute bottom-0 left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-6 rounded-b-xl text-white text-start">
-                <h3 className="font-bold text-lg font-(family-name:--font-baloo2)">
+              <div className="absolute bottom-0 flex justify-center pb-32 items-start px-10 flex-col left-0 right-0 bg-linear-to-t from-black/80 to-transparent p-6 rounded-b-xl text-white text-start">
+                <h3 className="font-bold text-3xl  font-[family-name:var(--font-baloo2)]">
                   Friendship & Fun
                 </h3>
-                <p className="text-sm mt-2">
+                <p className="text-2xl font-medium w-[80%] mt-2">
                   Group challenges, movie nights, and community dinners that
                   build lifelong bonds.
                 </p>
@@ -110,7 +111,7 @@ const SideAttraction = () => {
                   key={index}
                   className="bg-[#C9EDFF] p-6 rounded-xl text-start shadow-sm"
                 >
-                  <h3 className="font-bold font-(family-name:--font-baloo2)">
+                  <h3 className="font-bold font-[family-name:var(--font-baloo2)]">
                     {activity.title}
                   </h3>
                   <p className="text-black/70 leading-relaxed mt-2">

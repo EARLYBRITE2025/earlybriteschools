@@ -17,7 +17,7 @@ import Footer from '@/componentspages/layouts/footer'
 const ForSchool = () => {
   return (
     <div>
-      <SchoolNavbar/>
+      
       <SchoolHero/>
       <Transfer/>
       <WorldClassSchool/>
