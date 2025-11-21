@@ -377,7 +377,7 @@ export const forSchool = [
   },
   {
     title: "3",
-    paragraph: "Builds leadership, communication, and emotional intelligence for lifelong growth.",
+    paragraph: "Gain access to certified mentors, tools, and digital resources.",
     color:"#00914780"
   },
   {

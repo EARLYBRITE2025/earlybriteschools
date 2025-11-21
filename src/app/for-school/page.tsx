@@ -31,7 +31,6 @@ const ForSchool = () => {
       <ForSchoolPage/>
       <SchoolFAQ/>
       <BringToSchool/>
-      <Footer/>
     </div>
   )
 }

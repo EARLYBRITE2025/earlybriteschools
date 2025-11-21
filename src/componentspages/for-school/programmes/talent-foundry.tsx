@@ -11,18 +11,18 @@ const TalentFoundry= () => {
          <h1 className='text-[24px]  font-[family-name:var(--font-baloo2)]  w-[302px]  font-bold w-[302px] text-[#000000] xl:text-[40px] xl:w-[433px] '>Talent Foundry</h1>
         <p className='text-[#666666]  w-[302px]   xl:w-[433px]'>Talent Foundry brings innovation directly into schools. It equips students with practical tech, creative, and business skills such as coding,
              animation, gaming, design, and entrepreneurship.</p>
-       <ul className='flex flex-col  w-[302px]  xl:w-[433px] text-[#666666] gap-[18px] text-[18px] items-start justify-center '>
-                      <li className='flex   items-start justify-center xl:w-[387px]  '>
-                  Introduce students to tech and creativity in a structured, exciting way.
+       <ul className='flex flex-col  w-[352px]  xl:w-[433px] px-[10px] text-[#666666] gap-[18px] items-start justify-start text-[18px] xl:items-start xl:justify-centerr '>
+                      <li className='flex   items-start justify-start w-[302px] xl:w-[433px]  '>
+          <Check/>       <p  className='text-[18px] w-[256px] xl:w-[387px]' > Introduce students to tech and creativity in a structured, exciting way.</p>
                       </li>
-                      <li className='flex items-start justify-center xl:w-[387px]'>
-                   Build your reputation as a future-ready institution.
+                     <li className='flex items-start justify-start w-[302px] xl:w-[433px] '>
+             <Check/>       <p  className='text-[18px] w-[256px] xl:w-[387px]' > Build your reputation as a future-ready institution.</p>
                       </li>
-                      <li className='flex  items-start justify-center xl:w-[387px]'>
-                  Access facilitators and resources for in-school or after-school delivery.
+                      <li className='flex  items-start justify-start w-[302px] xl:w-[433px] '>
+             <Check/>       <p  className='text-[18px] w-[256px] xl:w-[387px]' >Access facilitators and resources for in-school or after-school delivery.</p>
                       </li>
-                      <li className='flex  items-start justify-center xl:w-[387px]'>
-                     Create real-world learning moments that link directly to classroom goals
+                      <li className='flex  items-start justify-start w-[302px] xl:w-[433px]'>
+             <Check/>          <p  className='text-[18px] w-[256px] xl:w-[387px]' >Create real-world learning moments that link directly to classroom goals</p>
                       </li>
                   </ul>
              <div className='flex items-center space-x-3 w-full md:justify-center justify-start whitespace-nowrap md:justify-start' >

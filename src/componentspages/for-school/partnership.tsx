@@ -15,7 +15,7 @@ const Partnership = () => {
                                           <div
                                           key={index}
                                           style={{background:activity.color}}
-                                          className=" bg-[#00914780]  p-[24px] gap-[16px]  items-start justify-center flex-flex-col  xl:w-[383px] rounded-[24px]  "
+                                          className=" bg-[#00914780]  p-[24px] gap-[16px]  items-start justify-center flex flex-col  xl:w-[383px] rounded-[24px]  "
                                         >
                 
                                    <h3 style={{color:activity.textColor}} className="font-bold text-[#101010] text-start w-[234px] text-[24px]">{activity.title}</h3>
@@ -27,7 +27,7 @@ const Partnership = () => {
                           </div>
                                   </section>
                 ))}
- <div className='relative w-full flex items-center justify-center z-[-5]'>   
+ <div className='relative w-full flex items-center justify-center hidden z-[-5]'>   
                  <Image
                 src="/for-school/Vector 5.png"
                 width={142}
@@ -44,7 +44,7 @@ const Partnership = () => {
 
     <div className='flex flex-col items-center justify-center p-[40px] hidden md:flex '>
       <section className='flex text-center gap-[16px] w-[354px] items-center justify-center flex-col'> 
-        <h1 className='text-[30px] w-[820px]  font-[family-name:var(--font-baloo2)]  font-bold text-[48px] '>How Our Partnership Works</h1>
+        <h1 className='text-[30px] w-[820px]  font-[family-name:var(--font-baloo2)]  font-bold xl:text-[48px] '>How Our Partnership Works</h1>
         <p className='w-[820px] text-[18px]  text-center'>We make collaboration straightforward. Whether you are a nursery, secondary, or
              international school, Earlybrite adapts each program to fit your structure and timetable.</p>
              <section className='flex items-start justify-center w-full gap-[40px] z-[20]'>

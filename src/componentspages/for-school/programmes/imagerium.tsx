@@ -30,18 +30,18 @@ className='rounded-xl hidden md:flex'
             Schools can partner with Earlybrite to offer students a 20-day international learning trek across Portugal, 
             Spain, and France. Students experience innovation hubs,
              cultural immersion, and mentorship that shapes global thinking</p>
-       <ul className='flex flex-col  w-[302px]  xl:w-[433px] text-[#666666] gap-[18px] text-[18px] xl:items-start xl:justify-center '>
-                      <li className='flex   items-start justify-center xl:w-[387px]  '>
-                   Add value to your early years or primary program through experiential learning.
+       <ul className='flex flex-col  w-[352px]  xl:w-[433px] px-[10px] text-[#666666] gap-[18px] items-start justify-start text-[18px] xl:items-start xl:justify-center'>
+                      <li className='flex   items-start justify-start w-[302px] xl:w-[433px] '>
+             <Check/>     <p  className='text-[18px] w-[256px] xl:w-[387px]'> Add value to your early years or primary program through experiential learning.</p>
                       </li>
-                      <li className='flex items-start justify-center xl:w-[387px]'>
-                    Increase enrollment and parent satisfaction with creative, purposeful play.
+                      <li className='flex   items-start justify-start w-[302px] xl:w-[433px]'>
+               <Check/>    <p  className='text-[18px] w-[256px] xl:w-[387px]'> Increase enrollment and parent satisfaction with creative, purposeful play.</p>
                       </li>
-                      <li className='flex  items-start justify-center xl:w-[387px]'>
-                   Receive training and resources for your teachers to deliver world-class sessions.
+                      <li className='flex   items-start justify-start w-[302px] xl:w-[433px]'>
+                 <Check/>  <p  className='text-[18px] w-[256px] xl:w-[387px]'>Receive training and resources for your teachers to deliver world-class sessions.</p>
                       </li>
-                      <li className='flex  items-start justify-center xl:w-[387px]'>
-                     Showcase your school as a model for modern, child-centered education.
+                      <li className='flex   items-start justify-start w-[302px] xl:w-[433px]'>
+                 <Check/>   <p  className='text-[18px] w-[256px] xl:w-[387px]'> Showcase your school as a model for modern, child-centered education.</p>
                       </li>
                   </ul>
              <div className='flex items-center space-x-3 w-full md:justify-center justify-start whitespace-nowrap md:justify-start' >

@@ -29,7 +29,6 @@ function GAP() {
       <Conclusion />
       <About />
       <Socialproofpage />
-
       <ProgramDetails />
       <Faqs />
     </div>
