@@ -121,11 +121,7 @@ const Hero = () => {
             <div className="flex items-center gap-3  w-full  md:justify-start flex-wrap">
               <button className="bg-[#F9BB1E] button w-fit text-[12px] font-medium sm:text-[16px]">
                 <span className="flex gap-2 items-center justify-center text-[12px] font-medium text-black">
-                  Explore Program{" "}
-                  <span className="hidden lg:flex">
-                    {" "}
-                    <BlackRightarrowSvg />
-                  </span>
+                  Explore Program <BlackRightarrowSvg />
                 </span>
               </button>
               <button className="bg-[#1A94D2] button w-fit text-white text-[14px] sm:text-[16px]">

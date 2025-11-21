@@ -27,7 +27,7 @@ const Navbar = () => {
       case "/temp":
         return "bg-gradient-to-r from-[#E1F5FE] to-[#BAE6FC]";
       case "/summer":
-        return "bg-gradient-to-r from-[#FFF0CC] to-[#FFE5A2]";
+        return "bg-[#0F151E]";
       case "/talent-foundry":
         return "bg-white";
       default:
@@ -40,6 +40,8 @@ const Navbar = () => {
     switch (pathname) {
       case "/immaginarium":
         return "text-white";
+      case "/summer":
+        return "text-white";
       default:
         return "text-black";
     }
@@ -48,6 +50,8 @@ const Navbar = () => {
   const getHamburgerColor = () => {
     switch (pathname) {
       case "/immaginarium":
+        return "bg-white";
+      case "/summer":
         return "bg-white";
       default:
         return "bg-black";
