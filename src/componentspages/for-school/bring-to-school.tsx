@@ -47,7 +47,7 @@ const BringToSchool = () => {
       width={603.8}
       height={462.6}
       alt=''
-      className='absolute left-[80px] top-[-1px] '
+      className='absolute left-[80px] hidden md:flex top-[-1px] '
       />
      </div>
     </div>

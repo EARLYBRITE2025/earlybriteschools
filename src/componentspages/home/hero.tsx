@@ -112,20 +112,16 @@ const Hero = () => {
               for African children.
             </h1>
             <p
-              className="text-start mb-[20px] text-[20px]  sm:text-[16px] md:text-[18px] w-[354px] xl:w-[536px] max-w-[354px] md:max-w-[450px] xl:max-w-[536px]"
+              className="text-start mb-[20px] text-[20px]  w-full sm:text-[16px] md:text-[18px] xl:w-[536px] max-w-[354px] md:max-w-[450px] xl:max-w-[536px]"
               id="classics"
             >
               Earlybrite helps young people discover who they are, explore what they love, and prepare for the future with confidence.
             </p>
-            <div className="flex items-center gap-3 xl:mt-[40px] w-full  md:justify-start flex-wrap">
-              <button className="bg-[#F9BB1E] button w-[170px] text-[12px] font-medium sm:text-[16px]">
-                <span className="flex gap-2 items-center justify-center text-[16px] font-medium text-black">
-                  Explore Program 
-                </span>
-              </button>
+            <div className="flex  items-center gap-3 xl:mt-[40px] w-full  md:justify-start flex-wrap">
+              
               <button className="bg-[#1A94D2] button w-[168px] text-white text-[14px] sm:text-[16px]">
                 <span className="flex gap-2 items-center justify-center text-[16px] font-medium text-white">
-                  Talk to Us 
+                  Talk to Us <WhiteRightarrowSvg/>
                 </span>
               </button>
             </div>
