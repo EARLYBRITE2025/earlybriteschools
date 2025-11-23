@@ -214,6 +214,8 @@ html {
     }
   }
 }
+
+
 /* Style Accordion Chevron */
 [data-state="closed"] > svg,
 [data-state="open"] > svg {

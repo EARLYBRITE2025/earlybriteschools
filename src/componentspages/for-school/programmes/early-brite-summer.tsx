@@ -54,7 +54,7 @@ className='rounded-xl hidden md:flex'
   </div>
    </main>
    {/*lg screens*/}
-   <main className='bg-[#F2F2F2] p-[40px] flex flex-col items-center justify-center gap-[16px]'>
+   <main className='bg-[#F2F2F2] p-[40px] flex flex-col items-center justify-center gap-[16px]  hidden md:flex'>
   <div className='bg-white rounded-xl xl:items-center xl:justify-between xl:flex  xl:w-[1200px] xl:p-[45px] gap-[40px] w-[350px] p-[24px]'>
        <div>
 <Image
@@ -73,7 +73,7 @@ className='rounded-xl hidden md:flex'
 />
   </div>
 
-    <div className='flex flex-col xl:flex-row  xl:mt-[50px] items-center  gap-[16px] justify-start hidden md:flex'>
+    <div className='flex flex-col xl:flex-row  xl:mt-[50px] items-center  gap-[16px] justify-start'>
        <div className='flex flex-col items-center justfiy-center xl:w-[433px] gap-[16px] w-full'>
          <h1 className='text-[24px]  font-[family-name:var(--font-baloo2)]  font-bold w-[302px] pt-4 text-[#000000] xl:text-[40px] xl:w-[433px] '>Earlybrite Summer School</h1>
         <p className='text-[#666666]  w-[302px]   xl:w-[433px]'>Earlybrite Summer School helps students learn by doing. It connects knowledge to real life through mentorship, projects, teamwork,
