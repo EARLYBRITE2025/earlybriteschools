@@ -19,8 +19,8 @@ const Footer = () => {
         },
       });
 
-      tl.from(".footer-wrapper", { opacity: 0, duration: 0.8 });
-      tl.from(".footer-box", { y: 40, opacity: 0, duration: 1 }, "-=0.4");
+      tl.from(".footer-wrapper", { opacity: 0, duration: 0.2 });
+      tl.from(".footer-box", { y: 40, opacity: 0, duration: 0.2 }, "-=0.4");
       tl.from(".footer-col", {
         y: 30,
         opacity: 0,

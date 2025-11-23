@@ -36,14 +36,14 @@ const About = () => {
             <section className="flex flex-col items-center md:items-start justify-center space-y-8 w-full pt-5">
               <section className="space-y-8 md:space-y-0 md:flex-row md:gap-8 lg:gap-12 md:flex md:items-center md:justify-start w-full">
                 <div className="flex flex-col items-center md:items-start justify-center gap-1">
-                  <span className="text-[#101010] font-bold text-[32px] md:text-[36px] lg:text-[40px]">
+                  <span className="text-[#101010] font-bold text-[32px] md:text-[36px] font-[family-name:var(--font-baloo2)] lg:text-[40px]">
                     10,000+
                   </span>
                   <span className="text-[#666666] font-semibold text-[14px] md:text-[16px]">
                     Children Trained
                   </span>
                 </div>
-                <div className="flex flex-col items-center md:items-start justify-center gap-1">
+                <div className="flex flex-col items-center md:items-start  font-[family-name:var(--font-baloo2)] justify-center gap-1">
                   <span className="text-[#101010] font-bold text-[32px] md:text-[36px] lg:text-[40px]">
                     97%
                   </span>

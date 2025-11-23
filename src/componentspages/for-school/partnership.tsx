@@ -27,13 +27,13 @@ const Partnership = () => {
                           </div>
                                   </section>
                 ))}
- <div className='relative w-full flex items-center justify-center hidden z-[-5]'>   
+ <div className='relative w-full flex items-center justify-center z-[-5] md:hidden'>   
                  <Image
                 src="/for-school/Vector 5.png"
-                width={142}
+                width={155}
                 height={190}
                 alt=''
-                className='relative top-[-800px] '
+                className='absolute top-[-880px]'
                 />
             </div>
              </section>
