@@ -10,7 +10,7 @@ const WhyTalentFoundry = () => {
   ];
 
   return (
-    <section className="w-full bg-[#0F151E] relative overflow-visible h-[1064px] lg:h-fit flex justify-center">
+    <section className="w-full bg-[#0F151E] relative overflow-hidden lg:overflow-visible h-[1064px] lg:h-fit flex justify-center">
       <div className="w-full 3xl:max-w-[1400px] px-0 3xl:px-0">
         <div className="flex flex-col-reverse xl:flex-row xl:items-end">
           {/* Left image section */}
@@ -23,12 +23,14 @@ const WhyTalentFoundry = () => {
                 alt="Student confident"
                 className=" object-cover hidden lg:block object-bottom"
               />
-              <Image
-                src="/images/talent-why.png"
-                fill
-                alt="Student confident"
-                className=" object-contain lg:hidden object-bottom-center"
-              />
+                <Image
+    src="/images/talent-why.png"
+    alt="Student"
+    fill
+    className="absolute bottom-0 left-0 right-0 object-contain"
+  />
+ 
+
               {/* Overlay text card */}
              <div
               className="flex items-center justify-center lg:h-[111px] lg:w-[310px] lg:top-[340px] 
@@ -59,8 +61,8 @@ const WhyTalentFoundry = () => {
             {/* Offering cards */}
             <div className="space-y-3">
               {offerings.map((offering, index) => (
-                <div key={index} className="bg-white rounded-lg p-4">
-                  <p className="text-black text-[14px]">{offering}</p>
+                <div key={index} className="bg-white rounded-lg p-[24px] mx-h-[86px]">
+                  <p className="text-[#666666] w-[306px] text-[14px]">{offering}</p>
                 </div>
               ))}
             </div>

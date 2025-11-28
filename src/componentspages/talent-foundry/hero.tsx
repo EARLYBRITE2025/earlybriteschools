@@ -9,7 +9,7 @@ const TalentFoundryHero = () => {
         <div className=" flex flex-col xl:flex-row items-center justify-between gap-8">
           {/* Left content */}
           <div className="xl:w-[40%] w-full">
-            <h1 className="text-[32px] xl:text-[48px] font-[family-name:var(--font-baloo2)] font-bold text-black leading-tight mb-6">
+            <h1 className="text-[36px] xl:text-[48px] font-[family-name:var(--font-baloo2)] font-bold text-black leading-tight mb-6">
               The skills that shape tomorrow start here.
             </h1>
             <p className="text-[#101010E5] text-[16px] mb-6">
@@ -18,7 +18,7 @@ const TalentFoundryHero = () => {
               confidence, and opportunities they need to thrive in a digital
               world.
             </p>
-            <button className="bg-[#1A94D2] text-white px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#1580b8] transition-all duration-300">
+            <button className="bg-[#1A94D2] text-white w-[212px] px-[24px] py-[12px] rounded-full flex items-center gap-2 hover:bg-[#1580b8] transition-all duration-300">
               Partner with us <WhiteRightarrowSvg />
             </button>
           </div>
