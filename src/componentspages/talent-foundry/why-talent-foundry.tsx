@@ -16,7 +16,7 @@ const WhyTalentFoundry = () => {
           {/* Left image section */}
           <div className="xl:w-[40%] relative">
             {/* Image that overflows into hero on large screens */}
-            <div className="relative h-[380px] justify-start flex items-center flex-col lg:h-[600px] lg:-mt-[200px]">
+            <div className="relative h-[380px] justify-center flex  items-center mt-[86px] flex-col lg:h-[600px] lg:-mt-[200px]">
               <Image
                 src="/home-page/Image_fx - 2025-10-17T063208.426 1.png"
                 fill
@@ -27,12 +27,12 @@ const WhyTalentFoundry = () => {
                 src="/images/talent-why.png"
                 fill
                 alt="Student confident"
-                className="absolute mt-[87px] object-contain h-full lg:hidden object-bottom-center"
+                className=" object-contain lg:hidden object-bottom-center"
               />
               {/* Overlay text card */}
              <div
               className="flex items-center justify-center lg:h-[111px] lg:w-[310px] lg:top-[340px] 
-               absolute top-[-20px] lg:left-14 w-[260px] h-[103px] 
+               absolute top-[-100px] lg:left-14 w-[260px] h-[103px] 
                  bg-[#FFE5A27A] backdrop-blur-md rounded-lg"
                 >
                <p className="text-white text-[14px] w-[211px] font-medium">
