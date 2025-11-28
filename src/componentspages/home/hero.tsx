@@ -119,7 +119,7 @@ const Hero = () => {
             </p>
             <div className="flex  items-center gap-3 xl:mt-[40px] w-full  md:justify-start flex-wrap">
               
-              <button className="bg-[#1A94D2] button w-[168px] text-white text-[14px] sm:text-[16px]">
+              <button className="bg-[#1A94D2]   button w-[168px] text-white text-[14px] sm:text-[16px]">
                 <span className="flex gap-2 items-center justify-center text-[16px] font-medium text-white">
                   Talk to Us <WhiteRightarrowSvg/>
                 </span>

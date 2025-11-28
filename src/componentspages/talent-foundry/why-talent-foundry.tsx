@@ -10,15 +10,15 @@ const WhyTalentFoundry = () => {
   ];
 
   return (
-    <section className="w-full bg-black relative overflow-visible flex justify-center">
+    <section className="w-full bg-[#0F151E] relative overflow-visible h-[1064px] lg:h-fit flex justify-center">
       <div className="w-full 3xl:max-w-[1400px] px-0 3xl:px-0">
         <div className="flex flex-col-reverse xl:flex-row xl:items-end">
           {/* Left image section */}
           <div className="xl:w-[40%] relative">
             {/* Image that overflows into hero on large screens */}
-            <div className="relative h-[380px] lg:h-[600px] lg:-mt-[200px]">
+            <div className="relative h-[380px] justify-start flex items-center flex-col lg:h-[600px] lg:-mt-[200px]">
               <Image
-                src="/images/talent-why.png"
+                src="/home-page/Image_fx - 2025-10-17T063208.426 1.png"
                 fill
                 alt="Student confident"
                 className=" object-cover hidden lg:block object-bottom"
@@ -27,18 +27,19 @@ const WhyTalentFoundry = () => {
                 src="/images/talent-why.png"
                 fill
                 alt="Student confident"
-                className="absolute object-contain h-full lg:hidden object-bottom-left"
+                className="absolute mt-[87px] object-contain h-full lg:hidden object-bottom-center"
               />
               {/* Overlay text card */}
-              <div
-                className="absolute bottom-32 right-5 lg:left-14 w-[250px] bg-[#FFE5A27A] rounded-lg p-4"
-                style={{ opacity: 0.48 }}
-              >
-                <p className="text-white text-[14px] font-medium">
-                  Talent Foundry turns curiosity into skill, and skill into
-                  confidence.
-                </p>
-              </div>
+             <div
+              className="flex items-center justify-center lg:h-[111px] lg:w-[310px] lg:top-[340px] 
+               absolute top-[-20px] lg:left-14 w-[260px] h-[103px] 
+                 bg-[#FFE5A27A] backdrop-blur-md rounded-lg"
+                >
+               <p className="text-white text-[14px] w-[211px] font-medium">
+                   Talent Foundry turns curiosity into skill, and skill into confidence.
+                  </p>
+               </div>
+
             </div>
           </div>
 

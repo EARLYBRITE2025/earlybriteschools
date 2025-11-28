@@ -1,8 +1,40 @@
-import React from "react";
+'use client'
+
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
+import gsap from "gsap";
 import { WhiteRightarrowSvg } from "../../../public/svg/constants";
 import { learningHighlights } from "../layouts/constants/constants";
-const About = () => {
+
+const About: React.FC = () => {
+  const countRef1 = useRef<HTMLSpanElement | null>(null);
+const countRef2 = useRef<HTMLSpanElement | null>(null);
+
+useEffect(() => {
+  const animateCount = (
+    ref: React.RefObject<HTMLSpanElement | null>,
+    endValue: number,
+    suffix: string = ""
+  ) => {
+    const obj = { val: 0 };
+
+    gsap.to(obj, {
+      val: endValue,
+      duration: 2,
+      ease: "power3.out",
+      onUpdate: () => {
+        if (ref.current) {
+          ref.current.textContent =
+            Math.floor(obj.val).toLocaleString() + suffix;
+        }
+      },
+    });
+  };
+
+  animateCount(countRef1, 10000, "+");
+  animateCount(countRef2, 97, "%");
+}, []);
+
   return (
     <div className="bg-[#FFFFFF] w-full flex justify-center py-20">
       <div className="w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0">
@@ -17,6 +49,7 @@ const About = () => {
               opportunities, global standards, and practical experience that
               lasts a lifetime.
             </p>
+
             {learningHighlights.map((item) => (
               <div key={item.id} className="flex items-start gap-4 w-full">
                 <Image
@@ -33,18 +66,30 @@ const About = () => {
                 </div>
               </div>
             ))}
+
+            {/* COUNT-UP ANIMATION SECTION */}
             <section className="flex flex-col items-center md:items-start justify-center space-y-8 w-full pt-5">
               <section className="space-y-8 md:space-y-0 md:flex-row md:gap-8 lg:gap-12 md:flex md:items-center md:justify-start w-full">
+
+                {/* 10,000+ */}
                 <div className="flex flex-col items-center md:items-start justify-center gap-1">
-                  <span className="text-[#101010] font-bold text-[32px] md:text-[36px] font-[family-name:var(--font-baloo2)] lg:text-[40px]">
+                  <span
+                    ref={countRef1}
+                    className="text-[#101010] font-bold text-[32px] md:text-[36px] font-[family-name:var(--font-baloo2)] lg:text-[40px]"
+                  >
                     10,000+
                   </span>
                   <span className="text-[#666666] font-semibold text-[14px] md:text-[16px]">
                     Children Trained
                   </span>
                 </div>
-                <div className="flex flex-col items-center md:items-start  font-[family-name:var(--font-baloo2)] justify-center gap-1">
-                  <span className="text-[#101010] font-bold text-[32px] md:text-[36px] lg:text-[40px]">
+
+                {/* 97% */}
+                <div className="flex flex-col items-center md:items-start font-[family-name:var(--font-baloo2)] justify-center gap-1">
+                  <span
+                    ref={countRef2}
+                    className="text-[#101010] font-bold text-[32px] md:text-[36px] lg:text-[40px]"
+                  >
                     97%
                   </span>
                   <span className="text-[#666666] font-semibold text-[14px] md:text-[16px]">
@@ -52,6 +97,7 @@ const About = () => {
                   </span>
                 </div>
               </section>
+
               <div className="w-full flex md:items-start items-center justify-center md:justify-start">
                 <button className="button bg-[#1A94D2] text-[14px] sm:text-[16px]">
                   <span className="flex gap-2 items-center group justify-center text-white">
@@ -61,8 +107,9 @@ const About = () => {
               </div>
             </section>
           </div>
+
+          {/* Image Section - untouched */}
           <section className="relative px-5 md:px-10 flex flex-col items-center justify-center w-full md:w-auto lg:shrink-0 mt-10 lg:mt-0">
-            {/* Main Image */}
             <Image
               src="/images/mainabout.png"
               width={274}
@@ -78,8 +125,7 @@ const About = () => {
               className="hidden md:flex rounded-xl w-full max-w-[350px] md:max-w-[400px] xl:w-[400px] h-auto object-cover"
             />
 
-            {/* Small image - Left */}
-            <div className="absolute left-[5px] top-[35%]  md:top-[8%] lg:left-[-3%]">
+            <div className="absolute left-[5px] top-[35%] md:top-[8%] lg:left-[-3%]">
               <Image
                 src="/images/about-side.png"
                 width={93}
@@ -96,7 +142,6 @@ const About = () => {
               />
             </div>
 
-            {/* Small image - Right */}
             <div className="absolute right-[5px] bottom-[10%] md:right-[0%] md:top-[50%] lg:top-[65%] z-50">
               <Image
                 src="/images/aboutimage-3.png"

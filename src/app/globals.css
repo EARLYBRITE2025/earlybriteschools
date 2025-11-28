@@ -179,7 +179,7 @@ html {
     }
   }
   .contact {
-    @apply hidden lg:flex bg-[#F9BB1E] rounded-full text-black  px-[24px]  md:px-[20px] hover:bg-yellow-300 transition-all duration-300;
+    @apply hidden lg:flex bg-[#F9BB1E] rounded-full text-black  px-[24px]  md:px-[20px] hover:bg-[#FFE5A2] transition-all duration-300;
   }
   .button {
     @apply rounded-full text-black py-[12px] px-[24px]

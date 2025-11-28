@@ -4,7 +4,7 @@ import { WhiteRightarrowSvg } from "../../../public/svg/constants";
 
 const TalentFoundryHero = () => {
   return (
-    <section className="w-full bg-white py-12 flex justify-center" id="home">
+    <section className="w-full  bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC] md:bg-white py-12 flex justify-center" id="home">
       <div className="w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0">
         <div className=" flex flex-col xl:flex-row items-center justify-between gap-8">
           {/* Left content */}

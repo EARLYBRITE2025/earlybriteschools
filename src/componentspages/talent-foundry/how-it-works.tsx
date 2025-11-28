@@ -192,7 +192,7 @@ const HowItWorks = () => {
           {/* What Schools Gain - Full width section */}
         </div>
       </section>
-      <section className="w-full bg-black py-16 flex justify-center">
+      <section className="w-full bg-[#0F151E] py-16 flex justify-center">
         <div className="w-full 3xl:max-w-[1400px] px-7 xl:px-28 3xl:px-0">
           <div className="flex flex-col xl:flex-row gap-8">
             {/* Left - Image */}
@@ -206,8 +206,8 @@ const HowItWorks = () => {
             </div>
 
             {/* Right - Text */}
-            <div className="xl:w-1/2">
-              <h2 className="text-[32px] xl:text-[40px] font-[family-name:var(--font-baloo2)] font-bold text-white mb-4">
+            <div className="xl:w-1/2 ">
+              <h2 className="text-[32px] xl:text-[40px]   font-[family-name:var(--font-baloo2)] font-bold text-white mb-4">
                 What Schools Gain
               </h2>
               <p className="text-white/80 text-[16px] mb-6">

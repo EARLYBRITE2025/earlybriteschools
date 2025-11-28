@@ -18,9 +18,8 @@ export function SchoolFaq() {
         className="bg-[#F2F2F2] rounded-xl px-5"
       >
         <AccordionTrigger className="text-[18px] font-medium py-4 flex justify-between items-center">
-         Is the Global Innovation Trek safe for my child?
+          Is the Global Innovation Trek safe for my child?
         </AccordionTrigger>
-
         <AccordionContent className="pb-4 text-[16px] text-[#555] leading-relaxed">
           Yes — safety is our top priority. Students travel with trained staff
           and follow a fully supervised schedule throughout the program.
@@ -35,7 +34,6 @@ export function SchoolFaq() {
         <AccordionTrigger className="text-[18px] font-medium py-4 flex justify-between items-center">
           Who travels with the students?
         </AccordionTrigger>
-
         <AccordionContent className="pb-4 text-[16px] text-[#555] leading-relaxed">
           Students are accompanied by experienced program leaders, coordinators,
           and trained chaperones from departure to return.
@@ -48,9 +46,8 @@ export function SchoolFaq() {
         className="bg-[#F2F2F2] rounded-xl px-5"
       >
         <AccordionTrigger className="text-[18px] font-medium py-4 flex justify-between items-center">
-           What type of accommodation will students stay in?
+          What type of accommodation will students stay in?
         </AccordionTrigger>
-
         <AccordionContent className="pb-4 text-[16px] text-[#555] leading-relaxed">
           Students stay in safe, modern, and fully supervised accommodations
           partnered with our organization.
@@ -63,9 +60,8 @@ export function SchoolFaq() {
         className="bg-[#F2F2F2] rounded-xl px-5"
       >
         <AccordionTrigger className="text-[18px] font-medium py-4 flex justify-between items-center">
-         What will my child learn on this trip?
+          What will my child learn on this trip?
         </AccordionTrigger>
-
         <AccordionContent className="pb-4 text-[16px] text-[#555] leading-relaxed">
           The program teaches innovation, leadership, global exposure, and real-world problem-solving skills.
         </AccordionContent>
@@ -77,43 +73,40 @@ export function SchoolFaq() {
         className="bg-[#F2F2F2] rounded-xl px-5"
       >
         <AccordionTrigger className="text-[18px] font-medium py-4 flex justify-between items-center">
-         Does the program include visa and travel support?
+          Does the program include visa and travel support?
         </AccordionTrigger>
-
         <AccordionContent className="pb-4 text-[16px] text-[#555] leading-relaxed">
           Yes — we provide full visa guidance, travel coordination, and
           pre-departure support for all participants.
         </AccordionContent>
       </AccordionItem>
-         {/* ITEM 6 */}
+
+      {/* ITEM 6 */}
       <AccordionItem 
-        value="item-5"
+        value="item-6"
         className="bg-[#F2F2F2] rounded-xl px-5"
       >
         <AccordionTrigger className="text-[18px] font-medium py-4 flex justify-between items-center">
-         What happens after the trip?
+          What happens after the trip?
         </AccordionTrigger>
-
         <AccordionContent className="pb-4 text-[16px] text-[#555] leading-relaxed">
-          Yes — we provide full visa guidance, travel coordination, and
-          pre-departure support for all participants.
+          After the trip, students continue to engage with mentors, share experiences,
+          and apply their new skills in school and community projects.
         </AccordionContent>
       </AccordionItem>
-         {/* ITEM 7 */}
+
+      {/* ITEM 7 */}
       <AccordionItem 
-        value="item-5"
+        value="item-7"
         className="bg-[#F2F2F2] rounded-xl px-5"
       >
         <AccordionTrigger className="text-[18px] font-medium py-4 flex justify-between items-center">
-         How can I apply or learn more?
+          How can I apply or learn more?
         </AccordionTrigger>
-
         <AccordionContent className="pb-4 text-[16px] text-[#555] leading-relaxed">
-          Yes — we provide full visa guidance, travel coordination, and
-          pre-departure support for all participants.
+          You can apply through our website or contact our advisory team for personalized guidance.
         </AccordionContent>
       </AccordionItem>
-
     </Accordion>
   )
 }

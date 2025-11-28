@@ -60,10 +60,10 @@ const GapHero = () => {
           />
           <Image
             src="/images/gap-hero-mobile.png"
-            width={775}
-            height={500}
+            width={396.75}
+            height={396.75}
             alt="hero pic"
-            className="w-fit absolute object-fit sm:hidden bottom-0 h-[600px]"
+            className="w-fit absolute object-fit bg-red-400 sm:hidden bottom-0 "
           />
         </div>
       </div>

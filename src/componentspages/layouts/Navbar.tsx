@@ -20,9 +20,9 @@ const router = useRouter()
   const getNavbarColors = () => {
     switch (pathname) {
       case "/gap":
-        return "bg-gradient-to-r from-[#BAE6FC] to-[#00914780]";
+        return "bg-white";
       case "/git":
-        return "bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]";
+        return "bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC] ";
       case "/immaginarium":
         return "bg-black";
       case "/temp":
@@ -30,7 +30,7 @@ const router = useRouter()
       case "/summer":
         return "bg-[#0F151E]";
       case "/talent-foundry":
-        return "bg-white";
+        return " bg-gradient-to-r from-[#E1F5FE] to-[#FFF0CC]";
         case "/for-school":
         return "bg-[#FFE5A2]";
       default:
@@ -49,6 +49,16 @@ const router = useRouter()
         return "text-black";
     }
   };
+  const getMobileMenuColor = () => {
+  switch (pathname) {
+    case "/talent-foundry":
+      return "bg-red-200"; // example mobile color
+    
+    default:
+      return "bg-white";
+  }
+};
+
 
   const getHamburgerColor = () => {
     switch (pathname) {
@@ -70,7 +80,7 @@ const router = useRouter()
           </div>
 
           <div className="hidden lg:flex gap-10 lg:gap-5 md:gap-5">
-            <button onClick={()=> router.push("/for-school")} className="flex items-center gap-3 bg-[#202D60] rounded-full text-white py-3 px-6 md:px-5 md:py-2.5 hover:bg-[#4A5DFF] transition-all duration-300">
+            <button onClick={()=> router.push("/for-school")} className="flex items-center gap-3 bg-[#202D60] rounded-full text-white py-3 px-6 md:px-5 md:py-2.5 hover:bg-[#6280F4] transition-all duration-300">
               <h3>For Schools</h3>
               <Image
                 src="/images/star.svg"
@@ -124,7 +134,7 @@ const router = useRouter()
 
           {/* Contact */}
           <div className="contact">
-            <Link href="#contact">
+            <Link href="#contact ">
               <span className="flex gap-2 py-3">
                 Contact Us <RightarrowSvg />
               </span>
